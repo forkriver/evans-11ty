@@ -1,0 +1,23 @@
+{
+  "name": "Evans Theatre Eleventy",
+  "version": "1.0.0",
+  "description": "Convert the Evans Theatre website from WordPress to Eleventy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forkriver/evans-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forkriver/evans-11ty/issues"
+  },
+  "homepage": "https://github.com/forkriver/evans-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
