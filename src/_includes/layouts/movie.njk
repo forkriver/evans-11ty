@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ title | safe }} | Evans Theatre</title>
+<style>
+html {
+	background: #234;
+	color: #def;
+}
+a {
+	color: #adf;
+	padding: 4px;
+}
+a:hover {
+	color: #ace;
+	background: #234;
+	box-shadow: #123 2px 2px 2px 4px;
+	border-radius: 0.15em;
+}
+a:visited {
+	color: #9ae;
+}
+</style>
+</head>
+
+<body>
+{{ content | safe }}
+<hr />
+<h2 title="We've shown a lot of movies">All Movies</h2>
+{% for movie in collections.movies | reverse %}
+	<a href="{{ movie.url }}">{{ movie.data.title }}</a> 
+{% endfor %}
+</body>
+
+</html>
