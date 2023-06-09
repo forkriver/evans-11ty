@@ -1,0 +1,7 @@
+{%- if mainNav %}
+	<ul class="main-nav">
+	{% for navTitle, navURL in mainNav %}
+		<li><a href="{{ navURL }}">{{ navTitle }}</a></li>
+	{% endfor %}
+	</ul><!-- .main-nav -->
+{%- endif %}

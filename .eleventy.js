@@ -12,6 +12,7 @@ module.exports = function ( config ) {
 	});
 
 	config.addCollection( "moviesByYear", function( collection ) {
+		// @todo Sort this by movie.data.showtime[0] {DESC | ASC}
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
 			.groupBy((movie) => movie.data.showtime[0].getFullYear() )
 			.toPairs()
@@ -25,5 +26,9 @@ module.exports = function ( config ) {
 			includes: "_includes",
 			output:   "public",
 		},
+		templateFormats: [ "md", "njk", "html", ],
+		markdownTemplateEngine: "njk",
+		htmlTemplateEngine: "njk",
+		dataTemplateEngine: "njk",
 	};
 };

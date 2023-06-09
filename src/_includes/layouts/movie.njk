@@ -5,25 +5,22 @@
 <style>
 html {
 	background: #234;
-	color: #def;
+	color: #fff;
 }
 a {
 	color: #adf;
-	padding: 4px;
-}
-a:hover {
-	color: #ace;
-	background: #234;
-	box-shadow: #123 2px 2px 2px 4px;
-	border-radius: 0.15em;
 }
 a:visited {
-	color: #9ae;
+	color: #abc;
+}
+a:hover {
+	color: #def;
 }
 </style>
 </head>
 
 <body>
+{% include "partials/_mainNav.njk" %}
 {{ content | safe }}
 <hr />
 <a href="/movies/">All Movies</a>

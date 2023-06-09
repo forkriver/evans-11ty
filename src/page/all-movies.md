@@ -4,13 +4,14 @@ permalink: "/movies/index.html"
 layout: base
 ---
 
-<h1>All Movies</h1>
+
+# All Movies
 
 {% for year, movies in collections.moviesByYear %}
-<h2>{{ year }}</h2>
-<ul>
+## {{ year }}
+<ul class="all-movies movie-list">
 {%- for movie in movies %}
 <li><a href="{{movie.url}}">{{ movie.data.title }}</a> {{ movie.data.showtime | dump }}</li>
 {% endfor -%}
-</ul>
+</ul><!-- .all-movies movie-list -->
 {% endfor %}
