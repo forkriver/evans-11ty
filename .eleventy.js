@@ -13,7 +13,7 @@ module.exports = function ( config ) {
 
 	config.addCollection( "moviesByYear", function( collection ) {
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
-			.groupBy((movie) => movie.date.getFullYear() )
+			.groupBy((movie) => movie.data.showtime[0].getFullYear() )
 			.toPairs()
 			.reverse()
 			.value();

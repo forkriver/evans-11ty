@@ -8,7 +8,7 @@ Current version: 1.0.0.
 - [ ] Header Info
 - [ ] 3 post types: Movie, Page, and News Article
 - [x] Yearly list of Movies - see https://darekkay.com/blog/eleventy-group-posts-by-year/
-      (still needs refinement)
+      - [ ] Order by year, then by showtimes
 - [ ] News archive
 - [ ] Hero images for Movies (and maybe the other post types too)
 - [ ] Media queries
@@ -17,6 +17,7 @@ Current version: 1.0.0.
 - [ ] As little client-side JS as I can get away with
 - [ ] That said: [search](https://rknight.me/using-pagefind-with-eleventy-for-search/)
 - [ ] Date formatting
+- [ ] Comments? (probably not) Webmentions? (maybe) @see https://sia.codes/posts/webmentions-eleventy-in-depth/
 
 ...boy, I'm not asking half much, am I?
 

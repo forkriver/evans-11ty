@@ -26,13 +26,7 @@ a:visited {
 <body>
 {{ content | safe }}
 <hr />
-<h2 title="We've shown a lot of movies">All Movies</h2>
-{% for year, movies in collections.moviesByYear  %}
-	<h3>{{ year }}</h3>
-	{% for movie in movies | reverse %}
-		<a href="{{ movie.url }}">{{ movie.data.title }}</a> 
-	{% endfor %}
-{% endfor %}
+<a href="/movies/">All Movies</a>
 </body>
 
 </html>

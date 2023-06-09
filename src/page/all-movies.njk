@@ -1,0 +1,16 @@
+---
+title: All Movies
+permalink: "/movies/index.html"
+layout: base
+---
+
+<h1>All Movies</h1>
+
+{% for year, movies in collections.moviesByYear %}
+<h2>{{ year }}</h2>
+<ul>
+{%- for movie in movies %}
+<li><a href="{{movie.url}}">{{ movie.data.title }}</a> {{ movie.data.showtime | dump }}</li>
+{% endfor -%}
+</ul>
+{% endfor %}
