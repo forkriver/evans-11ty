@@ -1,4 +1,5 @@
 const lodash = require( 'lodash' );
+const { DateTime } = require( 'luxon' );
 
 module.exports = function ( config ) {
 
@@ -19,6 +20,30 @@ module.exports = function ( config ) {
 			.reverse()
 			.value();
 	});
+
+	// Nice date formatting.
+	config.addFilter('dateformat', function( theDate ) {
+        var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
+
+        if ( ! myDate || myDate.invalid ) {
+        	return theDate;
+        }
+
+        return myDate.toLocaleString( DateTime.DATE_MED_WITH_WEEKDAY )
+            + ' at '
+            + myDate.toLocaleString( DateTime.TIME_SIMPLE );
+    });
+
+    // Set the year-only date format.
+    config.addFilter('justTheYear', function( theDate ) {
+
+        var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
+
+        if ( ! myDate || myDate.invalid ) {
+            return theDate;
+        }
+        return myDate.toFormat( 'yyyy' );
+    });
 
 	return {
 		dir: {

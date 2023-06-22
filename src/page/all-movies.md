@@ -11,7 +11,12 @@ layout: base
 ## {{ year }}
 <ul class="all-movies movie-list">
 {%- for movie in movies %}
-<li><a href="{{movie.url}}">{{ movie.data.title }}</a> {{ movie.data.showtime | dump }}</li>
+<li>
+	<a href="{{movie.url}}">{{ movie.data.title }}</a> 
+	{% for showtime in movie.data.showtime -%}
+	{{ showtime | dateformat }} 
+	{%- endfor %}
+</li>
 {% endfor -%}
 </ul><!-- .all-movies movie-list -->
 {% endfor %}
