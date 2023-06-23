@@ -100,16 +100,18 @@ module.exports = function ( eleventyConfig ) {
     });
 
 	// Shortcodes.
-	eleventyConfig.addAsyncShortcode( "image", getImage );
+	eleventyConfig.addShortcode( "image", getImage );
 
 	// Passthrough copies.
 	eleventyConfig.addPassthroughCopy("src/css");
 	eleventyConfig.addPassthroughCopy("src/images");
 	eleventyConfig.addPassthroughCopy("img");``
 
+	// Debugging - Remove before flight.
 	// Spit out the current date and time. Helpful in --serve --quiet mode.
 	var now = new Date();
 	console.log( now.toISOString() );
+	// End of debugging.
 
 	return {
 		dir: {
