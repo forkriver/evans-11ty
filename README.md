@@ -10,7 +10,7 @@ Current version: 1.0.0.
 - [x] Yearly list of Movies - see https://darekkay.com/blog/eleventy-group-posts-by-year/
       - [ ] Order by year, then by showtimes
 - [ ] News archive
-- [ ] Hero images for Movies (and maybe the other post types too)
+- [ ] Hero images for Movies (and maybe the other post types too) - see https://www.11ty.dev/docs/plugins/image/
 - [ ] Media queries
 - [ ] Compartmentalized `.eleventy.js` file (`include`/`require` other files?)
 - [ ] **Contact Us** form
