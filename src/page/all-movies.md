@@ -20,3 +20,6 @@ layout: base
 {% endfor -%}
 </ul><!-- .all-movies movie-list -->
 {% endfor %}
+
+### todo
+- fix the date spacing in this file (`all-movies.md`)
