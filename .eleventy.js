@@ -109,8 +109,9 @@ module.exports = function ( eleventyConfig ) {
 
 	// Debugging - Remove before flight.
 	// Spit out the current date and time. Helpful in --serve --quiet mode.
-	var now = new Date();
-	console.log( now.toISOString() );
+	var now = new Date;
+	var localNow = DateTime.fromISO( now.toISOString(), { zone: "America/Winnipeg" } );
+	console.log( localNow.toLocaleString( DateTime.TIME_SIMPLE ) );
 	// End of debugging.
 
 	return {

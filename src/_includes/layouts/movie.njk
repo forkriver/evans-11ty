@@ -7,8 +7,8 @@ html {
 	background: #234;
 	color: #fff;
 }
-{% if remote_featured_image %}
-{% image remote_featured_image, title, 'background' %}
+{% if featured_img %}
+{% image 'src' + featured_img, title, 'background' %}
 {% endif %}
 a {
 	color: #adf;
