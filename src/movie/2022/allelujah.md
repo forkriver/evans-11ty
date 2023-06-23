@@ -15,8 +15,4 @@ showtime:
  - 2022-10-30 19:30:00 -06:00
 ---
 
-# Hallelujah: Leonard Cohen, A Journey, A Song
-
 This feature-length documentary explores the life of singer-songwriter Leonard Cohen as seen through the prism of his internationally renowned hymn, Hallelujah.
-
-**Note:** This is the correct write-up for the film. A previous write-up referred to the wrong film. We apologize for any confusion.

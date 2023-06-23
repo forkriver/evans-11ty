@@ -34,9 +34,20 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 		return `<meta name="og:image" content=${baseURL}${data.url}">`;
 	}
 	if ( 'background' === ret ) {
+		// @todo Insert media queries into this here CSS.
 		return `html {
 			background: url( "${data.url}" ) fixed no-repeat center center;
 			background-size: cover;
+		}
+		main {
+			width: 55em;
+			max-width: 95%;
+			margin: auto;
+			margin-top: 20%;
+			background: rgba( 32, 32, 32, 0.5 );
+			backdrop-filter: blur( 10px ) grayscale( 25% );
+			border-radius: 1em;
+			padding: 2em;
 		}
 		`;
 	}
