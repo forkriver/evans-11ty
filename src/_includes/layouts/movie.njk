@@ -7,6 +7,9 @@ html {
 	background: #234;
 	color: #fff;
 }
+{% if remote_featured_image %}
+{% image remote_featured_image, title, 'background' %}
+{% endif %}
 a {
 	color: #adf;
 }
@@ -20,10 +23,13 @@ a:hover {
 </head>
 
 <body>
+<main>
 {% include "partials/_mainNav.njk" %}
+<h1>{{ title | safe }}</h1>
 {{ content | safe }}
 <hr />
 <a href="/movies/">All Movies</a>
+</main>
 </body>
 
 </html>
