@@ -12,6 +12,7 @@ Current version: 1.0.0.
 - [ ] News archive
 - [ ] Hero images for Movies (and maybe the other post types too) - see https://www.11ty.dev/docs/plugins/image/
 - [ ] Media queries
+- [ ] SASS + custom CSS in `.njk` template files
 - [ ] Compartmentalized `.eleventy.js` file (`include`/`require` other files?)
 - [ ] **Contact Us** form
 - [ ] As little client-side JS as I can get away with

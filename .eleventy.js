@@ -111,7 +111,10 @@ module.exports = function ( eleventyConfig ) {
 	// Spit out the current date and time. Helpful in --serve --quiet mode.
 	var now = new Date;
 	var localNow = DateTime.fromISO( now.toISOString(), { zone: "America/Winnipeg" } );
-	console.log( localNow.toLocaleString( DateTime.TIME_SIMPLE ) );
+	console.log(
+		localNow.toLocaleString()
+		+ ' @ '
+		+ localNow.toLocaleString( DateTime.TIME_SIMPLE ) );
 	// End of debugging.
 
 	return {
