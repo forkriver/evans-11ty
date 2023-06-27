@@ -1,0 +1,27 @@
+@import 'fonts';
+@import 'colors';
+
+html {
+	background: $background-color;
+	color: #fff;
+	font-family: $base-font;
+}
+a {
+	color: #adf;
+}
+a:visited {
+	color: #abc;
+}
+a:hover {
+	color: #def;
+}
+
+main {
+	width: 55em;
+	max-width: 95%;
+	margin: auto;
+	background: rgba( 32, 32, 32, 0.75 );
+	backdrop-filter: blur( 10px ) grayscale( 25% );
+	border-radius: 1em;
+	padding: 2em;
+}

@@ -3,22 +3,11 @@
 <head>
 <title>{{ title | safe }} | Evans Theatre</title>
 <style>
-html {
-	background: #234;
-	color: #fff;
-}
+{% include "public/css/styles.css" %}
 {% if featured_img %}
+/* Custom CSS for "{{ title }}" */
 {% image 'src' + featured_img, title, 'background' %}
 {% endif %}
-a {
-	color: #adf;
-}
-a:visited {
-	color: #abc;
-}
-a:hover {
-	color: #def;
-}
 </style>
 </head>
 

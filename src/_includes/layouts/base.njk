@@ -2,11 +2,16 @@
 <html>
 <head>
 <title>{{ title | safe }} | Evans Theatre</title>
+<style>
+{% include "public/css/styles.css" %}
+</style>
 </head>
 
 <body>
+<main>
 {% include "partials/_mainNav.njk" %}
 {{ content | safe }}
+</main>
 </body>
 
 </html>

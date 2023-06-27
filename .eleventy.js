@@ -37,18 +37,11 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 	if ( 'background' === ret ) {
 		// @todo Insert media queries into this here CSS.
 		return `html {
-			background: url( "${data.url}" ) fixed no-repeat center center;
+			background: url( "${data.url}" ) fixed no-repeat top center;
 			background-size: cover;
 		}
 		main {
-			width: 55em;
-			max-width: 95%;
-			margin: auto;
 			margin-top: 20%;
-			background: rgba( 32, 32, 32, 0.5 );
-			backdrop-filter: blur( 10px ) grayscale( 25% );
-			border-radius: 1em;
-			padding: 2em;
 		}
 		`;
 	}
@@ -56,6 +49,9 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 }
 
 module.exports = function ( eleventyConfig ) {
+
+	// SASS.
+	// eleventyConfig.setBrowserSyncConfig({ files: './src/css/**/*.css' });
 
 	// Layout aliases.
 	eleventyConfig.addLayoutAlias( 'base', 'layouts/base.njk' );
@@ -103,7 +99,8 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "image", getImage );
 
 	// Passthrough copies.
-	eleventyConfig.addPassthroughCopy("src/css");
+	// Removed b/c SASS compiles straight to public/css.
+	// eleventyConfig.addPassthroughCopy("src/css");
 	eleventyConfig.addPassthroughCopy("src/images");
 	eleventyConfig.addPassthroughCopy("img");``
 
