@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>{{ title | safe }} | Evans Theatre</title>
+<link rel="stylesheet" href="/css/styles.css" />
 <style>
-{% include "public/css/styles.css" %}
 {% if featured_img %}
 /* Custom CSS for "{{ title }}" */
 {% image 'src' + featured_img, title, 'background' %}
