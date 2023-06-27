@@ -1,0 +1,10 @@
+// _media-queries.scss
+
+@media screen and (max-width: 600px ) {
+	body {
+		font-size: 18px;
+	}
+	main {
+		max-width: 90%;
+	}
+}
