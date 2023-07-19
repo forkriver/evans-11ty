@@ -65,8 +65,11 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addCollection( "moviesByYear", function( collection ) {
 		// @todo Sort this by movie.data.showtime[0] {DESC | ASC}
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
+			// Sorts the movies by showtime.
+			.sortBy( (movie) => movie.data.showtime[0] )
 			.groupBy((movie) => movie.data.showtime[0].getFullYear() )
 			.toPairs()
+			// Sorts the movies by year (reversed).
 			.reverse()
 			.value();
 	});

@@ -4,9 +4,7 @@ html {
 	background: $background-color;
 	color: #fff;
 	font-family: $base-font;
-}
-body {
-	font-size: 18pt;
+	font-size: $base-font-size;
 }
 a {
 	color: #adf;
@@ -25,12 +23,13 @@ main {
 	background: rgba( 32, 32, 32, 0.75 );
 	backdrop-filter: blur( 10px ) grayscale( 25% );
 	border-radius: 1em;
-	padding: 2em;
+	padding: 1em 2em;
 }
 
 ul.main-nav {
 	margin-left: 0;
-	position: 0;
+	padding-left: 0;
+	text-align: right;
 	li  {
 		display: inline;
 		list-style: none;

@@ -7,8 +7,12 @@ layout: base
 
 # All Movies
 
+<div class="all-movies">
 {% for year, movies in collections.moviesByYear %}
+<div id="movies-{{ year }}">
+
 ## {{ year }}
+
 <ul class="all-movies movie-list">
 {%- for movie in movies %}
 <li>
@@ -19,7 +23,9 @@ layout: base
 </li>
 {% endfor -%}
 </ul><!-- .all-movies movie-list -->
+</div><!-- #movies-{{ year }} -->
 {% endfor %}
+</div><!-- .all-movies -->
 
 ### todo
 - fix the date spacing in this file (`all-movies.md`)
