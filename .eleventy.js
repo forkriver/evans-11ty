@@ -1,7 +1,27 @@
 const lodash       = require( 'lodash' );
 const { DateTime } = require( 'luxon' );
 const Image        = require("@11ty/eleventy-img");
+const fs           = require( 'fs' );
 const baseURL      = 'https://evanstheatre.ca';
+
+/**
+ * Check to see if a file exists.
+ *
+ * @link https://thewebdev.info/2022/02/26/how-to-check-if-a-file-exists-with-node-js/
+ *
+ * @since 1.0.0
+ *
+ * @param  {String} file The filename to check.
+ * @return {Boolean}     Promise? True if the file exists, false otherwise.
+ */
+async function fileExists( file ) {
+	try {
+		await fs.promises.access( file, fs.constants.F_OK );
+		return true;
+	} catch( e ) {
+		return false;
+	}
+}
 
 /**
  * Gets an image and returns some HTML.
@@ -17,6 +37,9 @@ const baseURL      = 'https://evanstheatre.ca';
  * @return {String}     The returned HTML.
  */
 async function getImage( src, alt = '', ret = 'imgTag' ) {
+	if ( false === await fileExists( src ) ) {
+		return '';
+	}
 	if ( '' === alt ) {
 		// @todo Return an error if there's no alt text.
 		alt  = 'Alt text should be here.';
