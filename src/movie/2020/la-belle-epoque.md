@@ -19,4 +19,4 @@ showtime:
 
 Victor, a disillusioned sexagenarian, feels his life has been turned upside down. Then Antoine, a brilliant entrepreneur, offers him something new: mixing theatrical artifices and historical reconstruction, his company offers a chance to dive back into the era of their choice. Victor chooses to relive the most memorable week of his life: the one, 40 years earlier, where he met his great love.
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="360" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation" src="https://www.youtube.com/embed/tukMRXkjhlM?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent" style="border:0;" width="640"></iframe></span></div></figure>
+https://youtu.be/tukMRXkjhlM
