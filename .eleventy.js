@@ -1,8 +1,12 @@
+// Requirements.
 const lodash       = require( 'lodash' );
 const { DateTime } = require( 'luxon' );
 const Image        = require("@11ty/eleventy-img");
 const fs           = require( 'fs' );
-const baseURL      = 'https://evanstheatre.ca';
+const embedYouTube = require('eleventy-plugin-youtube-embed');
+
+// Site's base URL.
+const baseURL = 'https://evanstheatre.ca';
 
 /**
  * Check to see if a file exists.
@@ -71,6 +75,48 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 	return `<img class="the-small-page-image" src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}"  loading="lazy" decoding="async" />`;
 }
 
+/**
+ * Gets the next movie coming up.
+ *
+ * If there's no movie in the pipe, returns {}.
+ *
+ * @since 1.0.0
+ *
+ * @param  array movies The list of movies.
+ * @return object       The next movie, or empty object.
+ */
+function getNextMovie() {
+	// var movies = collection.getFilteredByGlob("src/movie/**/*.md");
+	console.log( movies.length );
+	return {};
+}
+
+/**
+ * Formats a date.
+ *
+ * @since 1.0.0
+ *
+ * @param  string|Date theDate The date to format.
+ * @param  string      format  The desired date format. Accepts 'short', 'shorter', 'shortest'.
+ *                             Default DATE_MED_WITH_WEEKDAY + TIME_SIMPLE (ie 'short').
+ * @return string              The formatted date, or (on error) theDate.
+ */ 
+function evansDateFormat( theDate, format = '' ) {
+	var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
+
+    if ( ! myDate || myDate.invalid ) {
+    	return theDate;
+    }
+
+    if ( 'shortest' === format ) {
+    	return myDate.toLocaleString( DateTime.DATE_MED );
+    }
+
+    return myDate.toLocaleString( DateTime.DATE_MED_WITH_WEEKDAY )
+        + ' at '
+        + myDate.toLocaleString( DateTime.TIME_SIMPLE );
+}
+
 module.exports = function ( eleventyConfig ) {
 
 	// SASS.
@@ -99,15 +145,19 @@ module.exports = function ( eleventyConfig ) {
 
 	// Nice date formatting.
 	eleventyConfig.addFilter('dateformat', function( theDate ) {
-        var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
+		return evansDateFormat( theDate );
+    });
 
-        if ( ! myDate || myDate.invalid ) {
-        	return theDate;
-        }
-
-        return myDate.toLocaleString( DateTime.DATE_MED_WITH_WEEKDAY )
-            + ' at '
-            + myDate.toLocaleString( DateTime.TIME_SIMPLE );
+    // Nice date range formatting.
+    eleventyConfig.addFilter( 'showtimeRange', function( showtimes ) {
+    	var startDate, endDate;
+    	startDate = showtimes[0];
+    	endDate   = showtimes[ showtimes.length - 1 ];
+    	if ( endDate === startDate ) {
+    		return evansDateFormat( startDate, 'shortest' );
+    	}
+    	return evansDateFormat( startDate, 'shortest' ) + '–' + evansDateFormat( endDate, 'shortest' );
+    	return '';
     });
 
     // Set the year-only date format.
@@ -123,12 +173,23 @@ module.exports = function ( eleventyConfig ) {
 
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
+	eleventyConfig.addShortcode( "nextMovie", function() {
+		return 'hi there';
+
+	});
 
 	// Passthrough copies.
 	// Removed b/c SASS compiles straight to public/css.
 	// eleventyConfig.addPassthroughCopy("src/css");
 	eleventyConfig.addPassthroughCopy("src/images");
-	eleventyConfig.addPassthroughCopy("img");``
+	eleventyConfig.addPassthroughCopy("img");
+	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+
+	// Autoembed stuff.
+	eleventyConfig.addPlugin(embedYouTube, {
+		'modestBranding': true,
+		'noCookie': true,
+	});
 
 	// Debugging - Remove before flight.
 	// Spit out the current date and time. Helpful in --serve --quiet mode.
