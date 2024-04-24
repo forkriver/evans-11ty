@@ -26,6 +26,8 @@ special_event:
 
 ---
 
+{Note: don't put the movie title in the body of the Markdown file}
+
 {Movie synopsis here}
 
 {YouTube embed code, if any}
