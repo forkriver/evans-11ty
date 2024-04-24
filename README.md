@@ -10,7 +10,7 @@ Current version: 1.0.0.
 - [x] Yearly list of Movies - see https://darekkay.com/blog/eleventy-group-posts-by-year/
       - [ ] Order by year, then by showtimes
 - [ ] News archive
-- [ ] Hero images for Movies (and maybe the other post types too) - see https://www.11ty.dev/docs/plugins/image/
+- [x] Hero images for Movies (and maybe the other post types too) - see https://www.11ty.dev/docs/plugins/image/
 - [ ] Media queries
 - [ ] SASS + custom CSS in `.njk` template files
 - [ ] Compartmentalized `.eleventy.js` file (`include`/`require` other files?)
@@ -19,6 +19,7 @@ Current version: 1.0.0.
 - [ ] That said: [search](https://rknight.me/using-pagefind-with-eleventy-for-search/)
 - [ ] Date formatting
 - [ ] Comments? (probably not) Webmentions? (maybe) @see https://sia.codes/posts/webmentions-eleventy-in-depth/
+- [x] Simple YouTube embeds (thanks to eleventy-plugin-youtube-embed)
 
 ...boy, I'm not asking half much, am I?
 
