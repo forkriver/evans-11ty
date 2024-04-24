@@ -22,4 +22,6 @@ It’s a Canadian zombie plague movie with a near all-Indigenous cast that is qu
 
 TIFF link: <https://tiff.net/events/blood-quantum>
 
-https://youtu.be/GxWrPr3XQjc**Note:** Despite the “showtimes”, we are *not* showing this movie at the Evans Theatre.
+https://youtu.be/GxWrPr3XQjc
+
+**Note:** Despite the “showtimes”, we are *not* showing this movie at the Evans Theatre.
