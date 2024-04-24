@@ -12,6 +12,7 @@ note-to-self.md
 testing/
 archived/
 php/
+*.bak
 
 # Node modules and output
 node_modules
