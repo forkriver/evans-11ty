@@ -18,7 +18,7 @@ showtime:
 In 1940, the Royal Air Force fights a desperate battle against the might of the Luftwaffe for control of the skies over Britain, thus preventing the Nazi invasion of Britain.
 
 <div class="iframe-wrapper">
-<iframe class="wrapped-iframe" src="https://www.youtube.com/embed/4d86cHhp65Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://youtu.be/4d86cHhp65Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </div>
 
 This is a *free* show, honouring the memory of [our late volunteer Mark Delmage](https://evanstheatre.ca/2021/01/09/volunteer-mark-delmage-passes-away/). Donations will be accepted for the local Air Cadet squadron.

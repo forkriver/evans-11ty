@@ -19,4 +19,4 @@ showtime:
 
 All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.
 
-<iframe allowfullscreen="true" class="youtube-player" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation" src="https://www.youtube.com/embed/5xH0HfJHsaY?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent"></iframe>
+https://youtu.be/5xH0HfJHsaY
