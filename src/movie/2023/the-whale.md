@@ -15,6 +15,6 @@ showtime:
  - 2023-03-12 19:30:00 -06:00
 ---
 
-# The Whale
+
 
 A sad tale, this one.

@@ -15,7 +15,7 @@ showtime:
  - 2020-01-12 19:30:00 -06:00
 ---
 
-# Stand!
+
 
 **Special event:** Saturday night only—Meet the filmmakers! A Q&amp;A with Danny Schur and Rick Chafe.
 

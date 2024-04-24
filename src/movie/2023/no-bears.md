@@ -15,7 +15,7 @@ showtime:
  - 2023-03-05 19:30:00 -06:00
 ---
 
-# No Bears
+
 
 *No Bears* follows two parallel love stories in which the partners are thwarted by hidden, inevitable obstacles, the force of superstition, and the mechanics of power.
 

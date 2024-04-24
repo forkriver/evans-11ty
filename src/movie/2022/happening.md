@@ -15,7 +15,7 @@ showtime:
  - 2022-11-20 19:30:00 -06:00
 ---
 
-# Happening
+
 
 Annie, a bright young student, faces an unwanted pregnancy in 1960s France, when abortion is still illegal.
 

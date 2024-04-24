@@ -14,7 +14,7 @@ showtime:
  - 2022-04-02 23:30:00 -06:00
 ---
 
-# She Kills Monsters
+
 
 Brandon University Theatre presents
 

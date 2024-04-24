@@ -1,5 +1,5 @@
 ---
-# Sample movie file
+
 title: "Delete Me"
 layout: movie
 excerpt: "Delete this movie - it's only a test"
@@ -14,7 +14,7 @@ showtime:
  - 2023-09-24 19:30:00 -06:00
  - 2023-09-25 19:30:00 -06:00
 
-# Optional items follow
+
 rating:
   rating: "{rating}"
   notes:  "{rating notes}"

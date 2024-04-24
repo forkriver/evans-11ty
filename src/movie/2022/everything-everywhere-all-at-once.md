@@ -15,7 +15,7 @@ showtime:
  - 2022-11-27 19:30:00 -06:00
 ---
 
-# Everything Everywhere All At Once
+
 
 An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what’s important to her by connecting with the lives she could have led in other universes.
 

@@ -15,7 +15,7 @@ showtime:
  - 2020-02-09 19:30:00 -06:00
 ---
 
-# The Twentieth Century
+
 
 Toronto, 1899. Aspiring politician Mackenzie King hesitates in love between a heroic soldier he believes himself destined to marry and a psoriasis-addled spinster and learns that with unrequited love, it’s never over until you’ve completely humiliated yourself.
 

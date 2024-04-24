@@ -15,7 +15,7 @@ showtime:
  - 2020-01-26 19:30:00 -06:00
 ---
 
-# Uncut Gems
+
 
 Howard Ratner, a charismatic New York City jeweller always on the lookout for the next big score, makes a series of high-stakes bets that could lead to the windfall of a lifetime.
 

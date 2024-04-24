@@ -15,7 +15,7 @@ showtime:
  - 2022-12-11 19:30:00 -06:00
 ---
 
-# Whispers in the Wheat
+
 
 **Note:** Friday’s show is *sold out*. [Tickets are still available for Saturday and Sunday](https://www.eventbrite.ca/e/whispers-in-the-wheat-screening-tickets-462396609707).
 

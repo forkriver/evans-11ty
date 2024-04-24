@@ -15,7 +15,7 @@ showtime:
  - 2023-02-05 19:30:00 -06:00
 ---
 
-# The Banshees of Inisherin
+
 
 Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.
 

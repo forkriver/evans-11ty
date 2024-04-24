@@ -13,7 +13,7 @@ showtime:
  - 2022-11-11 14:00:00 -06:00
 ---
 
-# Battle of Britain
+
 
 In 1940, the Royal Air Force fights a desperate battle against the might of the Luftwaffe for control of the skies over Britain, thus preventing the Nazi invasion of Britain.
 

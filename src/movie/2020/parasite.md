@@ -15,7 +15,7 @@ showtime:
  - 2020-02-16 19:30:00 -06:00
 ---
 
-# Parasite
+
 
 All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.
 

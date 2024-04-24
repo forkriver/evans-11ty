@@ -15,7 +15,7 @@ showtime:
  - 2022-10-23 19:30:00 -06:00
 ---
 
-# Scarborough
+
 
 Three kids in a low-income neighborhood find friendship and community in an unlikely place.
 

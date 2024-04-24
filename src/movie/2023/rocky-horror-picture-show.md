@@ -13,7 +13,7 @@ showtime:
  - 2023-02-10 22:00:00 -06:00
 ---
 
-# Rocky Horror Picture Show
+
 
 It’s Back!
 

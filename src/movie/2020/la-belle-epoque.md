@@ -15,7 +15,7 @@ showtime:
  - 2020-02-02 19:30:00 -06:00
 ---
 
-# La Belle Époque
+
 
 Victor, a disillusioned sexagenarian, feels his life has been turned upside down. Then Antoine, a brilliant entrepreneur, offers him something new: mixing theatrical artifices and historical reconstruction, his company offers a chance to dive back into the era of their choice. Victor chooses to relive the most memorable week of his life: the one, 40 years earlier, where he met his great love.
 

@@ -15,7 +15,7 @@ showtime:
  - 2023-02-26 19:30:00 -06:00
 ---
 
-# Guitar Lessons
+
 
 A Métis teenager tries to convince a former musician and current oilman to give him guitar lessons.
 

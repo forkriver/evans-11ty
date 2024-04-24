@@ -15,7 +15,7 @@ showtime:
  - 2022-12-04 19:30:00 -06:00
 ---
 
-# The Phantom of the Open
+
 
 Maurice Flitcroft, a dreamer and unrelenting optimist, managed to gain entry to The British Open Golf Championship qualifying in 1976 and subsequently shot the worst round in Open history, becoming a folk hero in the process.
 

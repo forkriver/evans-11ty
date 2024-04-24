@@ -14,7 +14,7 @@ showtime:
  - 2020-11-30 00:00:00 -06:00
 ---
 
-# Blood Quantum
+
 
 We can’t screen this in our theatre this Halloween, but our programmer *really* wanted to. We recommend you check out *Blood Quantum* on a digital platform.
 
