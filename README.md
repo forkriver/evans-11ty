@@ -19,7 +19,8 @@ Current version: 1.0.0.
 - [ ] That said: [search](https://rknight.me/using-pagefind-with-eleventy-for-search/)
 - [ ] Date formatting
 - [ ] Comments? (probably not) Webmentions? (maybe) @see https://sia.codes/posts/webmentions-eleventy-in-depth/
-- [x] Simple YouTube embeds (thanks to eleventy-plugin-youtube-embed)
+- [x] Simple YouTube embeds (thanks to eleventy-plugin-youtube-embed) [Embed Everything](https://gfscott.com/embed-everything/)
+- [ ] tell AI scrapers to fuck off [Dark Visitors](https://darkvisitors.com/)
 
 ...boy, I'm not asking half much, am I?
 
