@@ -13,19 +13,25 @@ layout: base
 
 ## {{ year }}
 
-<ul class="all-movies movie-list">
+<div class="all-movies movie-list">
 {%- for movie in movies %}
-<li>
-	<a href="{{movie.url}}">{{ movie.data.title }}</a> 
-	{% for showtime in movie.data.showtime -%}
-	{{ showtime | dateformat }} 
-	{%- endfor %}
-</li>
+<details>
+	<summary>
+		<a href="{{movie.url}}" title="{{ movie.data.showtime[0] | dateformat }}">{{ movie.data.title }}</a> 
+	</summary>
+	<p>{{ movie.data.excerpt }}</p>
+	<p>
+		{% for showtime in movie.data.showtime -%}
+		{{ showtime | dateformat }}<br />
+		{%- endfor %}
+	</p>
+</details>
 {% endfor -%}
-</ul><!-- .all-movies movie-list -->
+</div><!-- .all-movies movie-list -->
 </div><!-- #movies-{{ year }} -->
 {% endfor %}
 </div><!-- .all-movies -->
 
 ### todo
 - fix the date spacing in this file (`all-movies.md`)
+- order by `DATE DESC`
