@@ -1,11 +1,8 @@
 ---
 title: "Blood Quantum"
-layout: movie
 excerpt: ""
 date: 2020-10-26 17:56:23
 modified: 2020-10-26 18:03:00
-permalink: "movie/2020/blood-quantum/index.html"
-tags: ["evans_movie"]
 featured_img: /images/feature/blood-quantum.jpg
 wpid: 1630
 remote_featured_image: http://evanstheatre.ca/wp-content/uploads/2020/10/blood-quantum.jpg
