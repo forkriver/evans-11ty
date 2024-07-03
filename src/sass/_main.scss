@@ -37,3 +37,8 @@ ul.main-nav {
 		margin-right: 0.75em;
 	}
 }
+
+.hide-me {
+	color: $background-color; // Yes, that's correct.
+	font-size: 1px;
+}

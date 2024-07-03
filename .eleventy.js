@@ -96,6 +96,8 @@ function getNextMovie() {
  *
  * @since 1.0.0
  *
+ * @todo Convert numeric "dates" from timestamp to a date format.
+ *
  * @param  string|Date theDate The date to format.
  * @param  string      format  The desired date format. Accepts 'short', 'shorter', 'shortest'.
  *                             Default DATE_MED_WITH_WEEKDAY + TIME_SIMPLE (ie 'short').
@@ -176,6 +178,11 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "nextMovie", function() {
 		return 'hi there';
 
+	});
+
+	eleventyConfig.addShortcode( "currentYear", function() {
+		const year = new Date().getFullYear();
+		return year;
 	});
 
 	// Passthrough copies.
