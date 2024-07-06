@@ -5,8 +5,12 @@ const Image        = require("@11ty/eleventy-img");
 const fs           = require( 'fs' );
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 
-// @todo - Showtimes should all be dates in the format `YYYY-MM-DD g:i:s a`.
-//         Use the appropriate luxon (?) fromFormat() or whatever to deal with them.
+/**
+ * @todo - Showtimes should all be dates in the format `YYYY-MM-DD g:i:s a`.
+ *         Use the appropriate luxon (?) fromFormat() or whatever to deal with them.
+ * @todo - Get the All Movies page using the new date formats.
+ */
+
 
 // Site's base URL.
 const baseURL = 'https://evanstheatre.ca';
