@@ -5,6 +5,9 @@ const Image        = require("@11ty/eleventy-img");
 const fs           = require( 'fs' );
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 
+// @todo - Showtimes should all be dates in the format `YYYY-MM-DD g:i:s a`.
+//         Use the appropriate luxon (?) fromFormat() or whatever to deal with them.
+
 // Site's base URL.
 const baseURL = 'https://evanstheatre.ca';
 
@@ -138,7 +141,7 @@ module.exports = function ( eleventyConfig ) {
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
 			// Sorts the movies by showtime.
 			.sortBy( (movie) => movie.data.showtime[0] )
-			.groupBy((movie) => movie.data.showtime[0].getFullYear() )
+			// .groupBy((movie) => movie.data.showtime[0].getFullYear() )
 			.toPairs()
 			// Sorts the movies by year (reversed).
 			.reverse()

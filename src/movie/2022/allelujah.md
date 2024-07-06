@@ -1,18 +1,37 @@
 ---
-title: "Hallelujah: Leonard Cohen, A Journey, A Song"
+title: Allelujah
+permalink: /movie/allelujah/
+showtime:
+- 2022-10-14 7:30:00 pm
+- 2022-10-15 7:30:00 pm
+- 2022-10-16 7:30:00 pm
+excerpt: Set in a geriatric ward within a small hospital, when news of its closure
+  begins to reach the community, the hospital invites a local news crew to document
+  their planning of a concert in honor of the hospital&#8217;s most celebrated nurse.
+  But there might be something more threatening to the hospital itself, more deadly
+  than [&hellip;]
+tags:
+- movie
+- movie-2022
+rating:
+  rating: false
+  detail: false
+featured_img: /images/featured/allelujah-scaled.jpg
 layout: movie
-excerpt: ""
-date: 2022-09-08 22:37:29
-modified: 2022-10-20 17:26:59
-permalink: "movie/2022/allelujah/index.html"
-tags: ["evans_movie"]
-featured_img: /images/feature/hallelujah.jpg
-wpid: 1902
-remote_featured_image: http://evanstheatre.ca/wp-content/uploads/2022/09/hallelujah.jpg
-showtime: 
- - 2022-10-28 19:30:00 -06:00
- - 2022-10-29 19:30:00 -06:00
- - 2022-10-30 19:30:00 -06:00
+links: false
+all_meta:
+  _last_editor_used_jetpack:
+  - block-editor
+  _thumbnail_id:
+  - "1903"
+  _edit_last:
+  - "1"
+  _evans_showtime:
+  - "1665775800"
+  - "1665862200"
+  - "1665948600"
+  _evans_rating:
+  - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
 ---
 
-This feature-length documentary explores the life of singer-songwriter Leonard Cohen as seen through the prism of his internationally renowned hymn, Hallelujah.
+Set in a geriatric ward within a small hospital, when news of its closure begins to reach the community, the hospital invites a local news crew to document their planning of a concert in honor of the hospital's most celebrated nurse. But there might be something more threatening to the hospital itself, more deadly than the politicians ready to shut down the place at a moment's notice.
