@@ -106,12 +106,13 @@ function getNextMovie() {
  * @todo Convert numeric "dates" from timestamp to a date format.
  *
  * @param  string|Date theDate The date to format.
- * @param  string      format  The desired date format. Accepts 'short', 'shorter', 'shortest'.
+ * @param  string      format  The desired date format.
+ *                             Accepts 'short', 'shorter', 'shortest', 'year'.
  *                             Default DATE_MED_WITH_WEEKDAY + TIME_SIMPLE (ie 'short').
  * @return string              The formatted date, or (on error) theDate.
  */ 
 function evansDateFormat( theDate, format = '' ) {
-	var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
+	var myDate = DateTime.fromFormat( theDate, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } );
 
     if ( ! myDate || myDate.invalid ) {
     	return theDate;
@@ -119,6 +120,10 @@ function evansDateFormat( theDate, format = '' ) {
 
     if ( 'shortest' === format ) {
     	return myDate.toLocaleString( DateTime.DATE_MED );
+    }
+
+    if ( 'year' === format ) {
+    	return myDate.toFormat( 'yyyy' );
     }
 
     return myDate.toLocaleString( DateTime.DATE_MED_WITH_WEEKDAY )
@@ -145,7 +150,7 @@ module.exports = function ( eleventyConfig ) {
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
 			// Sorts the movies by showtime.
 			.sortBy( (movie) => movie.data.showtime[0] )
-			// .groupBy((movie) => movie.data.showtime[0].getFullYear() )
+			.groupBy( (movie) => evansDateFormat( movie.data.showtime[0], 'year' ) )
 			.toPairs()
 			// Sorts the movies by year (reversed).
 			.reverse()
