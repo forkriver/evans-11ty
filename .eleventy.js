@@ -65,21 +65,51 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 		}
 	);
 	let data = metadata.webp[ metadata.webp.length -1 ];
-	if ( 'og' === ret ) {
+
+	switch ( ret ) {
+	case 'og':
 		return `<meta name="og:image" content=${baseURL}${data.url}">`;
-	}
-	if ( 'background' === ret ) {
+		break;
+	case 'background':
 		// @todo Insert media queries into this here CSS.
-		return `html {
+		return `
+		/* Inline CSS. */
+		body {
+			margin: 0;
+		}
+		#background {
+			height: 100vw;
+			width: 100%;
 			background: url( "${data.url}" ) fixed no-repeat top center;
 			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			filter: blur( 5px );
 		}
 		main {
-			margin-top: 20%;
+			position: absolute;
+			top: 2em;
+			left: 50%;
+			transform: translate( -50%, 0 );
+			z-index: 2;
+			margin-bottom: 2em;
+		}
+
+		main img.hero {
+			width: 100%;
+			height: auto;
+			text-align: center;
 		}
 		`;
+		break;
+	case 'hero':
+		return `<img class="hero" src="${data.url}" alt="${alt}"  loading="lazy" decoding="async" />`;
+		break;
+	default:
+		return `<img class="the-small-page-image" src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}"  loading="lazy" decoding="async" />`;
 	}
-	return `<img class="the-small-page-image" src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}"  loading="lazy" decoding="async" />`;
+
 }
 
 /**
@@ -139,6 +169,7 @@ module.exports = function ( eleventyConfig ) {
 	// Layout aliases.
 	eleventyConfig.addLayoutAlias( 'base', 'layouts/base.njk' );
 	eleventyConfig.addLayoutAlias( 'movie', 'layouts/movie.njk' );
+	eleventyConfig.addLayoutAlias( 'article', 'layouts/article.njk' );
 
 	// Collections.
 	eleventyConfig.addCollection("movies", function ( collection ) {
@@ -153,6 +184,15 @@ module.exports = function ( eleventyConfig ) {
 			.groupBy( (movie) => evansDateFormat( movie.data.showtime[0], 'year' ) )
 			.toPairs()
 			// Sorts the movies by year (reversed).
+			.reverse()
+			.value();
+	});
+
+	eleventyConfig.addCollection( "articles", function( collection ) {
+		return lodash.chain( collection.getFilteredByGlob( 'src/article/**/*.md' ) )
+			.sortBy( ( article ) => article.date )
+			.groupBy( ( article ) => article.date.getFullYear() )
+			.toPairs()
 			.reverse()
 			.value();
 	});

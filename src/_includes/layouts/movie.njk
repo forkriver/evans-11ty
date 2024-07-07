@@ -12,14 +12,20 @@
 </head>
 
 <body>
+{%  if featured_img %}
+	<div id="background"></div><!-- #hero -->
+{% endif %}
 <main>
 {% include "partials/_mainNav.njk" %}
 <h1>{{ title | safe }}</h1>
+{% if featured_img %}
+{% image 'src' + featured_img, 'Still from ' + title, 'hero' %}
+{% endif %}
 {{ content | safe }}
 <hr />
 <a href="/movies/">All Movies</a>
-</main>
 {% include "partials/_footer.njk" %}
+</main>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 {
 	"Home": "/",
 	"All Movies": "/movies",
-	"News": "/news"
+	"News": "/news",
+	"About": "/about"
 }
