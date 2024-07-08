@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/a-private-war-1.jpg
+featured_img: /images/feature/a-private-war.jpg
 layout: movie
 links: false
 all_meta:

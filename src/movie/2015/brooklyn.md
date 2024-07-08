@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/brooklyn-1.jpg
+featured_img: /images/feature/brooklyn.jpg
 layout: movie
 links: false
 all_meta:

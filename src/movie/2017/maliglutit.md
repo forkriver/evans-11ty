@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/maliglutit-1.jpg
+featured_img: /images/feature/maliglutit.jpg
 layout: movie
 links:
 - url: http://www.isuma.tv/maliglutit

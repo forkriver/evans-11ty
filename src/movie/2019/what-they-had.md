@@ -14,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/what-they-had-1.jpg
+featured_img: /images/feature/what-they-had.jpg
 layout: movie
 links: false
 all_meta:

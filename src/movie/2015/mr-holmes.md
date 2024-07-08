@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/mr-holmes-1.jpg
+featured_img: /images/feature/mr-holmes.jpg
 layout: movie
 links:
 - url: http://mrholmesfilm.com/

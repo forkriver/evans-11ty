@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/irrational-man-1.jpg
+featured_img: /images/feature/irrational-man.jpg
 layout: movie
 links: false
 all_meta:

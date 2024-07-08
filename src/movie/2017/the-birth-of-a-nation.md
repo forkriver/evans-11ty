@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/birth-of-a-nation-1.jpg
+featured_img: /images/feature/birth-of-a-nation.jpg
 layout: movie
 links:
 - url: http://www.foxsearchlight.com/thebirthofanation/

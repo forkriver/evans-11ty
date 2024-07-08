@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/window-horses-1.jpg
+featured_img: /images/feature/window-horses.jpg
 layout: movie
 links:
 - url: http://www.windowhorses.com/

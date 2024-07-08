@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/jVn71iz6PkEN9fW2YJefmzzbA2i-1.jpg
+featured_img: /images/feature/jVn71iz6PkEN9fW2YJefmzzbA2i.jpg
 layout: movie
 links: false
 all_meta:

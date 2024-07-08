@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/land-of-mine-1.jpg
+featured_img: /images/feature/land-of-mine.jpg
 layout: movie
 links: false
 all_meta:

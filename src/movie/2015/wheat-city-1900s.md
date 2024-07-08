@@ -11,7 +11,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/wc1900s-posterv2-1.jpg
+featured_img: /images/feature/wc1900s-posterv2.jpg
 layout: movie
 links: false
 all_meta:

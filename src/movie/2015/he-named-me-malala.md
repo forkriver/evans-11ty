@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/malala-1.jpg
+featured_img: /images/feature/malala.jpg
 layout: movie
 links:
 - url: https://www.malala.org/malalas-story

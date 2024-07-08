@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/disaster-artist-1.jpg
+featured_img: /images/feature/disaster-artist.jpg
 layout: movie
 links:
 - url: https://a24films.com/films/the-disaster-artist

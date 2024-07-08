@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/moonlight-1.jpg
+featured_img: /images/feature/moonlight.jpg
 layout: movie
 links:
 - url: http://www.moonlight-movie.com/

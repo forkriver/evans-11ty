@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/20th-century-women-1.jpg
+featured_img: /images/feature/20th-century-women.jpg
 layout: movie
 links: false
 all_meta:

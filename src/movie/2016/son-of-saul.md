@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/son-of-saul-1.jpg
+featured_img: /images/feature/son-of-saul.jpg
 layout: movie
 links:
 - url: http://www.laokoonfilm.com/movies/item/son-of-saul-saul-fia

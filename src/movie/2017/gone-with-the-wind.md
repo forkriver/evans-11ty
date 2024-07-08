@@ -13,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/gone-with-the-wind-1.jpg
+featured_img: /images/feature/gone-with-the-wind.jpg
 layout: movie
 links:
 - url: ""

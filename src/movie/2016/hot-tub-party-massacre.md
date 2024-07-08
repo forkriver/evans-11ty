@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/14232620_10210393746269353_2936994789479113160_n-1.jpg
+featured_img: /images/feature/14232620_10210393746269353_2936994789479113160_n.jpg
 layout: movie
 links: false
 all_meta:

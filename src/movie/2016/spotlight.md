@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/spotlight-1.jpg
+featured_img: /images/feature/spotlight.jpg
 layout: movie
 links:
 - url: http://spotlightthefilm.com/

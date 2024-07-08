@@ -7,7 +7,7 @@ excerpt: 'After a great turnout at the Evans Theatre in Brandon, director Graham
   hard work by members of the XII Manitoba Dragoons Museum. Left to right are: Nate
   Bower; volunteer John Ball; Shaun Cameron; Graham Street; Don Berry, President,
   26th Field Regiment [&hellip;]'
-featured_img: /images/feature/14993436_1232318410153147_1766446161015488903_n-1.jpg
+featured_img: /images/feature/14993436_1232318410153147_1766446161015488903_n.jpg
 tags:
 - post
 - article

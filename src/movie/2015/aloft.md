@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/aloft-1.jpg
+featured_img: /images/feature/aloft.jpg
 layout: movie
 links:
 - url: http://sonyclassics.com/aloft/

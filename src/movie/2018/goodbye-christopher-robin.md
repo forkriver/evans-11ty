@@ -14,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/goodbye-christopher-robin-1.jpg
+featured_img: /images/feature/goodbye-christopher-robin.jpg
 layout: movie
 links: false
 all_meta:

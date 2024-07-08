@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/this-changes-everything-1.jpg
+featured_img: /images/feature/this-changes-everything.jpg
 layout: movie
 links:
 - url: http://thischangeseverything.org/

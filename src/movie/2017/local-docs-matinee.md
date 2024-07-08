@@ -15,7 +15,7 @@ tags:
 rating:
   rating: PG / G
   detail: false
-featured_img: /images/feature/The-Time-That-Once-Was-Poster-horiz-1.jpg
+featured_img: /images/feature/The-Time-That-Once-Was-Poster-horiz.jpg
 layout: movie
 links:
 - url: https://www.facebook.com/closingtimedoc/

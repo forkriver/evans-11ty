@@ -17,7 +17,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/sisters-brothers-1.jpg
+featured_img: /images/feature/sisters-brothers.jpg
 layout: movie
 links:
 - url: http://www.thesistersbrothers.movie/

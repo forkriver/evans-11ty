@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/beeba-boys-1.jpg
+featured_img: /images/feature/beeba-boys.jpg
 layout: movie
 links: false
 all_meta:

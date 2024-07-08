@@ -15,7 +15,7 @@ tags:
 rating:
   rating: G
   detail: false
-featured_img: /images/feature/reunion-of-giants-1.jpg
+featured_img: /images/feature/reunion-of-giants.jpg
 layout: movie
 links: false
 all_meta:

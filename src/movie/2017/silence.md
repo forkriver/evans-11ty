@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/silence-1.jpg
+featured_img: /images/feature/silence.jpg
 layout: movie
 links:
 - url: http://www.silencemovie.com/

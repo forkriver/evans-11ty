@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/anomalisa-1.jpg
+featured_img: /images/feature/anomalisa.jpg
 layout: movie
 links:
 - url: http://www.anomalisa.com/

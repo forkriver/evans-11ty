@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/beautiful-boy-1.jpg
+featured_img: /images/feature/beautiful-boy.jpg
 layout: movie
 links:
 - url: https://www.beautifulboy.movie/

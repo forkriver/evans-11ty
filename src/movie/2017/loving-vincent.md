@@ -16,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/loving-vincent-1.jpg
+featured_img: /images/feature/loving-vincent.jpg
 layout: movie
 links:
 - url: http://lovingvincent.com/

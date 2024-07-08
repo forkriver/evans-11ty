@@ -15,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/rumble-1.jpg
+featured_img: /images/feature/rumble.jpg
 layout: movie
 links:
 - url: http://rezolutionpictures.com/portfolio_page/rumble/

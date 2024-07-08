@@ -6,7 +6,7 @@ excerpt: Due to circumstances beyond our control, we&#8217;ve had to remove The 
   Seeker from our February program. We hope to be able to get it into the schedule
   at a later date. We&#8217;ll have a new film scheduled soon for the weekend of Feb.
   2-4. Sorry about this, folks! We were looking forward to showing [&hellip;]
-featured_img: /images/feature/leisure-seeker-1.jpg
+featured_img: /images/feature/leisure-seeker.jpg
 tags:
 - post
 - article

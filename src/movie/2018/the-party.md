@@ -15,7 +15,7 @@ tags:
 rating:
   rating: Not Yet Rated
   detail: false
-featured_img: /images/feature/the-party-1.jpg
+featured_img: /images/feature/the-party.jpg
 layout: movie
 links: false
 all_meta:

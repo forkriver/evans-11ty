@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/hyena-road-1.jpg
+featured_img: /images/feature/hyena-road.jpg
 layout: movie
 links: false
 all_meta:

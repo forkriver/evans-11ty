@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/the-lady-in-the-van-1.jpg
+featured_img: /images/feature/the-lady-in-the-van.jpg
 layout: movie
 links: false
 all_meta:

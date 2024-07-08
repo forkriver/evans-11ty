@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/ends-of-the-earth-1920-1.jpg
+featured_img: /images/feature/ends-of-the-earth-1920.jpg
 layout: movie
 links:
 - url: http://endsofearthfilm.com/

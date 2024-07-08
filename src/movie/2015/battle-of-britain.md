@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/battle-of-britain-1.jpg
+featured_img: /images/feature/battle-of-britain.jpg
 layout: movie
 links: false
 all_meta:

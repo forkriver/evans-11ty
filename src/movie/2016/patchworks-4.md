@@ -12,7 +12,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/pw4-eVANS-ALL7-v4-1.jpg
+featured_img: /images/feature/pw4-eVANS-ALL7-v4.jpg
 layout: movie
 links:
 - url: http://www.thepatchworksproject.ca/patchworks-4/

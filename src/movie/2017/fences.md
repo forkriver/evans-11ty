@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/fences-1.jpg
+featured_img: /images/feature/fences.jpg
 layout: movie
 links:
 - url: http://www.fencesmovie.com/

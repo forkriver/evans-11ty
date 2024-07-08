@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/SlutOrNut-1.jpg
+featured_img: /images/feature/SlutOrNut.jpg
 layout: movie
 links:
 - url: https://www.slutornut.ca

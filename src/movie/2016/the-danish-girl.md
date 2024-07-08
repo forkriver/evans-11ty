@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/danish-girl-1.jpg
+featured_img: /images/feature/danish-girl.jpg
 layout: movie
 links:
 - url: ""

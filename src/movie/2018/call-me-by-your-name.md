@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/call-me-by-your-name-1.jpg
+featured_img: /images/feature/call-me-by-your-name.jpg
 layout: movie
 links:
 - url: http://sonyclassics.com/callmebyyourname/

@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/tulip-fever-1.jpg
+featured_img: /images/feature/tulip-fever.jpg
 layout: movie
 links: false
 all_meta:

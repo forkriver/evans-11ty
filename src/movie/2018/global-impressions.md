@@ -15,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/feature/WP-pg2-1.jpg
+featured_img: /images/feature/WP-pg2.jpg
 layout: movie
 links:
 - url: ""

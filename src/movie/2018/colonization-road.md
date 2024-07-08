@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/colonization-road-1.jpg
+featured_img: /images/feature/colonization-road.jpg
 layout: movie
 links:
 - url: https://www.colonizationroad.com

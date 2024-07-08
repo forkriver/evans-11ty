@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/captain-fantastic-1.jpg
+featured_img: /images/feature/captain-fantastic.jpg
 layout: movie
 links:
 - url: http://www.bleeckerstreetmedia.com/captainfantastic

@@ -17,7 +17,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/leisure-seeker-1.jpg
+featured_img: /images/feature/leisure-seeker.jpg
 layout: movie
 links: false
 all_meta:

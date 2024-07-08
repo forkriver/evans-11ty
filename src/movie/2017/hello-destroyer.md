@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/hello-destroyer-1.jpg
+featured_img: /images/feature/hello-destroyer.jpg
 layout: movie
 links:
 - url: http://hellodestroyer.net/

@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/two-lovers-and-a-bear-1.jpg
+featured_img: /images/feature/two-lovers-and-a-bear.jpg
 layout: movie
 links: false
 all_meta:

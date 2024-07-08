@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/high-rise-1.jpg
+featured_img: /images/feature/high-rise.jpg
 layout: movie
 links: false
 all_meta:

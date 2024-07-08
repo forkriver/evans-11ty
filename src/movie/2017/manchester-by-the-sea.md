@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/manchester-by-the-sea-1.jpg
+featured_img: /images/feature/manchester-by-the-sea.jpg
 layout: movie
 links:
 - url: http://manchesterbytheseathemovie.com/

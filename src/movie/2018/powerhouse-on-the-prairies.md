@@ -15,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/feature/powerhouse-no-logo-cropped-1.jpg
+featured_img: /images/feature/powerhouse-no-logo-cropped.jpg
 layout: movie
 links: false
 all_meta:

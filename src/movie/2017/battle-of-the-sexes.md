@@ -14,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/battle-of-the-sexes-1.jpg
+featured_img: /images/feature/battle-of-the-sexes.jpg
 layout: movie
 links:
 - url: http://www.battleofthesexesmovie.co.uk/

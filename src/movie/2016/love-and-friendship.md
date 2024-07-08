@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/love-and-friendship-carriage-1.jpg
+featured_img: /images/feature/love-and-friendship-carriage.jpg
 layout: movie
 links:
 - url: http://loveandfriendshipmovie.com/

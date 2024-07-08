@@ -14,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/stalin-1.jpg
+featured_img: /images/feature/stalin.jpg
 layout: movie
 links: false
 all_meta:

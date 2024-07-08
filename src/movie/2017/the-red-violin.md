@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/the-red-violin-1.jpg
+featured_img: /images/feature/the-red-violin.jpg
 layout: movie
 links:
 - url: ""

@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/lion-1.jpg
+featured_img: /images/feature/lion.jpg
 layout: movie
 links: false
 all_meta:

@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/all-the-time-in-the-world-1.jpg
+featured_img: /images/feature/all-the-time-in-the-world.jpg
 layout: movie
 links:
 - url: http://allthetimeintheworld.ca/

@@ -14,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/detroit-1.jpg
+featured_img: /images/feature/detroit.jpg
 layout: movie
 links:
 - url: http://detroit.movie/

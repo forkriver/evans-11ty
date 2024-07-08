@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/the-favourite-1.jpg
+featured_img: /images/feature/the-favourite.jpg
 layout: movie
 links: false
 all_meta:

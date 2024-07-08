@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/patticakes-1.jpg
+featured_img: /images/feature/patticakes.jpg
 layout: movie
 links:
 - url: http://www.patticakesmovie.com/

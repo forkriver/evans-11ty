@@ -15,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/7ZEodaptUw47YEdF4FnJC8fKQCc-1.jpg
+featured_img: /images/feature/7ZEodaptUw47YEdF4FnJC8fKQCc.jpg
 layout: movie
 links:
 - url: https://www.itonyamovie.com/

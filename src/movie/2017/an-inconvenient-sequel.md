@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/an-inconvenient-sequel-1.jpg
+featured_img: /images/feature/an-inconvenient-sequel.jpg
 layout: movie
 links:
 - url: https://inconvenientsequel.tumblr.com/

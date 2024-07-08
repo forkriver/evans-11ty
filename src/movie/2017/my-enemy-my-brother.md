@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/my-enemy-my-brother-1.jpg
+featured_img: /images/feature/my-enemy-my-brother.jpg
 layout: movie
 links:
 - url: http://www.myenemymybrothermovie.com/#my-enemy-my-brother

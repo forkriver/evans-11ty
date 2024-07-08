@@ -16,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/marguerite-1.jpg
+featured_img: /images/feature/marguerite.jpg
 layout: movie
 links: false
 all_meta:

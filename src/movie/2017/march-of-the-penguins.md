@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/march-of-the-penguins-1.jpg
+featured_img: /images/feature/march-of-the-penguins.jpg
 layout: movie
 links: false
 all_meta:

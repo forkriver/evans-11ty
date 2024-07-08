@@ -16,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/shoplifters-1.jpg
+featured_img: /images/feature/shoplifters.jpg
 layout: movie
 links:
 - url: https://www.shopliftersfilm.com/

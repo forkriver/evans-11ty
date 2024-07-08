@@ -12,7 +12,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/feature/2-Poster-Then-and-Now-res-Evans-poster-1.jpg
+featured_img: /images/feature/2-Poster-Then-and-Now-res-Evans-poster.jpg
 layout: movie
 links: false
 all_meta:

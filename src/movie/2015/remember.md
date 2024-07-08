@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/remember-1.jpg
+featured_img: /images/feature/remember.jpg
 layout: movie
 links: false
 all_meta:

@@ -13,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/high-noon-1.jpg
+featured_img: /images/feature/high-noon.jpg
 layout: movie
 links: false
 all_meta:

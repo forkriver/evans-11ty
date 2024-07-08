@@ -15,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/feature/ThroughBlackSpruce-1.jpg
+featured_img: /images/feature/ThroughBlackSpruce.jpg
 layout: movie
 links: false
 all_meta:

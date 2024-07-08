@@ -14,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/breathe-1.jpg
+featured_img: /images/feature/breathe.jpg
 layout: movie
 links:
 - url: https://www.bleeckerstreetmedia.com/breathe

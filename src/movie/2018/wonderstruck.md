@@ -15,7 +15,7 @@ tags:
 rating:
   rating: G
   detail: false
-featured_img: /images/feature/wonderstruck-1.jpg
+featured_img: /images/feature/wonderstruck.jpg
 layout: movie
 links: false
 all_meta:

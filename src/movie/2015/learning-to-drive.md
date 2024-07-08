@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/learning-to-drive-1.jpg
+featured_img: /images/feature/learning-to-drive.jpg
 layout: movie
 links: false
 all_meta:

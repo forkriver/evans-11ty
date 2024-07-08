@@ -16,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/feature/anthropocene-1.jpg
+featured_img: /images/feature/anthropocene.jpg
 layout: movie
 links: false
 all_meta:
