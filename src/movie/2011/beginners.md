@@ -6,11 +6,8 @@ showtime:
 - 2011-11-25 7:30:00 pm
 - 2011-11-26 7:30:00 pm
 - 2011-11-27 7:30:00 pm
-excerpt: "An audience favourite at the 2010 Toronto International Film Festival\xC3\u201A\xC2\xAE,\xC3\u201A\xC2\_Beginners\xC3\u201A\xC2\_is
-  a moving and oftentimes hilarious portrait of family, love, loss, and self-discovery.
-  After the critical success of his first feature,\xC3\u201A\xC2\_Thumbsucker, director
-  Mike Mills returns at the top of his game crafting a dynamic and emotional mood
-  piece that balances humour, sorrow, and romance with aplomb. [&hellip;]"
+excerpt: "An audience favourite at the 2010 Toronto International Film Festival, *Beginners* is
+  a moving and oftentimes hilarious portrait of family, love, loss, and self-discovery."
 tags:
 - movie
 - movie-2011
