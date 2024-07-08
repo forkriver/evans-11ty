@@ -1,12 +1,30 @@
 // _media-queries.scss
 
 @media screen and (max-width: 992px) {
-	
+	ul.showtime-list {
+		li {
+			display: block;
+		}
+		li + li::before {
+			content: none;
+		}
+	}
+	footer {
+		text-align: left;
+		ul {
+			li {
+				display: block;
+			}
+			li + li::before {
+				content: none;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 600px ) {
 	body {
-		font-size: 18px;
+		font-size: 24px;
 	}
 	main {
 		max-width: 90%;

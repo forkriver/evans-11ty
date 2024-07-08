@@ -20,11 +20,20 @@ main {
 	width: 75%;
 	max-width: 45em;
 	margin: auto;
-	margin-bottom: 98vh;
 	background: rgba( 24, 32, 48, 0.75 );
 	backdrop-filter: blur( 10px ) grayscale( 25% );
 	border-radius: 1em;
 	padding: 1em 2em;
+	z-index: 1000;
+}
+
+ul.showtime-list {
+	li {
+		display: inline;
+	}
+	li + li::before {
+		content: " | ";
+	}
 }
 
 ul.main-nav {
@@ -35,6 +44,25 @@ ul.main-nav {
 		display: inline;
 		list-style: none;
 		margin-right: 0.75em;
+	}
+}
+
+.article-date {
+	font-size: 0.95rem;
+	font-style: italic;
+}
+
+footer {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 0;
+	ul {
+		li {
+			display: inline;
+		}
+		li + li::before {
+			content: " | ";
+		}
 	}
 }
 
