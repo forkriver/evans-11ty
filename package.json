@@ -6,7 +6,7 @@
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npx sass src/sass/styles.scss public/css/styles.css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass",
+    "start": "npm run watch:sass & npm run watch:eleventy",
 	"make": "npx @11ty/eleventy"
   },
   "repository": {

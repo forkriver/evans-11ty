@@ -2,6 +2,9 @@
 <html>
 <head>
 <title>{{ title | safe }} | Evans Theatre</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="{{ eleventy.generator }}" />
 <link rel="stylesheet" href="/css/styles.css" />
 <style>
 {% if featured_img %}
@@ -21,6 +24,11 @@
 {% if featured_img %}
 {% image 'src' + featured_img, 'Still from ' + title, 'hero' %}
 {% endif %}
+<ul class="showtime-list">
+	{% for s in showtime -%}
+	<li>{{ s | dateformat }}</li>
+	{%- endfor %}
+</ul>
 {{ content | safe }}
 <hr />
 <a href="/movies/">All Movies</a>

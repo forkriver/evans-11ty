@@ -1,8 +1,10 @@
 ---
 layout: base
-title: Home
+title: Evans Theatre
 ---
 
-# Evans Theatre
+Brandon's scrappy little indie cinema, on the campus of [Brandon University](https://www.brandonu.ca/).
 
-Welcome!
+{% for year, movies in collections.moviesByYear %}
+
+{% endfor %}

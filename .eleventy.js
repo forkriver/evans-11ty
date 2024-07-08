@@ -142,10 +142,27 @@ function getNextMovie() {
  * @return string              The formatted date, or (on error) theDate.
  */ 
 function evansDateFormat( theDate, format = '' ) {
-	var myDate = DateTime.fromFormat( theDate, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } );
 
-    if ( ! myDate || myDate.invalid ) {
-    	return theDate;
+	if ( 'Last Modified' === theDate ) {
+		theDate = DateTime.local().toFormat( 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } );
+	}
+	
+	var myDate;
+	myDate = DateTime.fromFormat( theDate, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } );
+	if ( myDate.invalid ) {
+		// Try ISO.
+		myDate = DateTime.fromISO( theDate, { zone: "America/Winnipeg" } );
+	}
+
+    switch ( format ) {
+    // Luxon date format list: https://moment.github.io/luxon/#/parsing?id=table-of-tokens
+    case 'shortest':
+    	return myDate.toFormat( 'MMM. d, yyyy' );
+    	break;
+    case 'year':
+    	return myDate.toFormat( 'yyyy' );
+    default:
+    	return myDate.toFormat( 'EEE., MMM. d, yyyy' ) + ' at ' + myDate.toFormat('t');
     }
 
     if ( 'shortest' === format ) {
@@ -177,7 +194,6 @@ module.exports = function ( eleventyConfig ) {
 	});
 
 	eleventyConfig.addCollection( "moviesByYear", function( collection ) {
-		// @todo Sort this by movie.data.showtime[0] {DESC | ASC}
 		return lodash.chain( collection.getFilteredByGlob("src/movie/**/*.md") )
 			// Sorts the movies by showtime.
 			.sortBy( (movie) => movie.data.showtime[0] )
@@ -191,8 +207,11 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addCollection( "articles", function( collection ) {
 		return lodash.chain( collection.getFilteredByGlob( 'src/article/**/*.md' ) )
 			.sortBy( ( article ) => article.date )
+			// Reverse the sorting of all the articles.
+			.reverse()
 			.groupBy( ( article ) => article.date.getFullYear() )
 			.toPairs()
+			// Reverses the Year listing.
 			.reverse()
 			.value();
 	});
@@ -200,6 +219,11 @@ module.exports = function ( eleventyConfig ) {
 	// Nice date formatting.
 	eleventyConfig.addFilter('dateformat', function( theDate ) {
 		return evansDateFormat( theDate );
+    });
+
+    // Article date formatting.
+    eleventyConfig.addFilter( 'articledateformat', function( theDate ) {
+    	return evansDateFormat( theDate, 'shortest' );
     });
 
     // Nice date range formatting.
@@ -211,7 +235,6 @@ module.exports = function ( eleventyConfig ) {
     		return evansDateFormat( startDate, 'shortest' );
     	}
     	return evansDateFormat( startDate, 'shortest' ) + '–' + evansDateFormat( endDate, 'shortest' );
-    	return '';
     });
 
     // Set the year-only date format.
