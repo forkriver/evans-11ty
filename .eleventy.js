@@ -5,11 +5,7 @@ const Image        = require("@11ty/eleventy-img");
 const fs           = require( 'fs' );
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 
-/**
- * @todo - Showtimes should all be dates in the format `YYYY-MM-DD g:i:s a`.
- *         Use the appropriate luxon (?) fromFormat() or whatever to deal with them.
- * @todo - Get the All Movies page using the new date formats.
- */
+const moviesOnHomePage = 5;
 
 
 // Site's base URL.
@@ -178,6 +174,22 @@ function evansDateFormat( theDate, format = '' ) {
         + myDate.toLocaleString( DateTime.TIME_SIMPLE );
 }
 
+/**
+ * Determines if a date is later than today.
+ *
+ * Used in finding the next {n} movies.
+ *
+ * @since 1.0.0
+ *
+ * @param  date showtime The date to check.
+ * @return boolean       Whether the date is later than now().
+ */
+function laterThanToday( showtime ) {
+	const now   = parseInt( DateTime.now().toSeconds() );
+	const check = parseInt( DateTime.fromFormat( showtime, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } ).toSeconds() );
+	return ( check > now );
+}
+
 module.exports = function ( eleventyConfig ) {
 
 	// SASS.
@@ -202,6 +214,18 @@ module.exports = function ( eleventyConfig ) {
 			// Sorts the movies by year (reversed).
 			.reverse()
 			.value();
+	});
+
+	eleventyConfig.addCollection( "moviesUpcoming", function( collection ) {
+		var movies = lodash.chain( collection.getFilteredByGlob( "src/movie/**/*.md" ) )
+		.sortBy( ( movie ) => movie.data.showtime[0] )
+		.filter( ( movie ) => laterThanToday( movie.data.showtime[0] ) )
+		.slice( 0, moviesOnHomePage )
+		.value();
+		if ( 0 === movies.length ) {
+			return false;
+		}
+		return movies;
 	});
 
 	eleventyConfig.addCollection( "articles", function( collection ) {
