@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/driving-madeleine-1.jpg
+featured_img: /images/feature/driving-madeleine.jpg
 layout: movie
 links: false
 all_meta:

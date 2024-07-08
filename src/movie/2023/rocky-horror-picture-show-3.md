@@ -14,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
+featured_img: /images/feature/ukgP3WJ97GZ00U1Co2IMjUNGWzW.jpg
 layout: movie
 links: false
 all_meta:

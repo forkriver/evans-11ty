@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/something-you-said-1.jpg
+featured_img: /images/feature/something-you-said.jpg
 layout: movie
 links: false
 all_meta:

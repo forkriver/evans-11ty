@@ -6,7 +6,7 @@ showtime:
 - 2024-01-26 7:30:00 pm
 - 2024-01-27 7:30:00 pm
 - 2024-01-28 7:30:00 pm
-excerpt: "A woman is suspected of her husband\u2019s murder, and their blind son faces
+excerpt: "A woman is suspected of her husband's murder, and their blind son faces
   a moral dilemma as the sole witness."
 tags:
 - movie

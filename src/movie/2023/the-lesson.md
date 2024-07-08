@@ -17,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/the-lesson-1.jpg
+featured_img: /images/feature/the-lesson.jpg
 layout: movie
 links: false
 all_meta:
