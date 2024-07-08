@@ -1,6 +1,7 @@
 ---
 title: The Sapphires
 permalink: /movie/the-sapphires/
+date: "2013-09-05T00:09:36+00:00"
 showtime:
 - 2013-09-20 7:30:00 pm
 - 2013-09-21 7:30:00 pm

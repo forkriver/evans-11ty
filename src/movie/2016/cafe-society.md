@@ -1,6 +1,7 @@
 ---
 title: "Caf\xE9 Society"
 permalink: /movie/cafe-society/
+date: "2016-08-28T17:32:45+00:00"
 showtime:
 - 2016-09-30 7:30:00 pm
 - 2016-10-01 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/cafe-society-1-scaled.jpg
+featured_img: /images/feature/cafe-society-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Churchill
 permalink: /movie/churchill/
+date: "2017-08-26T19:43:03+00:00"
 showtime:
 - 2017-10-13 7:30:00 pm
 - 2017-10-14 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/churchill-1-scaled.jpg
+featured_img: /images/feature/churchill-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.embankmentfilms.com/portfolio_page/churchill/

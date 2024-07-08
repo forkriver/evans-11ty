@@ -1,6 +1,7 @@
 ---
 title: Hush
 permalink: /movie/hush/
+date: "2016-02-26T19:09:07+00:00"
 showtime:
 - 2016-03-10 6:30:00 pm
 excerpt: "This is a special event, presented by the Brandon University Women&#8217;s
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/hush-1-1.jpg
+featured_img: /images/feature/hush-1-1.jpg
 layout: movie
 links:
 - url: http://hushfilm.com/

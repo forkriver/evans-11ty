@@ -1,6 +1,7 @@
 ---
 title: Patchworks 3
 permalink: /movie/patchworks-3/
+date: "2015-09-18T17:39:03+00:00"
 showtime:
 - 2015-09-26 2:00:00 pm
 - 2015-09-27 2:00:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/patchworks-1.png
+featured_img: /images/feature/patchworks-1.png
 layout: movie
 links:
 - url: http://www.thepatchworksproject.ca/

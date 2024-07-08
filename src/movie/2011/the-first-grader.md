@@ -1,6 +1,7 @@
 ---
 title: The First Grader
 permalink: /movie/the-first-grader/
+date: "2011-08-19T03:11:51+00:00"
 showtime:
 - 2011-10-21 7:30:00 pm
 - 2011-10-22 7:30:00 pm

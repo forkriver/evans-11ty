@@ -1,6 +1,7 @@
 ---
 title: The Wife
 permalink: /movie/the-wife/
+date: "2018-10-25T14:09:22+00:00"
 showtime:
 - 2018-11-16 7:30:00 pm
 - 2018-11-17 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/the-wife-1-scaled.jpg
+featured_img: /images/feature/the-wife-1-scaled.jpg
 layout: movie
 links:
 - url: http://sonyclassics.com/thewife/

@@ -1,6 +1,7 @@
 ---
 title: Through Black Spruce
 permalink: /movie/through-black-spruce/
+date: "2019-02-27T02:55:40+00:00"
 showtime:
 - 2019-03-29 7:30:00 pm
 - 2019-03-30 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/ThroughBlackSpruce-1.jpg
+featured_img: /images/feature/ThroughBlackSpruce-1.jpg
 layout: movie
 links: false
 all_meta:

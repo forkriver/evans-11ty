@@ -1,6 +1,7 @@
 ---
 title: Breakaway
 permalink: /movie/breakaway/
+date: "2011-10-14T21:36:30+00:00"
 showtime:
 - 2011-11-04 7:30:00 pm
 - 2011-11-05 7:30:00 pm

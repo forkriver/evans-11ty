@@ -1,6 +1,7 @@
 ---
 title: Lady Bird
 permalink: /movie/lady-bird/
+date: "2018-01-25T22:49:15+00:00"
 showtime:
 - 2018-02-16 7:30:00 pm
 - 2018-02-17 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/lady-bird-1-scaled.jpg
+featured_img: /images/feature/lady-bird-1-scaled.jpg
 layout: movie
 links:
 - url: http://ladybird.movie/

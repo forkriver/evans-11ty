@@ -1,6 +1,7 @@
 ---
 title: Uncut Gems
 permalink: /movie/uncut-gems/
+date: "2019-12-21T22:25:55+00:00"
 showtime:
 - 2020-01-24 7:30:00 pm
 - 2020-01-25 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/uncut-gems.jpg
+featured_img: /images/feature/uncut-gems.jpg
 layout: movie
 links:
 - url: https://a24films.com/films/uncut-gems

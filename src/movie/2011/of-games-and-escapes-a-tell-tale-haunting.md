@@ -1,6 +1,7 @@
 ---
 title: Of Games and Escapes / A Tell-Tale Haunting
 permalink: /movie/of-games-and-escapes-a-tell-tale-haunting/
+date: "2011-10-14T21:49:51+00:00"
 showtime:
 - 2011-12-02 7:30:00 pm
 - 2011-12-03 7:30:00 pm

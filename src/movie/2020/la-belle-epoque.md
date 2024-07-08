@@ -1,6 +1,7 @@
 ---
 title: "La Belle \xC9poque"
 permalink: /movie/la-belle-epoque/
+date: "2019-12-08T19:17:26+00:00"
 showtime:
 - 2020-01-31 7:30:00 pm
 - 2020-02-01 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/la-belle-epoque.jpg
+featured_img: /images/feature/la-belle-epoque.jpg
 layout: movie
 links: false
 all_meta:

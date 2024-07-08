@@ -1,6 +1,7 @@
 ---
 title: Beginners
 permalink: /movie/beginners/
+date: "2011-10-14T21:47:24+00:00"
 showtime:
 - 2011-11-25 7:30:00 pm
 - 2011-11-26 7:30:00 pm

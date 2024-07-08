@@ -1,6 +1,7 @@
 ---
 title: The Crash Reel
 permalink: /movie/the-crash-reel/
+date: "2013-12-20T19:38:58+00:00"
 showtime:
 - 2014-02-14 7:30:00 pm
 - 2014-02-15 7:30:00 pm

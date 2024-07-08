@@ -1,6 +1,7 @@
 ---
 title: Shock and Awe
 permalink: /movie/shock-and-awe/
+date: "2018-08-31T02:17:55+00:00"
 showtime:
 - 2018-09-21 7:30:00 pm
 - 2018-09-22 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/shock-and-awe-1-scaled.jpg
+featured_img: /images/feature/shock-and-awe-1-scaled.jpg
 layout: movie
 links:
 - url: https://www.shockandawemovie.com/

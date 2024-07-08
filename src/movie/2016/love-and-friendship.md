@@ -1,6 +1,7 @@
 ---
 title: Love and Friendship
 permalink: /movie/love-and-friendship/
+date: "2016-08-28T17:25:57+00:00"
 showtime:
 - 2016-09-23 7:30:00 pm
 - 2016-09-24 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/love-and-friendship-carriage-1.jpg
+featured_img: /images/feature/love-and-friendship-carriage-1.jpg
 layout: movie
 links:
 - url: http://loveandfriendshipmovie.com/

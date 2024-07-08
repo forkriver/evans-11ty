@@ -1,6 +1,7 @@
 ---
 title: Something You Said Last Night
 permalink: /movie/something-you-said-last-night/
+date: "2023-10-19T22:18:19+00:00"
 showtime:
 - 2023-11-03 7:30:00 pm
 - 2023-11-04 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/something-you-said-1.jpg
 layout: movie
 links: false
 all_meta:
@@ -30,13 +31,6 @@ all_meta:
   - "1699212600"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_d88a6be5d21b61dc453c64c20f3d8e2d:
-  - <iframe title="SOMETHING YOU SAID LAST NIGHT | Official Trailer HD" width="640"
-    height="360" src="https://www.youtube.com/embed/L1UZxFspzpQ?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" allowfullscreen></iframe>
-  _oembed_time_d88a6be5d21b61dc453c64c20f3d8e2d:
-  - "1697774120"
 ---
 
 An aspiring twentysomething writer hesitantly accompanies her equally reluctant younger sister on vacation with their deliriously happy parents, in Luis De Filippis’ resonant, cliché-free debut feature.

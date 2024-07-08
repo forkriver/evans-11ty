@@ -1,6 +1,7 @@
 ---
 title: Inescapable
 permalink: /movie/inescapable/
+date: "2012-11-16T14:29:39+00:00"
 showtime:
 - 2012-12-07 7:30:00 pm
 - 2012-12-08 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: The Whale
 permalink: /movie/the-whale/
+date: "2023-01-31T19:01:39+00:00"
 showtime:
 - 2023-03-10 7:30:00 pm
 - 2023-03-11 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/whale.jpg
 layout: movie
 links: false
 all_meta:
@@ -29,13 +30,6 @@ all_meta:
   - "1678649400"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_774be6bf1f768b5fb7ba0a3eee27f3ea:
-  - <iframe title="The Whale | Official Trailer HD | A24" width="640" height="360"
-    src="https://www.youtube.com/embed/D30r0CwtIKc?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_774be6bf1f768b5fb7ba0a3eee27f3ea:
-  - "1718666884"
 ---
 
 <div class="page_wrap movie_wrap"><main class="smaller  subtle show_search_false" id="main"><section class="inner_content movie_content backdrop poster"><div class="header large border first"><div class="keyboard_s custom_bg"><div class="single_column"><section class="images inner" id="original_header"><div class="header_poster_wrapper false"><section class="header poster"><div class="header_info"><div class="overview" dir="auto">A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.</div></div></section></div></section></div></div></div></section></main></div>https://www.youtube.com/watch?v=D30r0CwtIKc 

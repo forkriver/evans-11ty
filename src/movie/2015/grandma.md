@@ -1,6 +1,7 @@
 ---
 title: Grandma
 permalink: /movie/grandma/
+date: "2015-10-23T03:46:28+00:00"
 showtime:
 - 2015-11-13 7:30:00 pm
 - 2015-11-14 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/grandma-1-scaled.jpg
+featured_img: /images/feature/grandma-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

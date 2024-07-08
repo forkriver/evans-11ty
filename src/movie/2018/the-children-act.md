@@ -1,6 +1,7 @@
 ---
 title: The Children Act
 permalink: /movie/the-children-act/
+date: "2018-08-31T02:37:51+00:00"
 showtime:
 - 2018-10-12 7:30:00 pm
 - 2018-10-13 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/the-children-act-1-scaled.jpg
+featured_img: /images/feature/the-children-act-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

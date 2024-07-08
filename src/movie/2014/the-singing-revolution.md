@@ -1,6 +1,7 @@
 ---
 title: The Singing Revolution
 permalink: /movie/the-singing-revolution/
+date: "2013-12-03T03:31:01+00:00"
 showtime:
 - 2014-01-26 3:00:00 pm
 excerpt: Most people don&#8217;t think about singing when they think about revolutions.

@@ -1,6 +1,7 @@
 ---
 title: The Happy Prince
 permalink: /movie/the-happy-prince/
+date: "2018-12-04T15:18:45+00:00"
 showtime:
 - 2019-01-25 7:30:00 pm
 - 2019-01-26 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/the-happy-prince-1-scaled.jpg
+featured_img: /images/feature/the-happy-prince-1-scaled.jpg
 layout: movie
 links:
 - url: https://sonyclassics.com/thehappyprince/

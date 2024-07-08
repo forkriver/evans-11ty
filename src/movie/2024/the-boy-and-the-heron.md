@@ -1,6 +1,7 @@
 ---
 title: The Boy and the Heron
 permalink: /movie/the-boy-and-the-heron/
+date: "2024-02-09T23:08:27+00:00"
 showtime:
 - 2024-03-01 7:30:00 pm
 - 2024-03-02 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/the-boy-and-the-heron.jpg
 layout: movie
 links: false
 all_meta:

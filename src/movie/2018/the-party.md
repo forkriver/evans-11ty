@@ -1,6 +1,7 @@
 ---
 title: The Party
 permalink: /movie/the-party/
+date: "2018-03-28T21:12:48+00:00"
 showtime:
 - 2018-04-27 7:30:00 pm
 - 2018-04-28 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: Not Yet Rated
   detail: false
-featured_img: /images/featured/the-party-1.jpg
+featured_img: /images/feature/the-party-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Past Lives
 permalink: /movie/past-lives/
+date: "2023-12-07T19:01:55+00:00"
 showtime:
 - 2024-02-09 7:30:00 pm
 - 2024-02-10 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/past-lives.jpg
 layout: movie
 links: false
 all_meta:

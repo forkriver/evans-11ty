@@ -1,6 +1,7 @@
 ---
 title: Le Week-End
 permalink: /movie/le-week-end/
+date: "2014-02-22T03:45:28+00:00"
 showtime:
 - 2014-04-18 7:30:00 pm
 - 2014-04-19 7:30:00 pm

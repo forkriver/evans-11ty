@@ -1,6 +1,7 @@
 ---
 title: A Private War
 permalink: /movie/a-private-war/
+date: "2019-02-27T03:13:36+00:00"
 showtime:
 - 2019-04-19 7:30:00 pm
 - 2019-04-20 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/a-private-war-1.jpg
+featured_img: /images/feature/a-private-war-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Rebelle (War Witch)
 permalink: /movie/rebelle/
+date: "2013-03-30T03:49:12+00:00"
 showtime:
 - 2013-04-12 7:30:00 pm
 - 2013-04-13 7:30:00 pm

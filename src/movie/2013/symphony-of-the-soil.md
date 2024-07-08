@@ -1,6 +1,7 @@
 ---
 title: Symphony of the Soil
 permalink: /movie/symphony-of-the-soil/
+date: "2013-09-05T00:23:41+00:00"
 showtime:
 - 2013-09-24 7:00:00 pm
 excerpt: Symphony of the Soil is an artistic exploration of the miraculous substance

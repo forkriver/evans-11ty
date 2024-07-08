@@ -1,6 +1,7 @@
 ---
 title: Beeba Boys
 permalink: /movie/beeba-boys/
+date: "2015-10-06T00:37:27+00:00"
 showtime:
 - 2015-11-06 7:30:00 pm
 - 2015-11-07 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/beeba-boys-1.jpg
+featured_img: /images/feature/beeba-boys-1.jpg
 layout: movie
 links: false
 all_meta:

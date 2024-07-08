@@ -1,6 +1,7 @@
 ---
 title: I Like Movies
 permalink: /movie/i-like-movies/
+date: "2023-03-29T21:52:36+00:00"
 showtime:
 - 2023-04-21 7:30:00 pm
 - 2023-04-22 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/5I3tSyI6ifbMOLSovMrvW9QRmOX-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -29,13 +30,6 @@ all_meta:
   - "1682278200"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_3d1881131ce570c9785dafed4f8587ac:
-  - <iframe title="I LIKE MOVIES Trailer | Mongrel Media" width="640" height="360"
-    src="https://www.youtube.com/embed/godMZzeWTu0?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_3d1881131ce570c9785dafed4f8587ac:
-  - "1718666886"
 ---
 
 Socially inept 17-year-old cinephile Lawrence Kweller gets a job at a video store, where he forms a complicated friendship with his older female manager.

@@ -1,6 +1,7 @@
 ---
 title: Starbuck
 permalink: /movie/starbuck/
+date: "2011-10-14T21:43:59+00:00"
 showtime:
 - 2011-11-18 7:30:00 pm
 - 2011-11-19 7:30:00 pm

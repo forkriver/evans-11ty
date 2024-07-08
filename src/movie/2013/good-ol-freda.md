@@ -1,6 +1,7 @@
 ---
 title: Good Ol' Freda
 permalink: /movie/good-ol-freda/
+date: "2013-10-08T02:32:34+00:00"
 showtime:
 - 2013-11-09 7:30:00 pm
 - 2013-11-10 7:30:00 pm

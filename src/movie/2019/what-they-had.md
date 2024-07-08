@@ -1,6 +1,7 @@
 ---
 title: What They Had
 permalink: /movie/what-they-had/
+date: "2018-12-04T15:04:03+00:00"
 showtime:
 - 2019-01-18 7:30:00 pm
 - 2019-01-19 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/what-they-had-1.jpg
+featured_img: /images/feature/what-they-had-1.jpg
 layout: movie
 links: false
 all_meta:

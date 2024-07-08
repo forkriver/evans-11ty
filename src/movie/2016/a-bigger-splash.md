@@ -1,6 +1,7 @@
 ---
 title: A Bigger Splash
 permalink: /movie/a-bigger-splash/
+date: "2016-10-19T14:46:02+00:00"
 showtime:
 - 2016-11-11 7:30:00 pm
 - 2016-11-12 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/a-bigger-splash-1-scaled.jpg
+featured_img: /images/feature/a-bigger-splash-1-scaled.jpg
 layout: movie
 links:
 - url: ""

@@ -1,6 +1,7 @@
 ---
 title: The Guard
 permalink: /movie/the-guard/
+date: "2011-12-16T22:25:22+00:00"
 showtime:
 - 2012-01-13 7:30:00 pm
 - 2012-01-14 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: 'Mandela: Long Walk to Freedom'
 permalink: /movie/mandela/
+date: "2014-02-22T03:33:12+00:00"
 showtime:
 - 2014-03-28 7:30:00 pm
 - 2014-03-29 7:30:00 pm

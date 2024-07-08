@@ -1,6 +1,7 @@
 ---
 title: Still
 permalink: /movie/still/
+date: "2012-12-31T23:52:00+00:00"
 showtime:
 - 2013-01-25 7:30:00 pm
 - 2013-01-26 7:30:00 pm

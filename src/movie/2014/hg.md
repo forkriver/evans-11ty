@@ -1,6 +1,7 @@
 ---
 title: H&G
 permalink: /movie/hg/
+date: "2014-08-13T05:19:42+00:00"
 showtime:
 - 2014-09-26 7:30:00 pm
 - 2014-09-27 7:30:00 pm

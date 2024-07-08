@@ -1,6 +1,7 @@
 ---
 title: Captain Fantastic
 permalink: /movie/captain-fantastic/
+date: "2016-08-28T17:37:30+00:00"
 showtime:
 - 2016-10-07 7:30:00 pm
 - 2016-10-08 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/captain-fantastic-1.jpg
+featured_img: /images/feature/captain-fantastic-1.jpg
 layout: movie
 links:
 - url: http://www.bleeckerstreetmedia.com/captainfantastic

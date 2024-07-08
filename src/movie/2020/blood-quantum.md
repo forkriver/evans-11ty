@@ -1,6 +1,7 @@
 ---
 title: Blood Quantum
 permalink: /movie/blood-quantum/
+date: "2020-10-26T17:56:23+00:00"
 showtime:
 - 2020-10-31 12:00:00 am
 - 2020-11-30 12:00:00 am
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: 18A
   detail: false
-featured_img: /images/featured/blood-quantum-scaled.jpg
+featured_img: /images/feature/blood-quantum-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -29,14 +30,6 @@ all_meta:
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:3:"18A";s:20:"_evans_rating_detail";s:17:"Explicit
     Violence";}
-  _oembed_f2b6e69d8f23178b66ecf1f4132502f0:
-  - "<iframe title=\"Blood Quantum (2019) | Official Trailer | Michael Greyeyes |
-    Elle-M\xE1ij\xE1 Tailfeathers\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/GxWrPr3XQjc?feature=oembed\"
-    frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\"
-    allowfullscreen></iframe>"
-  _oembed_time_f2b6e69d8f23178b66ecf1f4132502f0:
-  - "1718666880"
 ---
 
 We can't screen this in our theatre this Halloween, but our programmer *really* wanted to. We recommend you check out *Blood Quantum* on a digital platform.

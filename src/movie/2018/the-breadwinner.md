@@ -1,6 +1,7 @@
 ---
 title: The Breadwinner
 permalink: /movie/the-breadwinner/
+date: "2017-12-20T02:37:40+00:00"
 showtime:
 - 2018-01-19 7:30:00 pm
 - 2018-01-20 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/breadwinner-1-scaled.jpg
+featured_img: /images/feature/breadwinner-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

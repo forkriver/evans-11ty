@@ -1,6 +1,7 @@
 ---
 title: Tulip Fever
 permalink: /movie/tulip-fever/
+date: "2017-08-26T19:46:36+00:00"
 showtime:
 - 2017-10-20 7:30:00 pm
 - 2017-10-21 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/tulip-fever-1.jpg
+featured_img: /images/feature/tulip-fever-1.jpg
 layout: movie
 links: false
 all_meta:

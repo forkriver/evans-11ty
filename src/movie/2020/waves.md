@@ -1,6 +1,7 @@
 ---
 title: Waves
 permalink: /movie/waves/
+date: "2019-12-08T19:04:09+00:00"
 showtime:
 - 2020-01-03 7:30:00 pm
 - 2020-01-04 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/waves-scaled.jpg
+featured_img: /images/feature/waves-scaled.jpg
 layout: movie
 links:
 - url: https://a24films.com/films/waves

@@ -1,6 +1,7 @@
 ---
 title: March of the Penguins
 permalink: /movie/march-of-the-penguins/
+date: "2017-01-15T22:55:51+00:00"
 showtime:
 - 2017-03-11 1:00:00 pm
 excerpt: Every year, thousands of Antartica&#8217;s emperor penguins make an astonishing
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/march-of-the-penguins-1.jpg
+featured_img: /images/feature/march-of-the-penguins-1.jpg
 layout: movie
 links: false
 all_meta:

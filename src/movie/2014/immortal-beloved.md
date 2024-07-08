@@ -1,6 +1,7 @@
 ---
 title: Immortal Beloved
 permalink: /movie/immortal-beloved/
+date: "2013-12-03T03:33:41+00:00"
 showtime:
 - 2014-02-02 7:30:00 pm
 excerpt: The life and death of the legendary Ludwig van Beethoven. Beside all the

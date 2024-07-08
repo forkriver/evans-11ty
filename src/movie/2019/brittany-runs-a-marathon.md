@@ -1,6 +1,7 @@
 ---
 title: Brittany Runs a Marathon
 permalink: /movie/brittany-runs-a-marathon/
+date: "2019-10-26T02:16:35+00:00"
 showtime:
 - 2019-11-08 7:30:00 pm
 - 2019-11-09 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/brittany-scaled.jpg
+featured_img: /images/feature/brittany-scaled.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: A Dog's Weekend
 permalink: /movie/a-dogs-weekend/
+date: "2019-09-10T22:30:14+00:00"
 showtime:
 - 2019-09-20 7:30:00 pm
 - 2019-09-21 6:30:00 pm
@@ -17,7 +18,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/a-dogs-weekend-1-scaled.jpg
+featured_img: /images/feature/a-dogs-weekend-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

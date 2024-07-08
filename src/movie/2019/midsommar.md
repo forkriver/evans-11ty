@@ -1,6 +1,7 @@
 ---
 title: Midsommar
 permalink: /movie/midsommar/
+date: "2019-09-10T22:54:43+00:00"
 showtime:
 - 2019-10-25 7:30:00 pm
 - 2019-10-26 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/midsommar-1.jpg
+featured_img: /images/feature/midsommar-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: The Legend of Sarila
 permalink: /movie/the-legend-of-sarila/
+date: "2013-12-03T03:24:13+00:00"
 showtime:
 - 2014-02-07 7:30:00 pm
 - 2014-02-08 7:30:00 pm

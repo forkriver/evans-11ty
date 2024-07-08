@@ -1,6 +1,7 @@
 ---
 title: Patchworks
 permalink: /movie/patchworks/
+date: "2013-09-16T14:13:40+00:00"
 showtime:
 - 2013-09-29 3:00:00 pm
 excerpt: "patchworks, a collection of documentary vignettes profiling a dozen intriguing

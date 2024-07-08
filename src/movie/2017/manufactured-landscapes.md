@@ -1,6 +1,7 @@
 ---
 title: Manufactured Landscapes
 permalink: /movie/manufactured-landscapes/
+date: "2017-03-23T18:15:54+00:00"
 showtime:
 - 2017-04-19 7:30:00 pm
 excerpt: "Manufactured Landscapes is the striking documentary on the world and work
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/manufactured-landscapes-1.jpg
+featured_img: /images/feature/manufactured-landscapes-1.jpg
 layout: movie
 links: false
 all_meta:

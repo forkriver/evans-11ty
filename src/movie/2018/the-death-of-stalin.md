@@ -1,6 +1,7 @@
 ---
 title: The Death of Stalin
 permalink: /movie/the-death-of-stalin/
+date: "2018-03-22T21:02:06+00:00"
 showtime:
 - 2018-04-20 7:30:00 pm
 - 2018-04-21 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/stalin-1.jpg
+featured_img: /images/feature/stalin-1.jpg
 layout: movie
 links: false
 all_meta:

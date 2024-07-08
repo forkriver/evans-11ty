@@ -1,6 +1,7 @@
 ---
 title: Christmas Vacation
 permalink: /movie/vacation/
+date: "2018-12-04T15:12:24+00:00"
 showtime:
 - 2019-01-13 2:00:00 pm
 excerpt: 'In memory of projectionist Richard Hunt, we present one of his favourite
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/jVn71iz6PkEN9fW2YJefmzzbA2i-1.jpg
+featured_img: /images/feature/jVn71iz6PkEN9fW2YJefmzzbA2i-1.jpg
 layout: movie
 links: false
 all_meta:

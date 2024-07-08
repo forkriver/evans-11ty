@@ -1,6 +1,7 @@
 ---
 title: Please Bring Your Guitar
 permalink: /movie/please-bring-your-guitar/
+date: "2017-03-23T16:37:00+00:00"
 showtime:
 - 2017-04-02 2:00:00 pm
 excerpt: Please Bring Your Guitar documents the life of country-Western singer and
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/russ-gurr-1-scaled.jpg
+featured_img: /images/feature/russ-gurr-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

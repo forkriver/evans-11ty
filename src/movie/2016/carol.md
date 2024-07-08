@@ -1,6 +1,7 @@
 ---
 title: Carol
 permalink: /movie/carol/
+date: "2015-12-16T00:29:04+00:00"
 showtime:
 - 2016-02-05 7:30:00 pm
 - 2016-02-06 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/carol-1-scaled.jpg
+featured_img: /images/feature/carol-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

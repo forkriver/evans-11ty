@@ -1,6 +1,7 @@
 ---
 title: Marguerite
 permalink: /movie/marguerite/
+date: "2016-10-27T03:44:48+00:00"
 showtime:
 - 2016-11-25 7:30:00 pm
 - 2016-11-26 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/marguerite-1.jpg
+featured_img: /images/feature/marguerite-1.jpg
 layout: movie
 links: false
 all_meta:

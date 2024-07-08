@@ -1,6 +1,7 @@
 ---
 title: Ben is Back
 permalink: /movie/ben-is-back/
+date: "2018-12-04T15:38:00+00:00"
 showtime:
 - 2019-02-15 7:30:00 pm
 - 2019-02-16 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/ben-is-back-1-scaled.jpg
+featured_img: /images/feature/ben-is-back-1-scaled.jpg
 layout: movie
 links:
 - url: http://benisbackmovie.com/

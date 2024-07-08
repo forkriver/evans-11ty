@@ -1,6 +1,7 @@
 ---
 title: Patchworks 5
 permalink: /movie/patchworks-5/
+date: "2017-08-26T19:55:01+00:00"
 showtime:
 - 2017-09-30 3:00:00 pm
 excerpt: From a marathon runner to a fly fisherman and more, these films introduce
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/patchworks-1.png
+featured_img: /images/feature/patchworks-1.png
 layout: movie
 links:
 - url: http://www.thepatchworksproject.ca/

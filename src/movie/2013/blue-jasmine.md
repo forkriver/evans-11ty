@@ -1,6 +1,7 @@
 ---
 title: Blue Jasmine
 permalink: /movie/blue-jasmine/
+date: "2013-09-05T00:50:40+00:00"
 showtime:
 - 2013-10-25 7:30:00 pm
 - 2013-10-26 7:30:00 pm

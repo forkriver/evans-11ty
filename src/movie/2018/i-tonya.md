@@ -1,6 +1,7 @@
 ---
 title: I, Tonya
 permalink: /movie/i-tonya/
+date: "2018-03-02T15:34:17+00:00"
 showtime:
 - 2018-03-23 7:30:00 pm
 - 2018-03-24 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/7ZEodaptUw47YEdF4FnJC8fKQCc-1.jpg
+featured_img: /images/feature/7ZEodaptUw47YEdF4FnJC8fKQCc-1.jpg
 layout: movie
 links:
 - url: https://www.itonyamovie.com/

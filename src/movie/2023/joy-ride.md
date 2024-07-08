@@ -1,6 +1,7 @@
 ---
 title: Joy Ride
 permalink: /movie/joy-ride/
+date: "2023-09-12T01:51:22+00:00"
 showtime:
 - 2023-10-06 7:30:00 pm
 - 2023-10-07 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/joy-ride-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -32,14 +33,6 @@ all_meta:
   - "1696793400"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_3aabcca5d3ce7784ca7d25a757bb88be:
-  - <iframe title="Joy Ride (2023) Official Red Band Trailer - Ashley Park, Sherry
-    Cola, Stephanie Hsu, Sabrina Wu" width="640" height="360" src="https://www.youtube.com/embed/jyI-AM5VXDo?feature=oembed"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen></iframe>
-  _oembed_time_3aabcca5d3ce7784ca7d25a757bb88be:
-  - "1718666887"
 ---
 
 When Audrey's business trip to Asia goes sideways, she enlists the aid of Lolo, her irreverent, childhood best friend who also happens to be a hot mess; Kat, her college friend turned Chinese soap star; and Deadeye, Lolo's eccentric cousin. Their no-holds-barred, epic experience becomes a journey of bonding, friendship, belonging, and wild debauchery that reveals the universal truth of what it means to know and love who you are.

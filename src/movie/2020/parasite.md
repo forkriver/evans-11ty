@@ -1,6 +1,7 @@
 ---
 title: Parasite
 permalink: /movie/parasite/
+date: "2019-11-13T22:34:02+00:00"
 showtime:
 - 2020-02-14 7:30:00 pm
 - 2020-02-15 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/2MtpR7lLmLKfH1v5Etniucu18Wm.jpg
+featured_img: /images/feature/2MtpR7lLmLKfH1v5Etniucu18Wm.jpg
 layout: movie
 links: false
 all_meta:

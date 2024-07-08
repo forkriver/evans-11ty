@@ -1,6 +1,7 @@
 ---
 title: Jesus Christ Vampire Hunter
 permalink: /movie/jesus-christ-vampire-hunter/
+date: "2017-01-15T23:18:13+00:00"
 showtime:
 - 2017-03-11 11:59:00 pm
 excerpt: The first testament says &#8220;an eye for an eye.&#8221; The second testament
@@ -11,7 +12,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/jesus-christ-vampire-hunter-1.jpg
+featured_img: /images/feature/jesus-christ-vampire-hunter-1.jpg
 layout: movie
 links: false
 all_meta:

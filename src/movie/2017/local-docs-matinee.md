@@ -1,6 +1,7 @@
 ---
 title: Closing Time / The Time That Once Was
 permalink: /movie/local-docs-matinee/
+date: "2017-11-26T23:06:57+00:00"
 showtime:
 - 2017-12-10 2:00:00 pm
 excerpt: "A matin\xE9e presentation of two locally-produced documentaries. Closing
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG / G
   detail: false
-featured_img: /images/featured/The-Time-That-Once-Was-Poster-horiz-1.jpg
+featured_img: /images/feature/The-Time-That-Once-Was-Poster-horiz-1.jpg
 layout: movie
 links:
 - url: https://www.facebook.com/closingtimedoc/

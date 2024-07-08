@@ -1,6 +1,7 @@
 ---
 title: Powerhouse on the Prairies
 permalink: /movie/powerhouse-on-the-prairies/
+date: "2017-12-14T18:03:14+00:00"
 showtime:
 - 2018-01-06 2:00:00 pm
 excerpt: "Powerhouse on the Prairies:\_Brandon University Bobcats Men\u2019s Basketball,
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/powerhouse-no-logo-cropped-1.jpg
+featured_img: /images/feature/powerhouse-no-logo-cropped-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Patchworks 2
 permalink: /movie/patchworks-2/
+date: "2014-09-09T02:56:06+00:00"
 showtime:
 - 2014-09-27 2:00:00 pm
 - 2014-09-28 2:00:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Coco Ferme
 permalink: /movie/coco-ferme/
+date: "2023-03-29T21:49:10+00:00"
 showtime:
 - 2023-04-14 7:30:00 pm
 - 2023-04-15 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/coco-ferme.jpeg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Where Do We Go Now?
 permalink: /movie/where-do-we-go-now/
+date: "2012-08-24T02:40:30+00:00"
 showtime:
 - 2012-10-19 7:30:00 pm
 - 2012-10-20 7:30:00 pm

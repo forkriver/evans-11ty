@@ -1,6 +1,7 @@
 ---
 title: Citizen Kane
 permalink: /movie/citizen-kane/
+date: "2012-12-31T23:54:45+00:00"
 showtime:
 - 2013-01-25 9:30:00 pm
 - 2013-01-26 9:30:00 pm

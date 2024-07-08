@@ -1,6 +1,7 @@
 ---
 title: Blues Brothers
 permalink: /movie/blues-brothers/
+date: "2012-12-31T23:22:11+00:00"
 showtime:
 - 2013-01-04 9:30:00 pm
 - 2013-01-05 9:30:00 pm

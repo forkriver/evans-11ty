@@ -1,6 +1,7 @@
 ---
 title: Gold Rush
 permalink: /movie/gold-rush/
+date: "2017-01-15T23:30:46+00:00"
 showtime:
 - 2017-03-12 7:00:00 pm
 excerpt: 'Note: Gold Rush plays at 7:00 PM. A lone prospector ventures into Alaska
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/gold-rush-1.jpg
+featured_img: /images/feature/gold-rush-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Royal Hotel
 permalink: /movie/royal-hotel/
+date: "2023-11-09T18:37:59+00:00"
 showtime:
 - 2023-12-08 7:30:00 pm
 - 2023-12-09 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/royal-hotel-scaled.jpg
 layout: movie
 links: false
 all_meta:

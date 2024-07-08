@@ -1,6 +1,7 @@
 ---
 title: Dream Scenario
 permalink: /movie/dream-scenario/
+date: "2024-03-03T20:59:06+00:00"
 showtime:
 - 2024-04-19 7:30:00 pm
 - 2024-04-20 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/dream-scenario-scaled.jpg
 layout: movie
 links: false
 all_meta:

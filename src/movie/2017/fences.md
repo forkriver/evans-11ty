@@ -1,6 +1,7 @@
 ---
 title: Fences
 permalink: /movie/fences/
+date: "2017-03-18T19:43:28+00:00"
 showtime:
 - 2017-03-24 7:30:00 pm
 - 2017-03-25 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/fences-1.jpg
+featured_img: /images/feature/fences-1.jpg
 layout: movie
 links:
 - url: http://www.fencesmovie.com/

@@ -1,6 +1,7 @@
 ---
 title: The Way Back
 permalink: /movie/the-way-back/
+date: "2011-10-14T21:26:25+00:00"
 showtime:
 - 2011-10-28 7:30:00 pm
 - 2011-10-29 7:30:00 pm

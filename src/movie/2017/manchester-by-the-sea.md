@@ -1,6 +1,7 @@
 ---
 title: Manchester by the Sea
 permalink: /movie/manchester-by-the-sea/
+date: "2016-12-16T00:01:52+00:00"
 showtime:
 - 2017-02-03 7:30:00 pm
 - 2017-02-04 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/manchester-by-the-sea-1.jpg
+featured_img: /images/feature/manchester-by-the-sea-1.jpg
 layout: movie
 links:
 - url: http://manchesterbytheseathemovie.com/

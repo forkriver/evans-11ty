@@ -1,6 +1,7 @@
 ---
 title: Patchworks 4
 permalink: /movie/patchworks-4/
+date: "2016-09-17T03:31:14+00:00"
 showtime:
 - 2016-09-25 3:00:00 pm
 excerpt: Check out more documentaries about the fascinating people of Westman! Admission
@@ -11,7 +12,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/pw4-eVANS-ALL7-v4-1.jpg
+featured_img: /images/feature/pw4-eVANS-ALL7-v4-1.jpg
 layout: movie
 links:
 - url: http://www.thepatchworksproject.ca/patchworks-4/

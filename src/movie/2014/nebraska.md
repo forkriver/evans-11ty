@@ -1,6 +1,7 @@
 ---
 title: Nebraska
 permalink: /movie/nebraska/
+date: "2014-02-22T03:22:58+00:00"
 showtime:
 - 2014-03-07 7:30:00 pm
 - 2014-03-08 7:30:00 pm

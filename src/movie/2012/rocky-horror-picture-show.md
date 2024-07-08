@@ -1,6 +1,7 @@
 ---
 title: Rocky Horror Picture Show
 permalink: /movie/rocky-horror-picture-show/
+date: "2011-01-29T18:10:43+00:00"
 showtime:
 - 2012-02-11 11:00:00 pm
 excerpt: "The one, the only, Rocky Horror Picture Show!\xC3\u201A\xC2\_ At the Evans

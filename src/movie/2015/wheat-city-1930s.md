@@ -1,6 +1,7 @@
 ---
 title: 'Wheat City: 1930s'
 permalink: /movie/wheat-city-1930s/
+date: "2014-09-22T14:03:04+00:00"
 showtime:
 - 2015-07-18 7:30:00 pm
 excerpt: "Wheat City: 1930s: A prairie town in the era of the Great Depression portrays

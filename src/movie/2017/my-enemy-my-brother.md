@@ -1,6 +1,7 @@
 ---
 title: My Enemy, My Brother
 permalink: /movie/my-enemy-my-brother/
+date: "2017-09-11T14:29:23+00:00"
 showtime:
 - 2017-10-27 7:30:00 pm
 - 2017-10-28 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/my-enemy-my-brother-1.jpg
+featured_img: /images/feature/my-enemy-my-brother-1.jpg
 layout: movie
 links:
 - url: http://www.myenemymybrothermovie.com/#my-enemy-my-brother

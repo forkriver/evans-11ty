@@ -1,6 +1,7 @@
 ---
 title: Reunion of Giants
 permalink: /movie/reunion-of-giants/
+date: "2018-12-04T15:24:28+00:00"
 showtime:
 - 2019-01-27 2:00:00 pm
 excerpt: "In memory of projectionist Earl Thompson, we present one of his favourite
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: G
   detail: false
-featured_img: /images/featured/reunion-of-giants-1.jpg
+featured_img: /images/feature/reunion-of-giants-1.jpg
 layout: movie
 links: false
 all_meta:

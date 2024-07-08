@@ -1,6 +1,7 @@
 ---
 title: Then & Now
 permalink: /movie/then-now/
+date: "2016-11-03T21:17:06+00:00"
 showtime:
 - 2019-11-11 2:00:00 pm
 excerpt: 'A special documentary for Remembrance Day. Then &amp; Now: Life in the Regiment.
@@ -11,7 +12,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/2-Poster-Then-and-Now-res-Evans-poster-1.jpg
+featured_img: /images/feature/2-Poster-Then-and-Now-res-Evans-poster-1.jpg
 layout: movie
 links: false
 all_meta:

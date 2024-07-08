@@ -1,6 +1,7 @@
 ---
 title: Global Impressions
 permalink: /movie/global-impressions/
+date: "2018-05-04T14:21:57+00:00"
 showtime:
 - 2018-05-10 7:30:00 pm
 excerpt: "A showing of global images by award-winning photojournalist Wendell Phillips.
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/WP-pg2-1.jpg
+featured_img: /images/feature/WP-pg2-1.jpg
 layout: movie
 links:
 - url: ""

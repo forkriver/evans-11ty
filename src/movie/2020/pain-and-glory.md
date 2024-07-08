@@ -1,6 +1,7 @@
 ---
 title: Pain and Glory
 permalink: /movie/pain-and-glory/
+date: "2019-12-08T19:10:20+00:00"
 showtime:
 - 2020-01-17 7:30:00 pm
 - 2020-01-18 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/pain-and-glory.jpg
+featured_img: /images/feature/pain-and-glory.jpg
 layout: movie
 links:
 - url: https://www.sonyclassics.com/painandglory/

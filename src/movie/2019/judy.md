@@ -1,6 +1,7 @@
 ---
 title: Judy
 permalink: /movie/judy/
+date: "2019-10-23T01:25:07+00:00"
 showtime:
 - 2019-11-01 7:30:00 pm
 - 2019-11-02 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/judy-scaled.jpg
+featured_img: /images/feature/judy-scaled.jpg
 layout: movie
 links: false
 all_meta:

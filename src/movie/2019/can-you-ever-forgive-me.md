@@ -1,6 +1,7 @@
 ---
 title: Can You Ever Forgive Me?
 permalink: /movie/can-you-ever-forgive-me/
+date: "2018-12-04T15:30:54+00:00"
 showtime:
 - 2019-02-01 7:30:00 pm
 - 2019-02-02 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/can-you-ever-forgive-me-1-scaled.jpg
+featured_img: /images/feature/can-you-ever-forgive-me-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

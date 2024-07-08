@@ -1,6 +1,7 @@
 ---
 title: To the Ends of the Earth
 permalink: /movie/to-the-ends-of-the-earth/
+date: "2017-01-12T04:37:06+00:00"
 showtime:
 - 2017-02-12 4:00:00 pm
 excerpt: To the Ends of the Earth follows concerned citizens living at the frontiers
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ends-of-the-earth-1920-1.jpg
+featured_img: /images/feature/ends-of-the-earth-1920-1.jpg
 layout: movie
 links:
 - url: http://endsofearthfilm.com/

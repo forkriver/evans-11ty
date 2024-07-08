@@ -1,6 +1,7 @@
 ---
 title: Much Ado About Nothing
 permalink: /movie/much-ado-about-nothing/
+date: "2013-10-08T02:23:56+00:00"
 showtime:
 - 2013-11-01 7:30:00 pm
 - 2013-11-02 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Goodbye Christopher Robin
 permalink: /movie/goodbye-christopher-robin/
+date: "2017-12-20T02:27:30+00:00"
 showtime:
 - 2018-01-05 7:30:00 pm
 - 2018-01-06 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/goodbye-christopher-robin-1.jpg
+featured_img: /images/feature/goodbye-christopher-robin-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: All the Time in the World
 permalink: /movie/all-the-time-in-the-world/
+date: "2017-01-15T22:52:09+00:00"
 showtime:
 - 2017-03-10 9:30:00 pm
 excerpt: "In search of a new perspective,\_ a family of five leave the comforts of
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/all-the-time-in-the-world-1.jpg
+featured_img: /images/feature/all-the-time-in-the-world-1.jpg
 layout: movie
 links:
 - url: http://allthetimeintheworld.ca/

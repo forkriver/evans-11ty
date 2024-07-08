@@ -1,6 +1,7 @@
 ---
 title: All is Lost
 permalink: /movie/all-is-lost/
+date: "2014-02-22T03:41:54+00:00"
 showtime:
 - 2014-04-11 7:30:00 pm
 - 2014-04-12 7:30:00 pm

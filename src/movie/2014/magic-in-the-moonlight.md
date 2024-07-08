@@ -1,6 +1,7 @@
 ---
 title: Magic in the Moonlight
 permalink: /movie/magic-in-the-moonlight/
+date: "2014-09-09T02:31:16+00:00"
 showtime:
 - 2014-10-10 7:30:00 pm
 - 2014-10-11 7:30:00 pm

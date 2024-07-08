@@ -1,6 +1,7 @@
 ---
 title: The Overnighters
 permalink: /movie/the-overnighters/
+date: "2014-09-09T02:47:33+00:00"
 showtime:
 - 2014-11-08 7:30:00 pm
 - 2014-11-09 7:30:00 pm

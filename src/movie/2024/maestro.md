@@ -1,6 +1,7 @@
 ---
 title: Maestro
 permalink: /movie/maestro/
+date: "2023-12-07T18:50:10+00:00"
 showtime:
 - 2024-01-19 7:30:00 pm
 - 2024-01-20 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/maestro-scaled.jpg
 layout: movie
 links: false
 all_meta:

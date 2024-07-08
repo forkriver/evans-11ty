@@ -1,6 +1,7 @@
 ---
 title: Brooklyn
 permalink: /movie/brooklyn/
+date: "2015-10-23T03:48:33+00:00"
 showtime:
 - 2015-12-04 7:30:00 pm
 - 2015-12-05 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/brooklyn-1.jpg
+featured_img: /images/feature/brooklyn-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Calvary
 permalink: /movie/calvary/
+date: "2014-09-09T02:38:03+00:00"
 showtime:
 - 2014-10-24 7:30:00 pm
 - 2014-10-25 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Learning to Drive
 permalink: /movie/learning-to-drive/
+date: "2015-08-19T02:28:29+00:00"
 showtime:
 - 2015-10-16 7:30:00 pm
 - 2015-10-17 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/learning-to-drive-1.jpg
+featured_img: /images/feature/learning-to-drive-1.jpg
 layout: movie
 links: false
 all_meta:

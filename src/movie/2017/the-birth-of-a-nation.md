@@ -1,6 +1,7 @@
 ---
 title: The Birth of a Nation
 permalink: /movie/the-birth-of-a-nation/
+date: "2017-01-12T04:18:59+00:00"
 showtime:
 - 2017-01-27 7:30:00 pm
 - 2017-01-28 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/birth-of-a-nation-1.jpg
+featured_img: /images/feature/birth-of-a-nation-1.jpg
 layout: movie
 links:
 - url: http://www.foxsearchlight.com/thebirthofanation/

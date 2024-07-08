@@ -1,6 +1,7 @@
 ---
 title: My Prairie Home
 permalink: /movie/my-prairie-home/
+date: "2013-10-10T14:33:12+00:00"
 showtime:
 - 2013-11-22 6:00:00 pm
 excerpt: "Transgender musician and performer Rae Spoon is crossing endless fields

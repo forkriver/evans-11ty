@@ -1,6 +1,7 @@
 ---
 title: The Sessions
 permalink: /movie/the-sessions/
+date: "2013-01-31T14:54:33+00:00"
 showtime:
 - 2013-02-15 7:30:00 pm
 - 2013-02-16 7:30:00 pm

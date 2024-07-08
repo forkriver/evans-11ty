@@ -1,6 +1,7 @@
 ---
 title: Don't Worry, He Won't Get Far on Foot
 permalink: /movie/dont-worry-he-wont-get-far-on-foot/
+date: "2018-08-31T02:54:22+00:00"
 showtime:
 - 2018-10-26 7:30:00 pm
 - 2018-10-27 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/dont-worry-1-scaled.jpg
+featured_img: /images/feature/dont-worry-1-scaled.jpg
 layout: movie
 links:
 - url: https://www.dontworry.movie/

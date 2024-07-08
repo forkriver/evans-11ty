@@ -1,6 +1,7 @@
 ---
 title: Gone With the Wind
 permalink: /movie/gone-with-the-wind/
+date: "2017-01-15T23:22:06+00:00"
 showtime:
 - 2017-03-12 12:00:00 pm
 excerpt: 'Note: Gone With the Wind plays at 12:00 PM (noon). An American classic in
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/gone-with-the-wind-1.jpg
+featured_img: /images/feature/gone-with-the-wind-1.jpg
 layout: movie
 links:
 - url: ""

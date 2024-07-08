@@ -1,6 +1,7 @@
 ---
 title: Barbara
 permalink: /movie/barbara/
+date: "2012-12-31T23:28:53+00:00"
 showtime:
 - 2013-01-11 7:30:00 pm
 - 2013-01-12 7:30:00 pm

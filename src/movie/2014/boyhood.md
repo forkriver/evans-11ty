@@ -1,6 +1,7 @@
 ---
 title: Boyhood
 permalink: /movie/boyhood/
+date: "2014-09-09T02:34:27+00:00"
 showtime:
 - 2014-10-18 7:30:00 pm
 - 2014-10-19 7:30:00 pm

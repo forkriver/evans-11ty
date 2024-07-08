@@ -1,6 +1,7 @@
 ---
 title: Amour
 permalink: /movie/amour/
+date: "2013-03-30T04:07:16+00:00"
 showtime:
 - 2013-04-26 7:30:00 pm
 - 2013-04-27 7:30:00 pm

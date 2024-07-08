@@ -1,6 +1,7 @@
 ---
 title: Beasts of the Southern Wild
 permalink: /movie/beasts-of-the-southern-wild/
+date: "2012-11-09T13:53:28+00:00"
 showtime:
 - 2012-11-23 7:30:00 pm
 - 2012-11-24 7:30:00 pm

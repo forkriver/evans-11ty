@@ -1,6 +1,7 @@
 ---
 title: The Grand Seduction
 permalink: /movie/the-grand-seduction/
+date: "2014-09-09T02:10:45+00:00"
 showtime:
 - 2014-09-19 7:30:00 pm
 - 2014-09-20 7:30:00 pm

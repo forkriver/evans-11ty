@@ -1,6 +1,7 @@
 ---
 title: Hearts Beat Loud
 permalink: /movie/hearts-beat-loud/
+date: "2018-08-31T02:31:37+00:00"
 showtime:
 - 2018-10-05 7:30:00 pm
 - 2018-10-06 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/hearts-beat-loud-1-scaled.jpg
+featured_img: /images/feature/hearts-beat-loud-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

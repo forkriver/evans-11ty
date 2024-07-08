@@ -1,6 +1,7 @@
 ---
 title: Miss You Already
 permalink: /movie/miss-you-already/
+date: "2015-12-16T00:21:57+00:00"
 showtime:
 - 2016-01-15 7:30:00 pm
 - 2016-01-16 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/miss-you-already-1.jpg
+featured_img: /images/feature/miss-you-already-1.jpg
 layout: movie
 links: false
 all_meta:

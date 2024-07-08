@@ -1,6 +1,7 @@
 ---
 title: Jackie
 permalink: /movie/jackie/
+date: "2017-03-18T20:02:25+00:00"
 showtime:
 - 2017-04-14 7:30:00 pm
 - 2017-04-15 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/jackie-1-scaled.jpg
+featured_img: /images/feature/jackie-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.foxsearchlight.com/jackie/

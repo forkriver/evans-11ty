@@ -1,6 +1,7 @@
 ---
 title: Robot & Frank
 permalink: /movie/robot-and-frank/
+date: "2012-10-22T21:58:45+00:00"
 showtime:
 - 2012-11-09 7:30:00 pm
 - 2012-11-10 7:30:00 pm

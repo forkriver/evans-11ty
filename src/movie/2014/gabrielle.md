@@ -1,6 +1,7 @@
 ---
 title: Gabrielle
 permalink: /movie/gabrielle/
+date: "2014-02-22T03:37:46+00:00"
 showtime:
 - 2014-04-04 7:30:00 pm
 - 2014-04-05 7:30:00 pm

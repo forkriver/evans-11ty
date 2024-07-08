@@ -1,6 +1,7 @@
 ---
 title: Colette
 permalink: /movie/colette/
+date: "2018-10-25T13:48:22+00:00"
 showtime:
 - 2018-11-02 7:30:00 pm
 - 2018-11-03 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/colette-1-scaled.jpg
+featured_img: /images/feature/colette-1-scaled.jpg
 layout: movie
 links:
 - url: https://bleeckerstreetmedia.com/colette

@@ -1,6 +1,7 @@
 ---
 title: The Bystander Moment
 permalink: /movie/the-bystander-moment/
+date: "2019-03-02T03:43:48+00:00"
 showtime:
 - 2019-03-06 7:00:00 pm
 excerpt: 'Special event. Regular Evans pricing may not apply. Note: This show begins
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-bystander-moment-1.png
+featured_img: /images/feature/the-bystander-moment-1.png
 layout: movie
 links:
 - url: http://bystandermoment.org/

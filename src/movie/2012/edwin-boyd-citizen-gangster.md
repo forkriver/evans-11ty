@@ -1,6 +1,7 @@
 ---
 title: 'Edwin Boyd: Citizen Gangster'
 permalink: /movie/edwin-boyd-citizen-gangster/
+date: "2012-10-29T17:00:15+00:00"
 showtime:
 - 2012-11-16 7:30:00 pm
 - 2012-11-17 7:30:00 pm

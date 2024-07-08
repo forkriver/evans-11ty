@@ -1,6 +1,7 @@
 ---
 title: In the Archives
 permalink: /movie/in-the-archives/
+date: "2018-05-04T11:11:51+00:00"
 showtime:
 - 2018-06-02 2:00:00 pm
 excerpt: "This documentary series by Brandon filmmaker and archivist Tom Mitchell
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/in-the-archives-evans-1-scaled.jpg
+featured_img: /images/feature/in-the-archives-evans-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

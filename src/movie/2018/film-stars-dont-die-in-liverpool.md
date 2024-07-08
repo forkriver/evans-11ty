@@ -1,6 +1,7 @@
 ---
 title: Film Stars Don't Die in Liverpool
 permalink: /movie/film-stars-dont-die-in-liverpool/
+date: "2018-01-31T02:42:04+00:00"
 showtime:
 - 2018-03-02 7:30:00 pm
 - 2018-03-03 7:30:00 pm
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/film-stars-1-scaled.jpg
+featured_img: /images/feature/film-stars-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Remembrance Day 2023
 permalink: /movie/remembrance-day-2023/
+date: "2023-11-09T18:53:02+00:00"
 showtime:
 - 2023-11-11 1:00:00 pm
 excerpt: 'Admission is free; donations will be gratefully accepted. We present 2 documentaries:
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/2-Poster-Then-and-Now-res-Evans-poster-1.jpg
+featured_img: /images/feature/2-Poster-Then-and-Now-res-Evans-poster-1.jpg
 layout: movie
 links: false
 all_meta:

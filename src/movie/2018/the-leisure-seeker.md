@@ -1,6 +1,7 @@
 ---
 title: The Leisure Seeker
 permalink: /movie/the-leisure-seeker/
+date: "2017-12-20T02:47:16+00:00"
 showtime:
 - 2018-03-30 7:30:00 pm
 - 2018-03-31 2:00:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/leisure-seeker-1.jpg
+featured_img: /images/feature/leisure-seeker-1.jpg
 layout: movie
 links: false
 all_meta:

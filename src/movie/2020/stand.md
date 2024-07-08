@@ -1,6 +1,7 @@
 ---
 title: Stand!
 permalink: /movie/stand/
+date: "2019-12-21T22:19:49+00:00"
 showtime:
 - 2020-01-10 7:30:00 pm
 - 2020-01-11 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/stand.jpg
+featured_img: /images/feature/stand.jpg
 layout: movie
 links:
 - url: http://stand-movie.com/

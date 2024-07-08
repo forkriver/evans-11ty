@@ -1,6 +1,7 @@
 ---
 title: Battle of the Sexes
 permalink: /movie/battle-of-the-sexes/
+date: "2017-11-02T14:23:23+00:00"
 showtime:
 - 2017-12-08 7:30:00 pm
 - 2017-12-09 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/battle-of-the-sexes-1.jpg
+featured_img: /images/feature/battle-of-the-sexes-1.jpg
 layout: movie
 links:
 - url: http://www.battleofthesexesmovie.co.uk/

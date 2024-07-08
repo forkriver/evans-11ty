@@ -1,6 +1,7 @@
 ---
 title: The Red Violin
 permalink: /movie/the-red-violin/
+date: "2017-01-15T23:25:05+00:00"
 showtime:
 - 2017-03-12 4:30:00 pm
 excerpt: 'Note: The Red Violin plays at 4:30 PM. Crafted by the Italian master Bussotti
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-red-violin-1.jpg
+featured_img: /images/feature/the-red-violin-1.jpg
 layout: movie
 links:
 - url: ""

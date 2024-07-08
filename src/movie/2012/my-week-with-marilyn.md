@@ -1,6 +1,7 @@
 ---
 title: My Week With Marilyn
 permalink: /movie/my-week-with-marilyn/
+date: "2012-01-18T19:38:50+00:00"
 showtime:
 - 2012-02-17 7:30:00 pm
 - 2012-02-18 7:30:00 pm

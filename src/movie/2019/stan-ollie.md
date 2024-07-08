@@ -1,6 +1,7 @@
 ---
 title: Stan & Ollie
 permalink: /movie/stan-ollie/
+date: "2019-02-27T03:05:58+00:00"
 showtime:
 - 2019-04-05 7:30:00 pm
 - 2019-04-06 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: G
   detail: false
-featured_img: /images/featured/stan-and-ollie-1-scaled.jpg
+featured_img: /images/feature/stan-and-ollie-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

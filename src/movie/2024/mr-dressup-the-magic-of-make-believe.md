@@ -1,6 +1,7 @@
 ---
 title: 'Mr. Dressup: The Magic of Make-Believe'
 permalink: /movie/mr-dressup-the-magic-of-make-believe/
+date: "2023-12-07T18:50:44+00:00"
 showtime:
 - 2024-01-12 7:30:00 pm
 - 2024-01-13 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/mr-dressup.jpg
 layout: movie
 links: false
 all_meta:

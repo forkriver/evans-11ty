@@ -1,6 +1,7 @@
 ---
 title: Salt-Water Moon
 permalink: /movie/salt-water-moon/
+date: "2024-03-05T19:21:08+00:00"
 showtime:
 - 2024-04-04 7:00:00 pm
 - 2024-04-05 7:00:00 pm
@@ -17,7 +18,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/SWM-KJ-Promo-Photo-1-web-scaled.jpeg
 layout: movie
 links: false
 all_meta:
@@ -34,8 +35,6 @@ all_meta:
   - "1712430000"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _edit_lock:
-  - "1720226867:1"
 ---
 
 It’s a moonlit evening in a Newfoundland fishing village in 1926. Jacob Mercer has just returned home, desperate to win back the heart of his former flame, Mary Snow. Mary, still reeling from the heartbreak Jacob caused when he left, has become engaged to wealthy Jerome McKenzie. But this unexpected visit from Jacob could place her entire future in peril.

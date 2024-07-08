@@ -1,6 +1,7 @@
 ---
 title: Don't Talk to Irene
 permalink: /movie/dont-talk-to-irene/
+date: "2018-03-22T20:57:44+00:00"
 showtime:
 - 2018-04-13 7:30:00 pm
 - 2018-04-14 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/irene-1.jpg
+featured_img: /images/feature/irene-1.jpg
 layout: movie
 links: false
 all_meta:

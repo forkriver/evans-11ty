@@ -1,6 +1,7 @@
 ---
 title: Benediction
 permalink: /movie/benediction/
+date: "2022-12-07T19:06:58+00:00"
 showtime:
 - 2023-01-27 7:30:00 pm
 - 2023-01-28 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/benediction.jpg
+featured_img: /images/feature/benediction.jpg
 layout: movie
 links: false
 all_meta:
@@ -32,13 +33,6 @@ all_meta:
   - "1675020600"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_a86f25262c3b39e3630be4ab9b9458b0:
-  - <iframe title="Benediction - Trailer - In Cinemas This Spring" width="640" height="360"
-    src="https://www.youtube.com/embed/6L38k6l9DFQ?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_a86f25262c3b39e3630be4ab9b9458b0:
-  - "1718666883"
 ---
 
 Poet Siegfried Sassoon survived the horrors of fighting in the First World War and was decorated for his bravery, but became a vocal critic of the government's continuation of the war when he returned from service. Adored by members of the aristocracy as well as stars of London's literary and stage world, he embarked on affairs with several men as he attempted to come to terms with his homosexuality.

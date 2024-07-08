@@ -1,6 +1,7 @@
 ---
 title: The Intouchables
 permalink: /movie/the-intouchables/
+date: "2017-01-15T23:14:36+00:00"
 showtime:
 - 2017-03-11 9:30:00 pm
 excerpt: A widower, Philippe lives with his teenage daughter in a luxurious Paris
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/intouchables-1.jpg
+featured_img: /images/feature/intouchables-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Nyad
 permalink: /movie/nyad/
+date: "2024-03-03T20:55:30+00:00"
 showtime:
 - 2024-04-12 7:30:00 pm
 - 2024-04-13 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: false
+featured_img: /images/feature/nyad.jpg
 layout: movie
 links: false
 all_meta:

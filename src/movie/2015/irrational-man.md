@@ -1,6 +1,7 @@
 ---
 title: Irrational Man
 permalink: /movie/irrational-man/
+date: "2015-08-19T02:26:28+00:00"
 showtime:
 - 2015-10-02 7:30:00 pm
 - 2015-10-03 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/irrational-man-1.jpg
+featured_img: /images/feature/irrational-man-1.jpg
 layout: movie
 links: false
 all_meta:

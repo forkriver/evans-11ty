@@ -1,6 +1,7 @@
 ---
 title: This Changes Everything
 permalink: /movie/this-changes-everything/
+date: "2016-02-10T21:19:03+00:00"
 showtime:
 - 2016-03-31 7:30:00 pm
 excerpt: 'This is a special event, presented in conjunction with the Council of Canadians.
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/this-changes-everything-1.jpg
+featured_img: /images/feature/this-changes-everything-1.jpg
 layout: movie
 links:
 - url: http://thischangeseverything.org/

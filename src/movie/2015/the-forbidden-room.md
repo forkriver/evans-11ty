@@ -1,6 +1,7 @@
 ---
 title: The Forbidden Room
 permalink: /movie/the-forbidden-room/
+date: "2015-10-06T00:25:09+00:00"
 showtime:
 - 2015-10-23 7:30:00 pm
 - 2015-10-24 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/forbidden-room-1.jpg
+featured_img: /images/feature/forbidden-room-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: A Fantastic Woman
 permalink: /movie/a-fantastic-woman/
+date: "2018-05-04T13:53:03+00:00"
 showtime:
 - 2018-06-13 7:30:00 pm
 excerpt: Marina, a transgender woman who works as a waitress and moonlights as a nightclub
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/a-fantastic-woman-1-scaled.jpg
+featured_img: /images/feature/a-fantastic-woman-1-scaled.jpg
 layout: movie
 links:
 - url: https://sonyclassics.com/afantasticwoman/

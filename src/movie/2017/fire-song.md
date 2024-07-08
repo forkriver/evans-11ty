@@ -1,6 +1,7 @@
 ---
 title: Fire Song
 permalink: /movie/fire-song/
+date: "2017-03-23T21:31:28+00:00"
 showtime:
 - 2017-06-14 7:00:00 pm
 excerpt: 'Please note: Showtime is 7:00 PM. Shane, a gay Anishnabe teenager in Northern
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/fire-song-1.jpg
+featured_img: /images/feature/fire-song-1.jpg
 layout: movie
 links: false
 all_meta:

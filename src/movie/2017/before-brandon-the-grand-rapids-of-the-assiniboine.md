@@ -1,6 +1,7 @@
 ---
 title: 'Before Brandon: The Grand Rapids of the Assiniboine'
 permalink: /movie/before-brandon-the-grand-rapids-of-the-assiniboine/
+date: "2017-03-23T18:09:47+00:00"
 showtime:
 - 2017-04-23 2:00:00 pm
 excerpt: 'Before Brandon: The Grand Rapids of the Assiniboine is a feature documentary
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/Screenshot-2016-12-12-18.22.24-1.jpg
+featured_img: /images/feature/Screenshot-2016-12-12-18.22.24-1.jpg
 layout: movie
 links:
 - url: https://people.brandonu.ca/mitchellt/rapids-project/

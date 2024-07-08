@@ -1,6 +1,7 @@
 ---
 title: 50th Anniversary Film Festival
 permalink: /movie/50th-anniversary-film-festival/
+date: "2017-01-16T01:22:38+00:00"
 showtime:
 - 2017-03-10 7:00:00 pm
 - 2017-03-10 9:30:00 pm
@@ -24,7 +25,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ff-header-1-1.jpg
+featured_img: /images/feature/ff-header-1-1.jpg
 layout: movie
 links: false
 all_meta:

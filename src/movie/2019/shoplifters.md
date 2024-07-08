@@ -1,6 +1,7 @@
 ---
 title: Shoplifters
 permalink: /movie/shoplifters/
+date: "2018-12-04T15:34:54+00:00"
 showtime:
 - 2019-02-08 7:30:00 pm
 - 2019-02-09 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/shoplifters-1.jpg
+featured_img: /images/feature/shoplifters-1.jpg
 layout: movie
 links:
 - url: https://www.shopliftersfilm.com/

@@ -1,6 +1,7 @@
 ---
 title: Ghosts of Whitewater Lake
 permalink: /movie/ghosts-of-whitewater-lake/
+date: "2016-11-03T21:23:12+00:00"
 showtime:
 - 2016-11-20 2:00:00 pm
 excerpt: From 1943-45, the Whitewater Lake Prisoner of War camp, located in Riding
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/Ghosts-005-1-scaled.jpg
+featured_img: /images/feature/Ghosts-005-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

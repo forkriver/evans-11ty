@@ -1,6 +1,7 @@
 ---
 title: The Sound of Music
 permalink: /movie/the-sound-of-music/
+date: "2013-10-08T02:43:40+00:00"
 showtime:
 - 2013-12-06 7:30:00 pm
 - 2013-12-07 7:30:00 pm

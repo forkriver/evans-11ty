@@ -1,6 +1,7 @@
 ---
 title: Solo
 permalink: /movie/solo/
+date: "2024-02-09T23:42:11+00:00"
 showtime:
 - 2024-02-23 7:30:00 pm
 - 2024-02-24 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/solo.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Mao's Last Dancer
 permalink: /movie/maos-last-dancer/
+date: "2017-01-15T23:09:50+00:00"
 showtime:
 - 2017-03-11 7:00:00 pm
 excerpt: At the age of 11, Li was plucked from a poor Chinese village by Madame Mao&#8217;s
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/maos-last-dancer-1.jpg
+featured_img: /images/feature/maos-last-dancer-1.jpg
 layout: movie
 links: false
 all_meta:

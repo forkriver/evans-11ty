@@ -1,6 +1,7 @@
 ---
 title: Spotlight
 permalink: /movie/spotlight/
+date: "2016-02-04T15:12:32+00:00"
 showtime:
 - 2016-03-04 7:30:00 pm
 - 2016-03-05 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/spotlight-1.jpg
+featured_img: /images/feature/spotlight-1.jpg
 layout: movie
 links:
 - url: http://spotlightthefilm.com/

@@ -1,6 +1,7 @@
 ---
 title: Brandon's Steamy Past
 permalink: /movie/brandons-steamy-past/
+date: "2018-01-18T22:19:08+00:00"
 showtime:
 - 2018-01-28 3:00:00 pm
 excerpt: Explore how a ribbon of steel, across a vast prairie landscape, fostered
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: Not yet rated
   detail: false
-featured_img: /images/featured/POSTER4-1-scaled.jpg
+featured_img: /images/feature/POSTER4-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

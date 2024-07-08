@@ -1,6 +1,7 @@
 ---
 title: Hyena Road
 permalink: /movie/hyena-road/
+date: "2017-10-20T01:54:00+00:00"
 showtime:
 - 2017-11-11 2:00:00 pm
 excerpt: "Three different men, three different worlds, three different wars \u2013
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/hyena-road-1.jpg
+featured_img: /images/feature/hyena-road-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Breathe
 permalink: /movie/breathe/
+date: "2017-11-02T14:19:46+00:00"
 showtime:
 - 2017-12-01 7:30:00 pm
 - 2017-12-02 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/breathe-1.jpg
+featured_img: /images/feature/breathe-1.jpg
 layout: movie
 links:
 - url: https://www.bleeckerstreetmedia.com/breathe

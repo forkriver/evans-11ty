@@ -1,6 +1,7 @@
 ---
 title: Rustin
 permalink: /movie/rustin/
+date: "2024-01-24T02:51:36+00:00"
 showtime:
 - 2024-02-16 7:30:00 pm
 - 2024-02-17 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: G
   detail: false
-featured_img: false
+featured_img: /images/feature/rustin-scaled.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: The Whistleblower
 permalink: /movie/the-whistleblower/
+date: "2011-10-14T21:39:51+00:00"
 showtime:
 - 2011-11-11 7:30:00 pm
 - 2011-11-12 7:30:00 pm

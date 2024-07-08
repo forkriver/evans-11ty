@@ -1,6 +1,7 @@
 ---
 title: 15 Reasons to Live
 permalink: /movie/15-reasons-to-live/
+date: "2013-09-08T00:34:36+00:00"
 showtime:
 - 2014-01-03 7:30:00 pm
 - 2014-01-04 7:30:00 pm

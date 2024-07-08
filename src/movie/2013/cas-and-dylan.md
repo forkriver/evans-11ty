@@ -1,6 +1,7 @@
 ---
 title: Cas & Dylan
 permalink: /movie/cas-and-dylan/
+date: "2013-11-16T22:18:09+00:00"
 showtime:
 - 2013-11-29 7:30:00 pm
 - 2013-11-30 7:30:00 pm

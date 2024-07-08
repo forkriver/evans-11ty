@@ -1,6 +1,7 @@
 ---
 title: The Peanut Butter Falcon
 permalink: /movie/the-peanut-butter-falcon/
+date: "2019-10-26T02:24:39+00:00"
 showtime:
 - 2019-11-15 7:30:00 pm
 - 2019-11-16 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/peanut-butter-falcon.jpg
+featured_img: /images/feature/peanut-butter-falcon.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: A Cat in Paris
 permalink: /movie/a-cat-in-paris/
+date: "2013-03-30T03:42:38+00:00"
 showtime:
 - 2013-04-05 7:30:00 pm
 - 2013-04-06 7:30:00 pm

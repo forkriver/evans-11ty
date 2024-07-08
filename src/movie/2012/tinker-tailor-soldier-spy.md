@@ -1,6 +1,7 @@
 ---
 title: Tinker Tailor Soldier Spy
 permalink: /movie/tinker-tailor-soldier-spy/
+date: "2012-02-17T20:52:28+00:00"
 showtime:
 - 2012-03-23 7:30:00 pm
 - 2012-03-24 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: The Other Side of Hope
 permalink: /movie/the-other-side-of-hope/
+date: "2018-01-25T22:53:04+00:00"
 showtime:
 - 2018-02-23 7:30:00 pm
 - 2018-02-24 7:30:00 pm
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/xXEGB6Nko3bH9GMPrdwRSeo8LA2-1-scaled.jpg
+featured_img: /images/feature/xXEGB6Nko3bH9GMPrdwRSeo8LA2-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

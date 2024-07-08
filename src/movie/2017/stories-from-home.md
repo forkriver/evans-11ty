@@ -1,6 +1,7 @@
 ---
 title: Stories From Home
 permalink: /movie/stories-from-home/
+date: "2017-01-15T23:02:27+00:00"
 showtime:
 - 2017-03-11 3:00:00 pm
 excerpt: 'A set of short documentaries, produced in Brandon and the Westman region.
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/patchworks-1.png
+featured_img: /images/feature/patchworks-1.png
 layout: movie
 links: false
 all_meta:

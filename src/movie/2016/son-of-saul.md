@@ -1,6 +1,7 @@
 ---
 title: Son of Saul
 permalink: /movie/son-of-saul/
+date: "2016-02-04T15:16:41+00:00"
 showtime:
 - 2016-03-11 7:30:00 pm
 - 2016-03-12 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/son-of-saul-1.jpg
+featured_img: /images/feature/son-of-saul-1.jpg
 layout: movie
 links:
 - url: http://www.laokoonfilm.com/movies/item/son-of-saul-saul-fia

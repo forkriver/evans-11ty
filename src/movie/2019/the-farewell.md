@@ -1,6 +1,7 @@
 ---
 title: The Farewell
 permalink: /movie/the-farewell/
+date: "2019-09-10T22:45:38+00:00"
 showtime:
 - 2019-09-27 7:30:00 pm
 - 2019-09-28 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-farewell-1-scaled.jpg
+featured_img: /images/feature/the-farewell-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

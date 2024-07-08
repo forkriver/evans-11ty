@@ -1,6 +1,7 @@
 ---
 title: The Sisters Brothers
 permalink: /movie/the-sisters-brothers/
+date: "2018-10-25T13:53:08+00:00"
 showtime:
 - 2018-11-09 7:30:00 pm
 - 2018-11-10 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/sisters-brothers-1.jpg
+featured_img: /images/feature/sisters-brothers-1.jpg
 layout: movie
 links:
 - url: http://www.thesistersbrothers.movie/

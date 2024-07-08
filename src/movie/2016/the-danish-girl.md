@@ -1,6 +1,7 @@
 ---
 title: The Danish Girl
 permalink: /movie/the-danish-girl/
+date: "2016-04-18T14:27:55+00:00"
 showtime:
 - 2016-06-15 9:00:00 pm
 excerpt: 'A special presentation in association with Pride Brandon. Special pricing
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/danish-girl-1.jpg
+featured_img: /images/feature/danish-girl-1.jpg
 layout: movie
 links:
 - url: ""

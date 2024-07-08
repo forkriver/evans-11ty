@@ -1,6 +1,7 @@
 ---
 title: Midnight's Children
 permalink: /movie/midnights-children/
+date: "2012-12-31T23:38:06+00:00"
 showtime:
 - 2013-01-18 7:30:00 pm
 - 2013-01-19 7:30:00 pm

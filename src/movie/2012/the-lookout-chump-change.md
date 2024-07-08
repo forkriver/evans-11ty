@@ -1,6 +1,7 @@
 ---
 title: The Lookout / Chump Change
 permalink: /movie/the-lookout-chump-change/
+date: "2012-08-24T18:17:54+00:00"
 showtime:
 - 2012-10-12 7:30:00 pm
 - 2012-10-13 7:30:00 pm

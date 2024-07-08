@@ -1,6 +1,7 @@
 ---
 title: Whispers in the Wheat
 permalink: /movie/whispers-in-the-wheat/
+date: "2022-11-13T21:01:34+00:00"
 showtime:
 - 2022-12-09 7:30:00 pm
 - 2022-12-10 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/Whispers-still-sundress-wide-2.png
+featured_img: /images/feature/Whispers-still-sundress-wide-2.png
 layout: movie
 links: false
 all_meta:
@@ -31,13 +32,6 @@ all_meta:
   - "1670787000"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_44014e079a9894e7d46b73e7dae1dd59:
-  - <iframe title="Whispers in the Wheat Official Trailer" width="640" height="360"
-    src="https://www.youtube.com/embed/og6f8Sn0pfc?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_44014e079a9894e7d46b73e7dae1dd59:
-  - "1718666882"
 ---
 
 **Note:** Friday's show is *sold out*. [Tickets are still available for Saturday and Sunday](https://www.eventbrite.ca/e/whispers-in-the-wheat-screening-tickets-462396609707).

@@ -1,6 +1,7 @@
 ---
 title: The Floating Man
 permalink: /movie/the-floating-man/
+date: "2023-11-29T19:26:28+00:00"
 showtime:
 - 2023-11-30 7:00:00 pm
 excerpt: "Michael V. Smith,\_award winning Canadian writer and poet, has a new film
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/Screenshot_2023-11-29_13-25-40.png
 layout: movie
 links: false
 all_meta:

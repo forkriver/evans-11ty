@@ -1,6 +1,7 @@
 ---
 title: Dallas Buyers Club
 permalink: /movie/dallas-buyers-club/
+date: "2014-02-22T03:27:43+00:00"
 showtime:
 - 2014-03-14 7:30:00 pm
 - 2014-03-15 7:30:00 pm

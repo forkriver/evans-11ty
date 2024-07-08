@@ -1,6 +1,7 @@
 ---
 title: Anna Karenina
 permalink: /movie/anna-karenina/
+date: "2013-03-30T03:59:47+00:00"
 showtime:
 - 2013-04-19 7:30:00 pm
 - 2013-04-20 7:30:00 pm

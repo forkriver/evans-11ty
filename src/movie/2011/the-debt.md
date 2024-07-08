@@ -1,6 +1,7 @@
 ---
 title: The Debt
 permalink: /movie/the-debt/
+date: "2011-08-18T20:24:17+00:00"
 showtime:
 - 2011-10-07 7:30:00 pm
 - 2011-10-08 7:30:00 pm

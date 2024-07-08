@@ -1,6 +1,7 @@
 ---
 title: 'Slut or Nut: The Diary of a Rape Trial'
 permalink: /movie/slut-or-nut-the-diary-of-a-rape-trial/
+date: "2019-03-02T03:54:10+00:00"
 showtime:
 - 2019-03-25 7:00:00 pm
 excerpt: 'Special event. Regular Evans pricing may not apply. Note: This show begins
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/SlutOrNut-1.jpg
+featured_img: /images/feature/SlutOrNut-1.jpg
 layout: movie
 links:
 - url: https://www.slutornut.ca

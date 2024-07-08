@@ -1,6 +1,7 @@
 ---
 title: Denial
 permalink: /movie/denial/
+date: "2017-01-12T04:12:03+00:00"
 showtime:
 - 2017-01-13 7:30:00 pm
 - 2017-01-14 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/denial-1-scaled.jpg
+featured_img: /images/feature/denial-1-scaled.jpg
 layout: movie
 links:
 - url: ""

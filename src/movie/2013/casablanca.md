@@ -1,6 +1,7 @@
 ---
 title: Casablanca
 permalink: /movie/casablanca/
+date: "2012-12-31T23:44:00+00:00"
 showtime:
 - 2013-01-18 9:30:00 pm
 - 2013-01-19 9:30:00 pm

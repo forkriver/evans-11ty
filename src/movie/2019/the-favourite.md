@@ -1,6 +1,7 @@
 ---
 title: The Favourite
 permalink: /movie/the-favourite/
+date: "2019-02-27T02:43:04+00:00"
 showtime:
 - 2019-03-22 7:30:00 pm
 - 2019-03-23 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/the-favourite-1.jpg
+featured_img: /images/feature/the-favourite-1.jpg
 layout: movie
 links: false
 all_meta:

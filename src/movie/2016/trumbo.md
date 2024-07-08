@@ -1,6 +1,7 @@
 ---
 title: Trumbo
 permalink: /movie/trumbo/
+date: "2015-12-16T00:24:22+00:00"
 showtime:
 - 2016-01-22 7:30:00 pm
 - 2016-01-23 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/trumbo-1-scaled.jpg
+featured_img: /images/feature/trumbo-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

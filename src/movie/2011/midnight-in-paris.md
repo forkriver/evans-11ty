@@ -1,6 +1,7 @@
 ---
 title: Midnight in Paris
 permalink: /movie/midnight-in-paris/
+date: "2011-08-18T20:16:33+00:00"
 showtime:
 - 2011-09-23 7:30:00 pm
 - 2011-09-24 7:30:00 pm

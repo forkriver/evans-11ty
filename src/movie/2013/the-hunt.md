@@ -1,6 +1,7 @@
 ---
 title: The Hunt
 permalink: /movie/the-hunt/
+date: "2013-11-15T21:56:30+00:00"
 showtime:
 - 2013-11-15 7:30:00 pm
 - 2013-11-16 7:30:00 pm

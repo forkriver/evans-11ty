@@ -1,6 +1,7 @@
 ---
 title: 20th Century Women
 permalink: /movie/20th-century-women/
+date: "2017-01-12T04:23:00+00:00"
 showtime:
 - 2017-02-10 7:30:00 pm
 - 2017-02-11 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/20th-century-women-1.jpg
+featured_img: /images/feature/20th-century-women-1.jpg
 layout: movie
 links: false
 all_meta:

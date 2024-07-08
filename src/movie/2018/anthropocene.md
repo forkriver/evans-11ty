@@ -1,6 +1,7 @@
 ---
 title: Anthropocene
 permalink: /movie/anthropocene/
+date: "2018-11-08T15:55:21+00:00"
 showtime:
 - 2018-11-23 7:30:00 pm
 - 2018-11-24 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/anthropocene-1.jpg
+featured_img: /images/feature/anthropocene-1.jpg
 layout: movie
 links: false
 all_meta:

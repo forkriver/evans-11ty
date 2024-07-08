@@ -1,6 +1,7 @@
 ---
 title: The Tree of Life
 permalink: /movie/tree-of-life/
+date: "2011-08-15T18:03:22+00:00"
 showtime:
 - 2011-09-30 7:30:00 pm
 - 2011-10-01 7:30:00 pm

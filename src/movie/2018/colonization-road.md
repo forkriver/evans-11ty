@@ -1,6 +1,7 @@
 ---
 title: Colonization Road
 permalink: /movie/colonization-road/
+date: "2018-05-04T13:37:04+00:00"
 showtime:
 - 2018-06-20 7:30:00 pm
 excerpt: In towns throughout Ontario, there are startling reminders of the colonization
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/colonization-road-1.jpg
+featured_img: /images/feature/colonization-road-1.jpg
 layout: movie
 links:
 - url: https://www.colonizationroad.com

@@ -1,6 +1,7 @@
 ---
 title: The Angels' Share
 permalink: /movie/the-angels-share/
+date: "2013-12-03T03:16:00+00:00"
 showtime:
 - 2014-01-17 7:30:00 pm
 - 2014-01-18 7:30:00 pm

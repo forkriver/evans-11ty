@@ -1,6 +1,7 @@
 ---
 title: Oddball
 permalink: /movie/oddball/
+date: "2016-08-28T17:48:06+00:00"
 showtime:
 - 2016-10-21 7:30:00 pm
 - 2016-10-22 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/oddball-1.jpg
+featured_img: /images/feature/oddball-1.jpg
 layout: movie
 links: false
 all_meta:

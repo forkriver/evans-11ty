@@ -1,6 +1,7 @@
 ---
 title: Chevalier
 permalink: /movie/chevalier/
+date: "2023-09-12T22:42:36+00:00"
 showtime:
 - 2023-10-27 7:30:00 pm
 - 2023-10-28 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/chevalier-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -32,13 +33,6 @@ all_meta:
   - "1698607800"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_7510014c8711d16b3b2dde45e492348f:
-  - <iframe title="CHEVALIER | Official Trailer | Searchlight Pictures" width="640"
-    height="360" src="https://www.youtube.com/embed/-LtCIImfSCk?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_7510014c8711d16b3b2dde45e492348f:
-  - "1718666887"
 ---
 
 The illegitimate son of an enslaved African and a French plantation owner, Bologne rises to improbable heights in French society as a celebrated violinist-composer and fencer, complete with an ill-fated love affair and a falling out with Marie Antoinette and her court. Inspired by the incredible true story of composer Joseph Bologne, Chevalier de Saint-Georges.

@@ -1,6 +1,7 @@
 ---
 title: Battle of Britain
 permalink: /movie/battle-of-britain/
+date: "2015-10-06T00:50:39+00:00"
 showtime:
 - 2015-11-11 2:00:00 pm
 excerpt: In 1940, the British Royal Air Force fights a desperate battle against the
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/battle-of-britain-1.jpg
+featured_img: /images/feature/battle-of-britain-1.jpg
 layout: movie
 links: false
 all_meta:

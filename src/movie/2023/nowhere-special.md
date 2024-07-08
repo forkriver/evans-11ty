@@ -1,6 +1,7 @@
 ---
 title: Nowhere Special
 permalink: /movie/nowhere-special/
+date: "2022-12-07T18:56:24+00:00"
 showtime:
 - 2023-01-13 7:30:00 pm
 - 2023-01-14 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/nowhere-special.jpg
+featured_img: /images/feature/nowhere-special.jpg
 layout: movie
 links: false
 all_meta:
@@ -32,14 +33,6 @@ all_meta:
   - "1673811000"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_408a9fc2296b201b96f7705c3dfee7ba:
-  - <iframe title="NOWHERE SPECIAL | Official UK Trailer [HD] - In Cinemas 16 July"
-    width="640" height="360" src="https://www.youtube.com/embed/hLTQxSyT3mc?feature=oembed"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen></iframe>
-  _oembed_time_408a9fc2296b201b96f7705c3dfee7ba:
-  - "1718666882"
 ---
 
 John, a 35-year-old window cleaner, has dedicated his life to bringing up his 4-year-old son, Michael, after the child's mother left them soon after giving birth. When John is given only a few months left to live, he attempts to find a new, perfect family for Michael, determined to shield him from the terrible reality of the situation.

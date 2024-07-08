@@ -1,6 +1,7 @@
 ---
 title: The Artist
 permalink: /movie/the-artist/
+date: "2012-02-17T21:00:04+00:00"
 showtime:
 - 2012-04-13 7:30:00 pm
 - 2012-04-14 7:30:00 pm

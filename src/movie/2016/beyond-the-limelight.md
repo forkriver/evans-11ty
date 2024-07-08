@@ -1,6 +1,7 @@
 ---
 title: Beyond the Limelight
 permalink: /movie/beyond-the-limelight/
+date: "2016-11-29T19:33:25+00:00"
 showtime:
 - 2016-12-09 7:30:00 pm
 excerpt: A documentary about James Ehnes made by local filmmaker Nate Bower. This
@@ -11,7 +12,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ehnes-1.jpeg
+featured_img: /images/feature/ehnes-1.jpeg
 layout: movie
 links: false
 all_meta:

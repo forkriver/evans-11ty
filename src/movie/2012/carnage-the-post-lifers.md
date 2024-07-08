@@ -1,6 +1,7 @@
 ---
 title: Carnage + The Post-Lifers
 permalink: /movie/carnage-the-post-lifers/
+date: "2012-03-22T19:22:27+00:00"
 showtime:
 - 2012-03-30 7:30:00 pm
 - 2012-03-31 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Dragon Blade
 permalink: /movie/dragon-blade/
+date: "2015-10-06T00:30:44+00:00"
 showtime:
 - 2015-10-30 7:30:00 pm
 - 2015-10-31 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/dragon-blade-1-scaled.jpg
+featured_img: /images/feature/dragon-blade-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

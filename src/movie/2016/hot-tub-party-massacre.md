@@ -1,6 +1,7 @@
 ---
 title: Hot Tub Party Massacre
 permalink: /movie/hot-tub-party-massacre/
+date: "2016-09-17T03:39:35+00:00"
 showtime:
 - 2016-10-28 10:00:00 pm
 excerpt: The sisters of the Delta Omega Sorority are having a hot tub party at a luxurious
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/14232620_10210393746269353_2936994789479113160_n-1.jpg
+featured_img: /images/feature/14232620_10210393746269353_2936994789479113160_n-1.jpg
 layout: movie
 links: false
 all_meta:

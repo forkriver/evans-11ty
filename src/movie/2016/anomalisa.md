@@ -1,6 +1,7 @@
 ---
 title: Anomalisa
 permalink: /movie/anomalisa/
+date: "2016-03-06T17:10:30+00:00"
 showtime:
 - 2016-04-08 7:30:00 pm
 - 2016-04-09 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/anomalisa-1.jpg
+featured_img: /images/feature/anomalisa-1.jpg
 layout: movie
 links:
 - url: http://www.anomalisa.com/

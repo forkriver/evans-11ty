@@ -1,6 +1,7 @@
 ---
 title: A Little Bit Zombie
 permalink: /movie/a-little-bit-zombie/
+date: "2012-08-01T21:16:07+00:00"
 showtime:
 - 2012-09-21 7:30:00 pm
 - 2012-09-22 7:30:00 pm

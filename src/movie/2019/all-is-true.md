@@ -1,6 +1,7 @@
 ---
 title: All is True
 permalink: /movie/all-is-true/
+date: "2019-09-10T22:47:45+00:00"
 showtime:
 - 2019-10-11 7:30:00 pm
 - 2019-10-12 7:30:00 pm
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/all-is-true-1-scaled.jpg
+featured_img: /images/feature/all-is-true-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

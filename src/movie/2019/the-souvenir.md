@@ -1,6 +1,7 @@
 ---
 title: The Souvenir
 permalink: /movie/the-souvenir/
+date: "2019-10-23T01:36:33+00:00"
 showtime:
 - 2019-11-29 7:30:00 pm
 - 2019-11-30 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/souvenir.jpg
+featured_img: /images/feature/souvenir.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,37 +1,39 @@
 ---
-title: Allelujah
+title: 'Hallelujah: Leonard Cohen, A Journey, A Song'
 permalink: /movie/allelujah/
+date: "2022-09-08T22:37:29+00:00"
 showtime:
-- 2022-10-14 7:30:00 pm
-- 2022-10-15 7:30:00 pm
-- 2022-10-16 7:30:00 pm
-excerpt: Set in a geriatric ward within a small hospital, when news of its closure
-  begins to reach the community, the hospital invites a local news crew to document
-  their planning of a concert in honor of the hospital&#8217;s most celebrated nurse.
-  But there might be something more threatening to the hospital itself, more deadly
-  than [&hellip;]
+- 2022-10-28 7:30:00 pm
+- 2022-10-29 7:30:00 pm
+- 2022-10-30 7:30:00 pm
+excerpt: 'This feature-length documentary explores the life of singer-songwriter Leonard
+  Cohen as seen through the prism of his internationally renowned hymn, Hallelujah.
+  Note: This is the correct write-up for the film. A previous write-up referred to
+  the wrong film. We apologize for any confusion.'
 tags:
 - movie
 - movie-2022
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/allelujah-scaled.jpg
+featured_img: /images/feature/hallelujah-scaled.jpg
 layout: movie
 links: false
 all_meta:
   _last_editor_used_jetpack:
   - block-editor
   _thumbnail_id:
-  - "1903"
+  - "1931"
   _edit_last:
   - "1"
   _evans_showtime:
-  - "1665775800"
-  - "1665862200"
-  - "1665948600"
+  - "1666985400"
+  - "1667071800"
+  - "1667158200"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
 ---
 
-Set in a geriatric ward within a small hospital, when news of its closure begins to reach the community, the hospital invites a local news crew to document their planning of a concert in honor of the hospital's most celebrated nurse. But there might be something more threatening to the hospital itself, more deadly than the politicians ready to shut down the place at a moment's notice.
+This feature-length documentary explores the life of singer-songwriter Leonard Cohen as seen through the prism of his internationally renowned hymn, Hallelujah.
+
+**Note:** This is the correct write-up for the film. A previous write-up referred to the wrong film. We apologize for any confusion.

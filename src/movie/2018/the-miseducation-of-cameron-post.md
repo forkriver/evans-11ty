@@ -1,6 +1,7 @@
 ---
 title: The Miseducation of Cameron Post
 permalink: /movie/the-miseducation-of-cameron-post/
+date: "2018-08-31T02:25:25+00:00"
 showtime:
 - 2018-09-28 7:30:00 pm
 - 2018-09-29 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/cameron-post-1-scaled.jpg
+featured_img: /images/feature/cameron-post-1-scaled.jpg
 layout: movie
 links:
 - url: https://campostfilm.com/

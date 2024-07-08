@@ -1,6 +1,7 @@
 ---
 title: 'Rumble: The Indians Who Rocked the World'
 permalink: /movie/rumble-the-indians-who-rocked-the-world/
+date: "2017-08-26T19:34:34+00:00"
 showtime:
 - 2017-09-29 7:30:00 pm
 - 2017-09-30 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/rumble-1.jpg
+featured_img: /images/feature/rumble-1.jpg
 layout: movie
 links:
 - url: http://rezolutionpictures.com/portfolio_page/rumble/

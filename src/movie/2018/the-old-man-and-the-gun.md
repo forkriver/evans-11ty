@@ -1,6 +1,7 @@
 ---
 title: The Old Man & the Gun
 permalink: /movie/the-old-man-and-the-gun/
+date: "2018-11-08T16:03:38+00:00"
 showtime:
 - 2018-12-07 7:30:00 pm
 - 2018-12-08 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/8bRIfPGDnmWgdy65LO8xtdcFmFP-1-scaled.jpg
+featured_img: /images/feature/8bRIfPGDnmWgdy65LO8xtdcFmFP-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.foxsearchlight.com/theoldmanandthegun

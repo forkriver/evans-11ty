@@ -1,6 +1,7 @@
 ---
 title: Monsieur Lazhar
 permalink: /movie/monsieur-lazhar/
+date: "2012-02-17T21:03:48+00:00"
 showtime:
 - 2012-04-27 7:30:00 pm
 - 2012-04-28 7:30:00 pm

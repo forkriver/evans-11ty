@@ -1,6 +1,7 @@
 ---
 title: Rocky Horror Picture Show
 permalink: /movie/rocky-horror-picture-show-2/
+date: "2016-01-28T15:55:04+00:00"
 showtime:
 - 2016-02-13 10:00:00 pm
 excerpt: 'A Valentine tradition: The Rocky Horror Picture Show will play the Evans
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
+featured_img: /images/feature/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
 layout: movie
 links: false
 all_meta:

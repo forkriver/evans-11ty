@@ -1,6 +1,7 @@
 ---
 title: Warpaths
 permalink: /movie/warpaths/
+date: "2012-10-22T21:37:35+00:00"
 showtime:
 - 2012-11-02 7:30:00 pm
 excerpt: "Street Media Inc., in association with The RCA Museum, Canada\u2019s National

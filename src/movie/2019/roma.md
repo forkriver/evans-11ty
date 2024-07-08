@@ -1,6 +1,7 @@
 ---
 title: Roma
 permalink: /movie/roma/
+date: "2018-12-04T14:55:10+00:00"
 showtime:
 - 2019-01-11 7:30:00 pm
 - 2019-01-12 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/roma-1-scaled.jpg
+featured_img: /images/feature/roma-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

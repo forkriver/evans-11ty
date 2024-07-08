@@ -1,6 +1,7 @@
 ---
 title: If Beale Street Could Talk
 permalink: /movie/if-beale-street-could-talk/
+date: "2018-12-04T14:50:50+00:00"
 showtime:
 - 2019-01-04 7:30:00 pm
 - 2019-01-05 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/beale-street-1-scaled.jpg
+featured_img: /images/feature/beale-street-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.bealestreet.movie/

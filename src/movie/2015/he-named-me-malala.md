@@ -1,6 +1,7 @@
 ---
 title: He Named Me Malala
 permalink: /movie/he-named-me-malala/
+date: "2015-11-06T13:30:43+00:00"
 showtime:
 - 2015-11-27 7:30:00 pm
 - 2015-11-28 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/malala-1.jpg
+featured_img: /images/feature/malala-1.jpg
 layout: movie
 links:
 - url: https://www.malala.org/malalas-story

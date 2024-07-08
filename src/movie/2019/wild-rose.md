@@ -1,6 +1,7 @@
 ---
 title: Wild Rose
 permalink: /movie/wild-rose/
+date: "2019-02-27T03:18:20+00:00"
 showtime:
 - 2019-04-26 7:30:00 pm
 - 2019-04-27 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/wild-rose-1-scaled.jpg
+featured_img: /images/feature/wild-rose-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Guitar Lessons
 permalink: /movie/guitar-lessons/
+date: "2023-01-25T01:59:42+00:00"
 showtime:
 - 2023-02-24 7:30:00 pm
 - 2023-02-25 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/guitar-lessons.jpg
 layout: movie
 links: false
 all_meta:
@@ -35,7 +36,7 @@ all_meta:
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
     web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   _oembed_time_1762f613f16c44f87d6996a7ebea510e:
-  - "1718666884"
+  - "1720312068"
 ---
 
 A Métis teenager tries to convince a former musician and current oilman to give him guitar lessons.

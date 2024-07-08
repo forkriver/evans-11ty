@@ -1,6 +1,7 @@
 ---
 title: Three Billboards Outside Ebbing, Missouri
 permalink: /movie/three-billboards-outside-ebbing-missouri/
+date: "2018-03-18T18:31:08+00:00"
 showtime:
 - 2018-04-06 7:30:00 pm
 - 2018-04-07 2:00:00 pm
@@ -17,7 +18,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/three-billboards-1-scaled.jpg
+featured_img: /images/feature/three-billboards-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.foxsearchlight.com/threebillboardsoutsideebbingmissouri

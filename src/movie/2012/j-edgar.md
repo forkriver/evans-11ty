@@ -1,6 +1,7 @@
 ---
 title: J. Edgar
 permalink: /movie/j-edgar/
+date: "2011-12-16T22:37:22+00:00"
 showtime:
 - 2012-02-10 7:30:00 pm
 - 2012-02-11 7:30:00 pm

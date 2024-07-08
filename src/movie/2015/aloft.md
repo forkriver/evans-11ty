@@ -1,6 +1,7 @@
 ---
 title: Aloft
 permalink: /movie/aloft/
+date: "2015-08-19T02:20:06+00:00"
 showtime:
 - 2015-09-25 7:30:00 pm
 - 2015-09-26 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/aloft-1.jpg
+featured_img: /images/feature/aloft-1.jpg
 layout: movie
 links:
 - url: http://sonyclassics.com/aloft/

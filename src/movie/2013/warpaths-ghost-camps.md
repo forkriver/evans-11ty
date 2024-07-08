@@ -1,6 +1,7 @@
 ---
 title: 'Warpaths: Ghost Camps'
 permalink: /movie/warpaths-ghost-camps/
+date: "2013-10-08T02:30:07+00:00"
 showtime:
 - 2013-11-08 7:30:00 pm
 excerpt: "One night only: a special premi\xE8re event. This, the second episode in

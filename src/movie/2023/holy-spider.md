@@ -1,6 +1,7 @@
 ---
 title: Holy Spider
 permalink: /movie/holy-spider/
+date: "2023-10-19T22:35:23+00:00"
 showtime:
 - 2023-11-10 7:30:00 pm
 - 2023-11-11 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/holy-spider-1-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -30,13 +31,6 @@ all_meta:
   - "1699817400"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_86e0830c7669e5cbaf5c7f93c6fe98cd:
-  - <iframe title="Holy Spider | Official Trailer | Utopia" width="640" height="360"
-    src="https://www.youtube.com/embed/27wZZ6O1IBc?feature=oembed" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  _oembed_time_86e0830c7669e5cbaf5c7f93c6fe98cd:
-  - "1718666888"
 ---
 
 A journalist descends into the dark underbelly of the Iranian holy city of Mashhad as she investigates the serial killings of sex workers by the so called "Spider Killer", who believes he is cleansing the streets of sinners.

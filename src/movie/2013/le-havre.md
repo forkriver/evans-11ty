@@ -1,6 +1,7 @@
 ---
 title: Le Havre
 permalink: /movie/le-havre/
+date: "2013-10-08T02:39:17+00:00"
 showtime:
 - 2013-11-23 7:30:00 pm
 - 2013-11-24 7:30:00 pm

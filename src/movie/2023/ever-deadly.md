@@ -1,6 +1,7 @@
 ---
 title: Ever Deadly
 permalink: /movie/ever-deadly/
+date: "2023-03-29T21:55:49+00:00"
 showtime:
 - 2023-04-28 7:30:00 pm
 - 2023-04-29 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/ever-deadly.jpg
 layout: movie
 links: false
 all_meta:
@@ -31,13 +32,6 @@ all_meta:
   - "1682883000"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_65b12de401d1aec14f943cfbfc34b2d4:
-  - <iframe title="Ever Deadly (Trailer)" width="640" height="360" src="https://www.youtube.com/embed/RBHUvomFleU?feature=oembed"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen></iframe>
-  _oembed_time_65b12de401d1aec14f943cfbfc34b2d4:
-  - "1718666886"
 ---
 
 Ever Deadly weaves concert footage with stunning sequences filmed on location in Nunavut, seamlessly bridging landscapes, stories and songs with pain, anger and triumph—all through the expressions of Tanya Tagaq, one of the most innovative musical performers of our time.

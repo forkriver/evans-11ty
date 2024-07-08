@@ -1,6 +1,7 @@
 ---
 title: Monty Python's Half-Century Anniversary
 permalink: /movie/monty-pythons-half-century-anniversary/
+date: "2019-09-10T22:43:04+00:00"
 showtime:
 - 2019-10-04 7:30:00 pm
 - 2019-10-05 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/python-1.jpg
+featured_img: /images/feature/python-1.jpg
 layout: movie
 links: false
 all_meta:

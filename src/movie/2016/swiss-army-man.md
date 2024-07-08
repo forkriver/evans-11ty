@@ -1,6 +1,7 @@
 ---
 title: Swiss Army Man
 permalink: /movie/swiss-army-man/
+date: "2016-10-19T14:40:36+00:00"
 showtime:
 - 2016-11-04 7:30:00 pm
 - 2016-11-05 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/swiss-army-man-1.jpg
+featured_img: /images/feature/swiss-army-man-1.jpg
 layout: movie
 links: false
 all_meta:

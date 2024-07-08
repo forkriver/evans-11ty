@@ -1,6 +1,7 @@
 ---
 title: Beautiful Boy
 permalink: /movie/beautiful-boy/
+date: "2018-10-31T02:59:28+00:00"
 showtime:
 - 2018-11-30 7:30:00 pm
 - 2018-12-01 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/beautiful-boy-1.jpg
+featured_img: /images/feature/beautiful-boy-1.jpg
 layout: movie
 links:
 - url: https://www.beautifulboy.movie/

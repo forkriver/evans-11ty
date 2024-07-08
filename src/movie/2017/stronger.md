@@ -1,6 +1,7 @@
 ---
 title: Stronger
 permalink: /movie/stronger/
+date: "2017-10-20T01:44:19+00:00"
 showtime:
 - 2017-11-03 7:30:00 pm
 - 2017-11-04 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/stronger-1-scaled.jpg
+featured_img: /images/feature/stronger-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

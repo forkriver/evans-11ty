@@ -1,6 +1,7 @@
 ---
 title: Last Stop to Armageddon
 permalink: /movie/last-stop-to-armageddon/
+date: "2017-03-23T21:24:08+00:00"
 showtime:
 - 2017-04-09 2:00:00 pm
 excerpt: The timeline of soldiers from Manitoba headed overseas to fight in the First
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/last-stop-to-armageddon-1.jpg
+featured_img: /images/feature/last-stop-to-armageddon-1.jpg
 layout: movie
 links: false
 all_meta:

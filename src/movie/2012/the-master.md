@@ -1,6 +1,7 @@
 ---
 title: The Master
 permalink: /movie/the-master/
+date: "2012-11-09T14:02:16+00:00"
 showtime:
 - 2012-11-30 7:30:00 pm
 - 2012-12-01 7:30:00 pm

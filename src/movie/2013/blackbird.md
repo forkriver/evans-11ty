@@ -1,6 +1,7 @@
 ---
 title: Blackbird
 permalink: /movie/blackbird/
+date: "2013-01-31T14:50:48+00:00"
 showtime:
 - 2013-02-08 7:30:00 pm
 - 2013-02-09 7:30:00 pm

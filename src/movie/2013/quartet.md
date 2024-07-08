@@ -1,6 +1,7 @@
 ---
 title: Quartet
 permalink: /movie/quartet/
+date: "2013-01-31T15:08:29+00:00"
 showtime:
 - 2013-03-29 7:30:00 pm
 - 2013-03-30 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Parkland
 permalink: /movie/parkland/
+date: "2013-12-03T03:19:20+00:00"
 showtime:
 - 2014-01-24 7:30:00 pm
 - 2014-01-25 7:30:00 pm

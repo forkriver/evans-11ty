@@ -1,6 +1,7 @@
 ---
 title: The Twentieth Century
 permalink: /movie/the-twentieth-century/
+date: "2019-12-08T20:55:59+00:00"
 showtime:
 - 2020-02-07 7:30:00 pm
 - 2020-02-08 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-twentieth-century.jpg
+featured_img: /images/feature/the-twentieth-century.jpg
 layout: movie
 links: false
 all_meta:

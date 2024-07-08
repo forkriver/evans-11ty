@@ -1,6 +1,7 @@
 ---
 title: The Railway Man
 permalink: /movie/the-railway-man/
+date: "2014-09-09T02:25:09+00:00"
 showtime:
 - 2014-10-03 7:30:00 pm
 - 2014-10-04 7:30:00 pm

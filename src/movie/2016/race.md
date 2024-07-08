@@ -1,6 +1,7 @@
 ---
 title: Race
 permalink: /movie/race/
+date: "2016-03-07T22:43:50+00:00"
 showtime:
 - 2016-04-22 7:30:00 pm
 - 2016-04-23 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/race-1.jpg
+featured_img: /images/feature/race-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Cuban Fury
 permalink: /movie/cuban-fury/
+date: "2014-09-09T02:41:08+00:00"
 showtime:
 - 2014-10-31 7:30:00 pm
 - 2014-11-01 7:30:00 pm

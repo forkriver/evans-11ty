@@ -1,6 +1,7 @@
 ---
 title: Rocky Horror Picture Show
 permalink: /movie/rocky-horror-picture-show-4/
+date: "2024-02-10T02:14:26+00:00"
 showtime:
 - 2024-02-23 10:00:00 pm
 excerpt: Rocky Horror is back again! In this cult classic, sweethearts Brad (Barry
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
+featured_img: /images/feature/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
 layout: movie
 links: false
 all_meta:

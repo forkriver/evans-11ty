@@ -1,6 +1,7 @@
 ---
 title: Sweetland
 permalink: /movie/sweetland/
+date: "2024-02-09T23:14:57+00:00"
 showtime:
 - 2024-03-22 7:30:00 pm
 - 2024-03-23 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/sweetland.jpg
 layout: movie
 links: false
 all_meta:

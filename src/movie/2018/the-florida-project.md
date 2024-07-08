@@ -1,6 +1,7 @@
 ---
 title: The Florida Project
 permalink: /movie/the-florida-project/
+date: "2017-12-20T02:52:21+00:00"
 showtime:
 - 2018-02-09 7:30:00 pm
 - 2018-02-10 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/florida-project-1-scaled.jpg
+featured_img: /images/feature/florida-project-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

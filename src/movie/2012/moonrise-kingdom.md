@@ -1,6 +1,7 @@
 ---
 title: Moonrise Kingdom
 permalink: /movie/moonrise-kingdom/
+date: "2012-08-24T02:46:20+00:00"
 showtime:
 - 2012-10-26 7:30:00 pm
 - 2012-10-27 7:30:00 pm

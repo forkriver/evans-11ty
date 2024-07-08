@@ -1,6 +1,7 @@
 ---
 title: The Lady in the Van
 permalink: /movie/the-lady-in-the-van/
+date: "2015-12-16T00:31:27+00:00"
 showtime:
 - 2016-02-12 7:30:00 pm
 - 2016-02-13 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-lady-in-the-van-1.jpg
+featured_img: /images/feature/the-lady-in-the-van-1.jpg
 layout: movie
 links: false
 all_meta:

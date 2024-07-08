@@ -1,6 +1,7 @@
 ---
 title: Who's Yer Father?
 permalink: /movie/whos-yer-father/
+date: "2023-12-07T18:58:00+00:00"
 showtime:
 - 2024-02-02 7:30:00 pm
 - 2024-02-03 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/whos-yer-father-scaled.jpg
 layout: movie
 links: false
 all_meta:

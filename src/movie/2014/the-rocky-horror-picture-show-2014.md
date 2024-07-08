@@ -1,6 +1,7 @@
 ---
 title: The Rocky Horror Picture Show
 permalink: /movie/the-rocky-horror-picture-show-2014/
+date: "2013-12-03T03:27:35+00:00"
 showtime:
 - 2014-02-14 10:00:00 pm
 excerpt: After Janet accepts Brad&#8217;s marriage proposal, the happy couple drive

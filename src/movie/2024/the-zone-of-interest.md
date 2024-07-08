@@ -1,6 +1,7 @@
 ---
 title: The Zone of Interest
 permalink: /movie/the-zone-of-interest/
+date: "2024-02-09T23:12:26+00:00"
 showtime:
 - 2024-03-08 7:30:00 pm
 - 2024-03-09 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/zone-of-interest.jpg
 layout: movie
 links: false
 all_meta:

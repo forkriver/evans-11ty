@@ -1,6 +1,7 @@
 ---
 title: The Grand Seduction
 permalink: /movie/the-grand-seduction-2/
+date: "2017-01-15T22:45:32+00:00"
 showtime:
 - 2017-03-10 7:00:00 pm
 excerpt: "A small fishing village must procure a local doctor to secure a lucrative
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-grand-seduction-1.jpg
+featured_img: /images/feature/the-grand-seduction-1.jpg
 layout: movie
 links: false
 all_meta:

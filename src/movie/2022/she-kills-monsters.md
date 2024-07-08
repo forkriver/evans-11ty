@@ -1,6 +1,7 @@
 ---
 title: She Kills Monsters
 permalink: /movie/she-kills-monsters/
+date: "2022-03-24T15:09:01+00:00"
 showtime:
 - 2022-03-24 12:00:00 am
 - 2022-04-02 11:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/she-kills-monsters-cropped.jpg
+featured_img: /images/feature/she-kills-monsters-cropped.jpg
 layout: movie
 links:
 - url: https://www.eventbrite.ca/e/she-kills-monsters-virtual-realms-production-tickets-292386384547
@@ -46,7 +47,7 @@ Brandon University Theatre presents
 
 ## She Kills Monsters: Virtual Realms by Qui Nguyen
 
-<figure class="wp-block-image size-full">[![She Kills Monsters poster](http://evans.local/wp-content/uploads/2022/03/she-kills-monsters.jpg)](http://evans.local/wp-content/uploads/2022/03/she-kills-monsters.jpg)</figure>In this high-octane dramatic comedy laden with homicidal fairies, nasty ogres, and five-headed dragons, acclaimed playwright Qui Nguyen offers a heart-pounding homage to the geek within us all. Two years after the death of her teenage sister Tilly, Agnes Evans discovers a mysterious notebook containing her sister's home-brewed Dungeons and Dragons campaign. Newly born hero, Agnes the Ass-hatted, undertakes an epic quest to save Tilly's soul and to learn about her sister's hidden life.
+<figure class="wp-block-image size-full">[![She Kills Monsters poster](http://evanstheatre.ca/wp-content/uploads/2022/03/she-kills-monsters.jpg)](http://evanstheatre.ca/wp-content/uploads/2022/03/she-kills-monsters.jpg)</figure>In this high-octane dramatic comedy laden with homicidal fairies, nasty ogres, and five-headed dragons, acclaimed playwright Qui Nguyen offers a heart-pounding homage to the geek within us all. Two years after the death of her teenage sister Tilly, Agnes Evans discovers a mysterious notebook containing her sister's home-brewed Dungeons and Dragons campaign. Newly born hero, Agnes the Ass-hatted, undertakes an epic quest to save Tilly's soul and to learn about her sister's hidden life.
 
 *This production contains mature content and language. Viewer discretion is advised.*
 

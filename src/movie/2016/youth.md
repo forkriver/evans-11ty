@@ -1,6 +1,7 @@
 ---
 title: Youth
 permalink: /movie/youth/
+date: "2016-02-04T15:30:59+00:00"
 showtime:
 - 2016-03-25 7:30:00 pm
 - 2016-03-26 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/youth-1-scaled.jpg
+featured_img: /images/feature/youth-1-scaled.jpg
 layout: movie
 links:
 - url: http://www.pathefilms.com/film/youth

@@ -1,6 +1,7 @@
 ---
 title: Anatomy of a Fall
 permalink: /movie/anatomy-of-a-fall/
+date: "2023-12-07T18:55:14+00:00"
 showtime:
 - 2024-01-26 7:30:00 pm
 - 2024-01-27 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/anatomy-of-a-fall.jpg
 layout: movie
 links: false
 all_meta:

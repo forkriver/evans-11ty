@@ -1,6 +1,7 @@
 ---
 title: In a Better World
 permalink: /movie/in-a-better-world/
+date: "2011-08-18T20:21:01+00:00"
 showtime:
 - 2011-10-14 7:30:00 pm
 - 2011-10-15 7:30:00 pm

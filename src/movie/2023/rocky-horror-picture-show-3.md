@@ -1,6 +1,7 @@
 ---
 title: Rocky Horror Picture Show
 permalink: /movie/rocky-horror-picture-show-3/
+date: "2023-01-27T03:07:05+00:00"
 showtime:
 - 2023-02-10 10:00:00 pm
 excerpt: It&#8217;s Back! Brandon Pride once again presents Rocky Horror Picture Show
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
+featured_img: /images/feature/ukgP3WJ97GZ00U1Co2IMjUNGWzW-1.jpg
 layout: movie
 links: false
 all_meta:

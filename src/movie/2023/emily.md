@@ -1,6 +1,7 @@
 ---
 title: Emily
 permalink: /movie/emily/
+date: "2023-02-15T23:14:29+00:00"
 showtime:
 - 2023-03-24 7:30:00 pm
 - 2023-03-25 7:30:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/emily-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -32,13 +33,6 @@ all_meta:
   - "1679859000"
   _evans_rating:
   - a:2:{s:13:"_evans_rating";s:0:"";s:20:"_evans_rating_detail";s:0:"";}
-  _oembed_b0df6592e20dd44712d0b7793895e125:
-  - <iframe title="Emily - Official Trailer" width="640" height="360" src="https://www.youtube.com/embed/9u-koN9FgkY?feature=oembed"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen></iframe>
-  _oembed_time_b0df6592e20dd44712d0b7793895e125:
-  - "1718666885"
 ---
 
 The imagined life of one of the world’s most famous authors, Emily Brontë, as she finds her voice and writes the literary classic Wuthering Heights. Explore the relationships that inspired her – her raw, passionate sisterhood with Charlotte and Anne; her first aching, forbidden love for Weightman and her care for her maverick brother whom she idolises.

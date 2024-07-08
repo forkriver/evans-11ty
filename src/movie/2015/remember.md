@@ -1,6 +1,7 @@
 ---
 title: Remember
 permalink: /movie/remember/
+date: "2015-10-06T00:42:48+00:00"
 showtime:
 - 2015-11-20 7:30:00 pm
 - 2015-11-21 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/remember-1.jpg
+featured_img: /images/feature/remember-1.jpg
 layout: movie
 links: false
 all_meta:

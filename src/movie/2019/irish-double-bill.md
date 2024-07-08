@@ -1,6 +1,7 @@
 ---
 title: Irish Double Bill
 permalink: /movie/irish-double-bill/
+date: "2019-02-26T20:03:33+00:00"
 showtime:
 - 2019-02-28 8:00:00 pm
 - 2019-03-01 8:00:00 pm
@@ -16,7 +17,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/featured/seanocaseynew-1.png
+featured_img: /images/feature/seanocaseynew-1.png
 layout: movie
 links: false
 all_meta:

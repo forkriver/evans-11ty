@@ -1,6 +1,7 @@
 ---
 title: The Trip to Spain
 permalink: /movie/the-trip-to-spain/
+date: "2017-08-26T19:38:56+00:00"
 showtime:
 - 2017-10-06 7:30:00 pm
 - 2017-10-07 7:30:00 pm
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/trip-to-spain-1-scaled.jpg
+featured_img: /images/feature/trip-to-spain-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

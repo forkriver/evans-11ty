@@ -1,6 +1,7 @@
 ---
 title: Richelieu
 permalink: /movie/richelieu/
+date: "2023-10-19T22:46:59+00:00"
 showtime:
 - 2023-12-01 7:30:00 pm
 - 2023-12-02 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/richelieu-1-scaled.jpg
 layout: movie
 links: false
 all_meta:
@@ -37,7 +38,7 @@ all_meta:
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
     web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   _oembed_time_1a5eff51eeeee16f5a21d929117a9f5a:
-  - "1718666888"
+  - "1720312053"
 ---
 
 A French-to-Spanish interpreter working for a food processing plant that hires seasonal workers from Guatemala is, at first determined to obey the sometimes excessive directives of the young boss, but she befriends the workers and tries to defend them against the exploitation they suffer.

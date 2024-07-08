@@ -1,6 +1,7 @@
 ---
 title: The Grizzlies
 permalink: /movie/the-grizzlies/
+date: "2019-10-23T01:29:41+00:00"
 showtime:
 - 2019-11-22 7:30:00 pm
 - 2019-11-23 7:30:00 pm
@@ -18,7 +19,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/grizzlies.jpg
+featured_img: /images/feature/grizzlies.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: Bond. James Bond.
 permalink: /movie/bond/
+date: "2013-01-22T17:55:27+00:00"
 showtime:
 - 2013-03-08 6:30:00 pm
 - 2013-03-09 3:00:00 pm

@@ -1,6 +1,7 @@
 ---
 title: The Persian Version
 permalink: /movie/the-persian-version/
+date: "2024-02-09T23:18:46+00:00"
 showtime:
 - 2024-03-29 7:30:00 pm
 - 2024-03-30 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: false
+featured_img: /images/feature/persian-version-scaled.jpg
 layout: movie
 links: false
 all_meta:

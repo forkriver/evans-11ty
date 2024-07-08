@@ -1,6 +1,7 @@
 ---
 title: The Birds
 permalink: /movie/the-birds/
+date: "2012-12-31T23:36:02+00:00"
 showtime:
 - 2013-01-11 9:30:00 pm
 - 2013-01-12 9:30:00 pm

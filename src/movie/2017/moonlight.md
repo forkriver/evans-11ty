@@ -1,6 +1,7 @@
 ---
 title: Moonlight
 permalink: /movie/moonlight/
+date: "2016-12-15T23:50:48+00:00"
 showtime:
 - 2017-01-06 7:30:00 pm
 - 2017-01-07 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/moonlight-1.jpg
+featured_img: /images/feature/moonlight-1.jpg
 layout: movie
 links:
 - url: http://www.moonlight-movie.com/

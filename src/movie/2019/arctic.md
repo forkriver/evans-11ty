@@ -1,6 +1,7 @@
 ---
 title: Arctic
 permalink: /movie/arctic/
+date: "2019-02-27T03:09:45+00:00"
 showtime:
 - 2019-04-12 7:30:00 pm
 - 2019-04-13 7:30:00 pm
@@ -15,7 +16,7 @@ tags:
 rating:
   rating: PG
   detail: false
-featured_img: /images/featured/arctic-1-scaled.jpg
+featured_img: /images/feature/arctic-1-scaled.jpg
 layout: movie
 links: false
 all_meta:

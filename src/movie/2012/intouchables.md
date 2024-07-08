@@ -1,6 +1,7 @@
 ---
 title: Intouchables
 permalink: /movie/intouchables/
+date: "2012-08-24T02:26:10+00:00"
 showtime:
 - 2012-10-05 7:30:00 pm
 - 2012-10-06 7:30:00 pm

@@ -1,6 +1,7 @@
 ---
 title: Bernie
 permalink: /movie/bernie/
+date: "2012-10-22T21:43:11+00:00"
 showtime:
 - 2012-11-03 7:30:00 pm
 - 2012-11-04 7:30:00 pm

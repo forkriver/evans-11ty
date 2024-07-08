@@ -1,6 +1,7 @@
 ---
 title: The 33
 permalink: /movie/the-33/
+date: "2016-01-20T23:45:25+00:00"
 showtime:
 - 2016-01-29 7:30:00 pm
 - 2016-01-30 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/the-33-1.jpg
+featured_img: /images/feature/the-33-1.jpg
 layout: movie
 links: false
 all_meta:

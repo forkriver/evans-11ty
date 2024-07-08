@@ -1,6 +1,7 @@
 ---
 title: Good Vibrations
 permalink: /movie/good-vibrations/
+date: "2013-12-03T03:08:37+00:00"
 showtime:
 - 2014-01-03 7:30:00 pm
 - 2014-01-11 7:30:00 pm

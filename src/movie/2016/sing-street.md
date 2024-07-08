@@ -1,6 +1,7 @@
 ---
 title: Sing Street
 permalink: /movie/sing-street/
+date: "2016-10-27T03:48:00+00:00"
 showtime:
 - 2016-12-02 7:30:00 pm
 - 2016-12-03 7:30:00 pm
@@ -13,7 +14,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/sing-street-1.jpg
+featured_img: /images/feature/sing-street-1.jpg
 layout: movie
 links: false
 all_meta:

@@ -1,6 +1,7 @@
 ---
 title: selfless
 permalink: /movie/selfless/
+date: "2019-05-17T21:28:21+00:00"
 showtime:
 - 2019-05-31 7:30:00 pm
 excerpt: The documentary that opens the conversation to the ever growing epidemic
@@ -12,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/featured/3-1.png
+featured_img: /images/feature/3-1.png
 layout: movie
 links:
 - url: https://freshindependence.com

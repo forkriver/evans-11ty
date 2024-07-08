@@ -1,6 +1,7 @@
 ---
 title: See You in the Fall
 permalink: /movie/see-you-in-the-fall/
+date: "2014-06-23T14:21:23+00:00"
 showtime:
 - 2014-08-01 7:30:00 pm
 excerpt: The Evans programme has ended for the 2013-14 season. We&#8217;ll be back

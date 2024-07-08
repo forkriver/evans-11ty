@@ -1,6 +1,7 @@
 ---
 title: The Rocky Horror Picture Show
 permalink: /movie/the-rocky-horror-picture-show/
+date: "2013-01-31T14:59:36+00:00"
 showtime:
 - 2013-02-16 10:00:00 pm
 excerpt: It&#8217;s the weird and wonderful as newly engaged couple Brad and Janet

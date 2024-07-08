@@ -1,6 +1,7 @@
 ---
 title: Patti Cake$
 permalink: /movie/patti-cakes/
+date: "2017-11-02T14:10:07+00:00"
 showtime:
 - 2017-11-17 7:30:00 pm
 - 2017-11-18 7:30:00 pm
@@ -14,7 +15,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/featured/patticakes-1.jpg
+featured_img: /images/feature/patticakes-1.jpg
 layout: movie
 links:
 - url: http://www.patticakesmovie.com/
