@@ -4,6 +4,7 @@ permalink: "/movies/index.html"
 layout: base
 ---
 
+We've been showing movies since about 1967, when the Brandon Film Festival started up. Our weekend programme started in 1997. Here's a list of all the movies we've shown since 2011.
 
 <div class="all-movies">
 {% for year, movies in collections.moviesByYear %}
