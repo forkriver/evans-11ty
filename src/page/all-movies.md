@@ -5,8 +5,6 @@ layout: base
 ---
 
 
-# All Movies
-
 <div class="all-movies">
 {% for year, movies in collections.moviesByYear %}
 <div id="movies-{{ year }}">
@@ -20,18 +18,14 @@ layout: base
 		<a href="{{movie.url}}" title="{{ movie.data.showtime[0] | dateformat }}">{{ movie.data.title }}</a> 
 	</summary>
 	<p>{{ movie.data.excerpt }}</p>
-	<p>
+	<ul class="showtime-list">
 		{% for showtime in movie.data.showtime -%}
-		{{ showtime | dateformat }}<br />
+		<li>{{ showtime | dateformat }}</li>
 		{%- endfor %}
-	</p>
+	</ul>
 </details>
 {% endfor -%}
 </div><!-- .all-movies movie-list -->
 </div><!-- #movies-{{ year }} -->
 {% endfor %}
 </div><!-- .all-movies -->
-
-### todo
-- fix the date spacing in this file (`all-movies.md`)
-- order by `DATE DESC`
