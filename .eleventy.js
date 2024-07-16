@@ -100,7 +100,7 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 		`;
 		break;
 	case 'hero':
-		return `<img class="hero" src="${data.url}" alt="${alt}"  loading="lazy" decoding="async" />`;
+		return `<img class="full-bleed" src="${data.url}" alt="${alt}"  loading="lazy" decoding="async" />`;
 		break;
 	default:
 		return `<img class="the-small-page-image" src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}"  loading="lazy" decoding="async" />`;

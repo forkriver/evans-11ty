@@ -18,23 +18,31 @@ a:hover {
 
 main {
 	width: 75%;
-	max-width: 45em;
+	max-width: 65ch;
 	margin: auto;
-	background: rgba( 24, 32, 48, 0.75 );
-	backdrop-filter: blur( 10px ) grayscale( 25% );
-	border-radius: 1em;
 	padding: 1em 2em;
-	z-index: 1000;
 }
 
-ul.showtime-list {
-	li {
-		display: inline;
-	}
-	li + li::before {
-		content: " | ";
-	}
+.full-bleed {
+	// @link https://piccalil.li/blog/creating-a-full-bleed-css-utility
+	width: 100vw;
+	margin-left: calc( 50% - 50vw );
 }
+
+.movie-title {
+	text-align: center;
+}
+
+
+
+// ul.showtime-list {
+// 	li {
+// 		display: inline;
+// 	}
+// 	li + li::before {
+// 		content: " | ";
+// 	}
+// }
 
 ul.main-nav {
 	margin-left: 0;
