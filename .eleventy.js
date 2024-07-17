@@ -328,6 +328,7 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy("src/images");
 	eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+	eleventyConfig.addPassthroughCopy( { 'src/htaccess': '/.htaccess'} );
 
 	// Autoembed stuff.
 	eleventyConfig.addPlugin(embedYouTube, {
