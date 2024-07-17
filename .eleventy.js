@@ -108,6 +108,41 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 
 }
 
+async function getHero( src, alt, sizes = '100vw' ) {
+	if ( alt === undefined ) {
+		// You bet we throw an error on missing alt (alt="" works okay)
+		alt = 'Alt Text belongs here';
+	}
+
+	let metadata = await Image(src, {
+		widths:  [300, 600, 960, 1500 ],
+		formats: ["webp", "jpeg"],
+	});
+
+	let lowsrc = metadata.jpeg[0];
+	let highsrc = metadata.jpeg[metadata.jpeg.length - 1];
+
+	return `<picture class="full-bleed">
+	${Object.values(metadata)
+		.map((imageFormat) => {
+			return `  <source type="${
+				imageFormat[0].sourceType
+			}" srcset="${imageFormat
+				.map((entry) => entry.srcset)
+				.join(", ")}" sizes="${sizes}">`;
+		})
+		.join("\n")}
+		<img
+			src="${lowsrc.url}"
+			width="${highsrc.width}"
+			height="${highsrc.height}"
+			alt="${alt}"
+			loading="lazy"
+			decoding="async"
+		/>
+	</picture>`;
+}
+
 /**
  * Gets the next movie coming up.
  *
@@ -274,6 +309,7 @@ module.exports = function ( eleventyConfig ) {
 
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
+	eleventyConfig.addShortcode( "hero", getHero );
 	eleventyConfig.addShortcode( "nextMovie", function() {
 		return 'hi there';
 

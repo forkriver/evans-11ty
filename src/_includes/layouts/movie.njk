@@ -13,7 +13,7 @@
 {% include "partials/_mainNav.njk" %}
 <h1 class="movie-title full-bleed">{{ title | safe }}</h1>
 {% if featured_img %}
-{% image 'src' + featured_img, 'Still from ' + title, 'hero' %}
+{% hero 'src' + featured_img, 'Still from ' + title %}
 {% endif %}
 <h2>Showtimes</h2>
 <ul class="showtime-list">
