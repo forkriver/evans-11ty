@@ -117,6 +117,8 @@ async function getHero( src, alt, sizes = '100vw' ) {
 	let metadata = await Image(src, {
 		widths:  [300, 600, 960, 1500 ],
 		formats: ["webp", "jpeg"],
+		outputDir: "./public/images",
+		urlPath:   "/images/",
 	});
 
 	let lowsrc = metadata.jpeg[0];

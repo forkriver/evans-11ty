@@ -6,6 +6,7 @@ html {
 	font-family: $base-font;
 	font-size: $base-font-size;
 }
+
 a {
 	color: #adf;
 }
@@ -27,6 +28,11 @@ main {
 	// @link https://piccalil.li/blog/creating-a-full-bleed-css-utility
 	width: 100vw;
 	margin-left: calc( 50% - 50vw );
+}
+
+.full-bleed img {
+	width: 100vw;
+	height: auto;
 }
 
 .movie-title {

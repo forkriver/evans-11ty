@@ -13,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/3-1.png
+featured_img: /images/feature/3.png
 layout: movie
 links:
 - url: https://freshindependence.com

@@ -12,7 +12,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/ehnes-1.jpeg
+featured_img: /images/feature/ehnes.jpeg
 layout: movie
 links: false
 all_meta:

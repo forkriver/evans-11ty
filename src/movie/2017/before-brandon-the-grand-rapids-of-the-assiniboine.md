@@ -14,7 +14,6 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/Screenshot-2016-12-12-18.22.24.jpg
 layout: movie
 links:
 - url: https://people.brandonu.ca/mitchellt/rapids-project/

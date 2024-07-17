@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/the-bystander-moment-1.png
+featured_img: /images/feature/the-bystander-moment.png
 layout: movie
 links:
 - url: http://bystandermoment.org/

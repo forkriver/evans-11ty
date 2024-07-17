@@ -13,7 +13,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/patchworks-1.png
+featured_img: /images/feature/patchworks.png
 layout: movie
 links: false
 all_meta:

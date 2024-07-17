@@ -16,7 +16,6 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/patchworks-1.png
 layout: movie
 links:
 - url: http://www.thepatchworksproject.ca/

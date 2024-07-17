@@ -17,7 +17,7 @@ tags:
 rating:
   rating: NR
   detail: false
-featured_img: /images/feature/seanocaseynew-1.png
+featured_img: /images/feature/seanocaseynew.png
 layout: movie
 links: false
 all_meta:

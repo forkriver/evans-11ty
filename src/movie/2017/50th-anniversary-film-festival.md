@@ -25,7 +25,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/ff-header-1.jpg
+featured_img: /images/feature/ff-header.jpg
 layout: movie
 links: false
 all_meta:

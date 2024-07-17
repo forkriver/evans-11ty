@@ -14,7 +14,7 @@ tags:
 rating:
   rating: 14A
   detail: false
-featured_img: /images/feature/black-cop-1.png
+featured_img: /images/feature/black-cop.png
 layout: movie
 links:
 - url: http://www.blackcopmovie.com/

@@ -15,7 +15,7 @@ tags:
 rating:
   rating: false
   detail: false
-featured_img: /images/feature/hush-1.jpg
+featured_img: /images/feature/hush.jpg
 layout: movie
 links:
 - url: http://hushfilm.com/
