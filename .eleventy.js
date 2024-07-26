@@ -189,26 +189,17 @@ function evansDateFormat( theDate, format = '' ) {
 
     switch ( format ) {
     // Luxon date format list: https://moment.github.io/luxon/#/parsing?id=table-of-tokens
-    case 'shortest':
-    	return myDate.toFormat( 'MMM. d, yyyy' );
-    	break;
-    case 'year':
-    	return myDate.toFormat( 'yyyy' );
-    default:
-    	return myDate.toFormat( 'EEE., MMM. d, yyyy' ) + ' at ' + myDate.toFormat('t');
+	    case 'shortest':
+	    	return myDate.toFormat( 'MMM. d, yyyy' );
+	    	break;
+	    case 'year':
+	    	return myDate.toFormat( 'yyyy' );
+	    case 'epoch':
+	    	return myDate.toSeconds();
+	    default:
+	    	return myDate.toFormat( 'EEE., MMM. d, yyyy' ) + ' at ' + myDate.toFormat('t');
     }
 
-    if ( 'shortest' === format ) {
-    	return myDate.toLocaleString( DateTime.DATE_MED );
-    }
-
-    if ( 'year' === format ) {
-    	return myDate.toFormat( 'yyyy' );
-    }
-
-    return myDate.toLocaleString( DateTime.DATE_MED_WITH_WEEKDAY )
-        + ' at '
-        + myDate.toLocaleString( DateTime.TIME_SIMPLE );
 }
 
 /**
@@ -218,13 +209,24 @@ function evansDateFormat( theDate, format = '' ) {
  *
  * @since 1.0.0
  *
- * @param  date showtime The date to check.
- * @return boolean       Whether the date is later than now().
+ * @param  string|string[] showtime The date(s) to check.
+ * @return boolean                  Whether the date is later than now().
  */
 function laterThanToday( showtime ) {
-	const now   = parseInt( DateTime.now().toSeconds() );
-	const check = parseInt( DateTime.fromFormat( showtime, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } ).toSeconds() );
-	return ( check > now );
+	var inTheFuture = false;
+	const now = parseInt( DateTime.now().toSeconds() );
+	if ( 'string' === typeof showtime ) {
+		var theShowtime = showtime;
+		showtime = [];
+		showtime.push( theShowtime );
+	}
+	for ( const s of showtime ) {
+		const check = parseInt( DateTime.fromFormat( s, 'yyyy-MM-dd tt', { zone: "America/Winnipeg" } ).toSeconds() );
+		if ( check > now ) {
+			inTheFuture = true;
+		}
+	}
+	return inTheFuture;
 }
 
 module.exports = function ( eleventyConfig ) {
@@ -254,15 +256,34 @@ module.exports = function ( eleventyConfig ) {
 	});
 
 	eleventyConfig.addCollection( "moviesUpcoming", function( collection ) {
-		var movies = lodash.chain( collection.getFilteredByGlob( "src/movie/**/*.md" ) )
-		.sortBy( ( movie ) => movie.data.showtime[0] )
-		.filter( ( movie ) => laterThanToday( movie.data.showtime[0] ) )
+		var upcomingMovies = lodash.chain( collection.getFilteredByGlob( "src/movie/**/*.md" ) )
+		.filter( ( movie ) => laterThanToday( movie.data.showtime ) )
 		.slice( 0, moviesOnHomePage )
 		.value();
-		if ( 0 === movies.length ) {
+		if ( 0 === upcomingMovies.length ) {
 			return false;
 		}
-		return movies;
+		// Sorts the movies.
+		upcomingMovies.sort( function( a, b ) {
+			let aLatest = 0;
+			let bLatest = 0;
+			let aShowtimeSeconds, bShowtimeSeconds;
+			for ( const aShowtime of a.data.showtime ) {
+				aShowtimeSeconds = evansDateFormat( aShowtime, 'epoch' );
+				if ( aShowtimeSeconds > aLatest ) {
+					aLatest = aShowtimeSeconds;
+				}
+			}
+			for ( const bShowtime of b.data.showtime ) {
+				bShowtimeSeconds = evansDateFormat( bShowtime, 'epoch' );
+				if ( bShowtimeSeconds > bLatest ) {
+					bLatest = bShowtimeSeconds;
+				}
+			}
+			return aLatest - bLatest;
+		} );
+
+		return upcomingMovies;
 	});
 
 	eleventyConfig.addCollection( "articles", function( collection ) {
