@@ -12,10 +12,11 @@
 <main>
 {% include "partials/_mainNav.njk" %}
 <h1>{{ title }}</h1>
+{% if featured_img %}
+{% hero 'src' + featured_img, 'Featured Image for ' + title %}
+{% endif %}
 {{ content | safe }}
 </main>
-</body>
-
 {% include "partials/_footer.njk" %}
-
+</body>
 </html>
