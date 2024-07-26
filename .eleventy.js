@@ -395,7 +395,9 @@ module.exports = function ( eleventyConfig ) {
 
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
-	eleventyConfig.addShortcode( "hero", getHero );
+	eleventyConfig.addShortcode( "hero", function( src, alt ) {
+		return getHero( src, alt );
+	});
 	eleventyConfig.addShortcode( "currentYear", function() {
 		const year = new Date().getFullYear();
 		return year;

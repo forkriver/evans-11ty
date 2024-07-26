@@ -13,7 +13,11 @@
 {% include "partials/_mainNav.njk" %}
 <h1>{{ title }}</h1>
 {% if featured_img %}
-{% hero 'src' + featured_img, 'Featured Image for ' + title %}
+	{%- if featured_alt -%}
+		{% hero 'src' + featured_img, featured_alt %}
+	{%- else -%}
+		{% hero 'src' + featured_img, 'Featured image for: ' + title %}
+	{%- endif -%}
 {% endif %}
 {{ content | safe }}
 </main>

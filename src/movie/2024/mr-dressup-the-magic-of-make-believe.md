@@ -16,6 +16,7 @@ rating:
   rating: false
   detail: false
 featured_img: /images/feature/mr-dressup.jpg
+featured_alt: "Mr. Dressup, wearing a spider costume, stands in front of his famous Tickle Trunk"
 layout: movie
 links: false
 all_meta:
