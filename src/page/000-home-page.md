@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Evans Theatre
+permalink: "/index.html"
 ---
 
 Brandon's scrappy little indie cinema, on the campus of [Brandon University](https://www.brandonu.ca/).
@@ -13,6 +14,8 @@ Brandon's scrappy little indie cinema, on the campus of [Brandon University](htt
 {% for movie in collections.moviesUpcoming %}
 
 ### [{{ movie.data.title | safe }}]({{movie.data.permalink}})
+
+{{ movie.data.showtime | upcomingShowtimeRange }}
 
 {{ movie.data.excerpt | safe }}
 
