@@ -194,7 +194,7 @@ function evansDateFormat( theDate, format = '' ) {
 	    	return myDate.toFormat( 'MMM. d, yyyy' );
 	    	break;
 	    case 'md':
-	    	return myDate.toFormat( 'MMM.d' );
+	    	return myDate.toFormat( 'MMM. d' );
 	    	break;
 	    case 'year':
 	    	return myDate.toFormat( 'yyyy' );
