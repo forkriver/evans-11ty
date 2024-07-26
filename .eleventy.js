@@ -170,8 +170,9 @@ function getNextMovie() {
  *
  * @param  string|Date theDate The date to format.
  * @param  string      format  The desired date format.
- *                             Accepts 'short', 'shorter', 'shortest', 'year'.
- *                             Default DATE_MED_WITH_WEEKDAY + TIME_SIMPLE (ie 'short').
+ *                             Accepts a Luxon date format string,
+ *                             'epoch' (for seconds), 'mdy', 'md', or 'year'.
+ *                             Defaults to m-d-Y at h:m a.
  * @return string              The formatted date, or (on error) theDate.
  */ 
 function evansDateFormat( theDate, format = '' ) {
@@ -189,15 +190,23 @@ function evansDateFormat( theDate, format = '' ) {
 
     switch ( format ) {
     // Luxon date format list: https://moment.github.io/luxon/#/parsing?id=table-of-tokens
-	    case 'shortest':
+	    case 'mdy':
 	    	return myDate.toFormat( 'MMM. d, yyyy' );
+	    	break;
+	    case 'md':
+	    	return myDate.toFormat( 'MMM.d' );
 	    	break;
 	    case 'year':
 	    	return myDate.toFormat( 'yyyy' );
+	    	break;
 	    case 'epoch':
 	    	return myDate.toSeconds();
-	    default:
+	    	break;
+	    case '':
 	    	return myDate.toFormat( 'EEE., MMM. d, yyyy' ) + ' at ' + myDate.toFormat('t');
+	    	break;
+	    default:
+	    	return myDate.toFormat( format );
     }
 
 }
@@ -259,9 +268,16 @@ function evansDateRange( showtimes, onlyUpcoming = false ) {
 	startDate = showtimes[0];
 	endDate   = showtimes[ showtimes.length - 1 ];
 	if ( endDate === startDate ) {
-		return evansDateFormat( startDate, 'shortest' );
+		return evansDateFormat( startDate, 'mdy' );
 	}
-	return evansDateFormat( startDate, 'shortest' ) + ' – ' + evansDateFormat( endDate, 'shortest' );	
+
+	// Checks the years.
+	if ( evansDateFormat( startDate, 'year' ) === evansDateFormat( endDate, 'year' ) ) {
+		return evansDateFormat( startDate, 'md' ) + ' – ' + evansDateFormat( endDate, 'mdy' );	
+	}
+
+	return evansDateFormat( startDate, 'mdy' ) + ' – ' + evansDateFormat( endDate, 'mdy' );	
+
 }
 
 function getNextSessionMonth() {
@@ -348,7 +364,7 @@ module.exports = function ( eleventyConfig ) {
 
     // Article date formatting.
     eleventyConfig.addFilter( 'articledateformat', function( theDate ) {
-    	return evansDateFormat( theDate, 'shortest' );
+    	return evansDateFormat( theDate, 'mdy' );
     });
 
     // Nice date range formatting.
