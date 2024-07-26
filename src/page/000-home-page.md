@@ -4,8 +4,9 @@ title: Evans Theatre
 permalink: "/index.html"
 ---
 
-Brandon's scrappy little indie cinema, on the campus of [Brandon University](https://www.brandonu.ca/).
+Brandon's indiest indie cinema, on the campus of [Brandon University](https://www.brandonu.ca/).
 
+[About Us](/about/)
 
 {% if collections.moviesUpcoming %}
 
@@ -25,6 +26,8 @@ Brandon's scrappy little indie cinema, on the campus of [Brandon University](htt
 
 ## We're taking a break
 
-There are no movies upcoming at this moment. Please check again closer to September. Thanks!
+There are no movies upcoming at this moment. Please check again closer to {{ 0 | nextSessionMonth }}. Thanks!
 
 {% endif %}
+
+See you at the movies!

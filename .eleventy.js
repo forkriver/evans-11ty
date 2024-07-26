@@ -264,6 +264,14 @@ function evansDateRange( showtimes, onlyUpcoming = false ) {
 	return evansDateFormat( startDate, 'shortest' ) + ' – ' + evansDateFormat( endDate, 'shortest' );	
 }
 
+function getNextSessionMonth() {
+	const currentMonth = DateTime.local( { zone: "America/Winnipeg" } ).month;
+	if ( currentMonth > 9 ) {
+		return 'January';
+	}
+	return 'September';
+}
+
 module.exports = function ( eleventyConfig ) {
 
 	// SASS.
@@ -351,7 +359,11 @@ module.exports = function ( eleventyConfig ) {
     eleventyConfig.addFilter( 'upcomingShowtimeRange', function( showtimes ) {
     	var upcomingOnly = true;
     	return evansDateRange( showtimes, upcomingOnly );
-    })
+    });
+
+    eleventyConfig.addFilter( 'nextSessionMonth', function( month ) {
+    	return getNextSessionMonth();
+    });
 
 
     // Set the year-only date format.
@@ -372,6 +384,7 @@ module.exports = function ( eleventyConfig ) {
 		const year = new Date().getFullYear();
 		return year;
 	});
+
 
 	// Passthrough copies.
 	// Removed b/c SASS compiles straight to public/css.
