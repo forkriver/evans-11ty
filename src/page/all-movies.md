@@ -19,11 +19,7 @@ We've been showing movies since about 1967, when the Brandon Film Festival start
 		<a href="{{movie.url}}" title="{{ movie.data.showtime[0] | dateformat }}">{{ movie.data.title }}</a> 
 	</summary>
 	<p>{{ movie.data.excerpt }}</p>
-	<ul class="showtime-list">
-		{% for showtime in movie.data.showtime -%}
-		<li>{{ showtime | dateformat }}</li>
-		{%- endfor %}
-	</ul>
+	<p>{{ movie.data.showtime | showtimeRange }}</p>
 </details>
 {% endfor -%}
 </div><!-- .all-movies movie-list -->

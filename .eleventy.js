@@ -229,6 +229,41 @@ function laterThanToday( showtime ) {
 	return inTheFuture;
 }
 
+/**
+ * Generates the date range for a movie.
+ *
+ * @since 1.0.0
+ *
+ * @param  string[] showtimes    The showtimes.
+ * @param  boolean  onlyUpcoming Consider only upcoming showtimes in the range.
+ * @return string                The range as a string.
+ */
+function evansDateRange( showtimes, onlyUpcoming = false ) {
+	if ( onlyUpcoming ) {
+		var upcomingDates = [];
+		for ( const s of showtimes ) {
+			if ( laterThanToday( s ) ) {
+				upcomingDates.push( s );
+			}
+		}
+		if ( 0 === upcomingDates.length ) {
+			return '';
+		}
+		showtimes = upcomingDates;
+	}
+	// Sort the showtimes.
+	showtimes.sort( function( a, b ) {
+		return evansDateFormat( a, 'epoch' ) - evansDateFormat( b, 'epoch' );
+	});
+	var startDate, endDate;
+	startDate = showtimes[0];
+	endDate   = showtimes[ showtimes.length - 1 ];
+	if ( endDate === startDate ) {
+		return evansDateFormat( startDate, 'shortest' );
+	}
+	return evansDateFormat( startDate, 'shortest' ) + ' – ' + evansDateFormat( endDate, 'shortest' );	
+}
+
 module.exports = function ( eleventyConfig ) {
 
 	// SASS.
@@ -263,7 +298,7 @@ module.exports = function ( eleventyConfig ) {
 		if ( 0 === upcomingMovies.length ) {
 			return false;
 		}
-		// Sorts the movies.
+		// Sorts the movies by date descending.
 		upcomingMovies.sort( function( a, b ) {
 			let aLatest = 0;
 			let bLatest = 0;
@@ -310,14 +345,14 @@ module.exports = function ( eleventyConfig ) {
 
     // Nice date range formatting.
     eleventyConfig.addFilter( 'showtimeRange', function( showtimes ) {
-    	var startDate, endDate;
-    	startDate = showtimes[0];
-    	endDate   = showtimes[ showtimes.length - 1 ];
-    	if ( endDate === startDate ) {
-    		return evansDateFormat( startDate, 'shortest' );
-    	}
-    	return evansDateFormat( startDate, 'shortest' ) + '–' + evansDateFormat( endDate, 'shortest' );
+    	return evansDateRange( showtimes );
     });
+
+    eleventyConfig.addFilter( 'upcomingShowtimeRange', function( showtimes ) {
+    	var upcomingOnly = true;
+    	return evansDateRange( showtimes, upcomingOnly );
+    })
+
 
     // Set the year-only date format.
     eleventyConfig.addFilter('justTheYear', function( theDate ) {
@@ -333,11 +368,6 @@ module.exports = function ( eleventyConfig ) {
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
 	eleventyConfig.addShortcode( "hero", getHero );
-	eleventyConfig.addShortcode( "nextMovie", function() {
-		return 'hi there';
-
-	});
-
 	eleventyConfig.addShortcode( "currentYear", function() {
 		const year = new Date().getFullYear();
 		return year;
