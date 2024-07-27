@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ title | safe }}{%- if 'Evans Theatre' !== title  %} | Evans Theatre{% endif -%}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="{{ eleventy.generator }}" />
+<link rel="stylesheet" href="/css/styles.css" />
+{% if collections.moviesUpcoming -%}
+{%- if 1 < collections.moviesUpcoming.length -%}
+<link rel='stylesheet' type='text/css' href='https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.core.css' />
+<link rel='stylesheet' type='text/css' href='https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.theme.css' />
+{% slideshowCSS collections.moviesUpcoming %}
+{%- endif -%}
+{%- endif %}
+</head>
+
+<body>
+<main>
+{% include "partials/_mainNav.njk" %}
+<h1>{{ title }}</h1>
+{% if featured_img %}
+	{%- if featured_alt -%}
+		{% hero 'src' + featured_img, featured_alt %}
+	{%- else -%}
+		{% hero 'src' + featured_img, 'Featured image for: ' + title %}
+	{%- endif -%}
+{% endif %}
+{{ content | safe }}
+</main>
+{% include "partials/_footer.njk" %}
+</body>
+</html>
