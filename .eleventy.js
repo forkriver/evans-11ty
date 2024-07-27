@@ -146,6 +146,32 @@ async function getHero( src, alt, sizes = '100vw' ) {
 }
 
 /**
+ * Gets the slideshow for the home page.
+ *
+ * Callback function for the "slideshow" filter.
+ *
+ * @since 1.0.0
+ *
+ * @link https://glidejs.com/docs/ The slideshow docs.
+ *
+ * @param  array movies The collection of upcoming movies.
+ * @param  bool  css    Return the CSS, or the HTML?
+ * @return string       The slideshow CSS or HTML.
+ */
+function getSlideshow( movies, css = false ) {
+	if ( 1 === movies.length ) {
+		if ( css ) {
+			return '';
+		}
+		return "There's only one movie here. Don't worry about a slideshow.";
+	}
+	if ( css ) {
+		return '<style> /** Slideshow styles. */ </style>';
+	}
+	return "This slideshow is gonna be *lit*.";
+}
+
+/**
  * Gets the next movie coming up.
  *
  * If there's no movie in the pipe, returns {}.
@@ -294,9 +320,10 @@ module.exports = function ( eleventyConfig ) {
 	// eleventyConfig.setBrowserSyncConfig({ files: './src/css/**/*.css' });
 
 	// Layout aliases.
-	eleventyConfig.addLayoutAlias( 'base', 'layouts/base.njk' );
-	eleventyConfig.addLayoutAlias( 'movie', 'layouts/movie.njk' );
-	eleventyConfig.addLayoutAlias( 'article', 'layouts/article.njk' );
+	eleventyConfig.addLayoutAlias( 'base',     'layouts/base.njk' );
+	eleventyConfig.addLayoutAlias( 'homepage', 'layouts/homepage.njk' );
+	eleventyConfig.addLayoutAlias( 'movie',    'layouts/movie.njk' );
+	eleventyConfig.addLayoutAlias( 'article',  'layouts/article.njk' );
 
 	// Collections.
 	eleventyConfig.addCollection("movies", function ( collection ) {
@@ -381,7 +408,6 @@ module.exports = function ( eleventyConfig ) {
     	return getNextSessionMonth();
     });
 
-
     // Set the year-only date format.
     eleventyConfig.addFilter('justTheYear', function( theDate ) {
 
@@ -395,7 +421,7 @@ module.exports = function ( eleventyConfig ) {
 
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
-	eleventyConfig.addShortcode( "hero", function( src, alt ) {
+	eleventyConfig.addShortcode( "hero", async function( src, alt ) {
 		return getHero( src, alt );
 	});
 	eleventyConfig.addShortcode( "currentYear", function() {
@@ -403,14 +429,25 @@ module.exports = function ( eleventyConfig ) {
 		return year;
 	});
 
+	// Shortcodes for the slideshow (content and CSS).
+	eleventyConfig.addShortcode( "slideshow", function( movies ) {
+		return getSlideshow( movies );
+	});
+
+	eleventyConfig.addShortcode( "slideshowCSS", function( movies ) {
+		return getSlideshow( movies, css = true );
+	} );
+
 
 	// Passthrough copies.
 	// Removed b/c SASS compiles straight to public/css.
 	// eleventyConfig.addPassthroughCopy("src/css");
 	eleventyConfig.addPassthroughCopy("src/images");
-	eleventyConfig.addPassthroughCopy("img");
+	// eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
 	eleventyConfig.addPassthroughCopy( { 'src/htaccess': '/.htaccess'} );
+	eleventyConfig.addPassthroughCopy( { 'src/scripts': '/scripts'} );
+
 
 	// Autoembed stuff.
 	eleventyConfig.addPlugin(embedYouTube, {

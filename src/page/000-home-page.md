@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: homepage
 title: Evans Theatre
 permalink: "/index.html"
 ---
@@ -8,26 +8,18 @@ Brandon's indiest indie cinema, on the campus of [Brandon University](https://ww
 
 [About Us](/about/)
 
-{% if collections.moviesUpcoming %}
+{% if collections.moviesUpcoming -%}
 
 ## Upcoming Movies
 
-{% for movie in collections.moviesUpcoming %}
+{% slideshow collections.moviesUpcoming %}
 
-### [{{ movie.data.title | safe }}]({{movie.data.permalink}})
-
-{{ movie.data.showtime | upcomingShowtimeRange }}
-
-{{ movie.data.excerpt | safe }}
-
-{% endfor %}
-
-{% else %}
+{%- else -%}
 
 ## We're taking a break
 
 There are no movies upcoming at this moment. Please check again closer to {{ 0 | nextSessionMonth }}. Thanks!
 
-{% endif %}
+{%- endif %}
 
 See you at the movies!
