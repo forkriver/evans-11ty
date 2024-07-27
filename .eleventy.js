@@ -66,6 +66,10 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 	case 'og':
 		return `<meta name="og:image" content=${baseURL}${data.url}">`;
 		break;
+	case 'css':
+		console.log( data.url );
+		return `${data.url}`;
+		break;
 	case 'background':
 		// @todo Insert media queries into this here CSS.
 		return `
@@ -148,27 +152,103 @@ async function getHero( src, alt, sizes = '100vw' ) {
 /**
  * Gets the slideshow for the home page.
  *
- * Callback function for the "slideshow" filter.
+ * Callback function for the "slideshow" shortcode.
  *
  * @since 1.0.0
  *
  * @link https://glidejs.com/docs/ The slideshow docs.
  *
  * @param  array movies The collection of upcoming movies.
- * @param  bool  css    Return the CSS, or the HTML?
- * @return string       The slideshow CSS or HTML.
+ * @return string       The slideshow HTML.
  */
-function getSlideshow( movies, css = false ) {
+function getSlideshow( movies ) {
+	var html = '';
 	if ( 1 === movies.length ) {
-		if ( css ) {
-			return '';
+		const movie = movies[0];
+		html += '<div id="movie-background">';
+		html += '<div class="evans-slide-wrap">';
+    	html += `<h2 class="evans-slide movie-title"><a href="${movie.data.permalink}">${movie.data.title}</a></h2>`;
+    	html += '<p class="evans-slide movie-date-range">' + evansDateRange( movie.data.showtime ) + '</p>';
+    	html += '<p class="evans-slide excerpt">' + movie.data.excerpt + '</p>';
+    	html += '</div><!-- .evans-slide-wrap -->' + "\n";
+    	html += '</div><!-- #movie-background -->' + "\n";
+    	return html;
+	}
+
+	html += `
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">`;
+    for ( const movie of movies ) {
+    	html += '<li class="glide__slide" id="movie-'
+    		+ movie.data.permalink.replace( /\//g, '-' )
+    		+ '">';
+    	html += '<div class="evans-slide-wrap">';
+    	html += `<h2 class="evans-slide movie-title"><a href="${movie.data.permalink}">${movie.data.title}</a></h2>`;
+    	html += '<p class="evans-slide movie-date-range">' + evansDateRange( movie.data.showtime ) + '</p>';
+    	html += '<p class="evans-slide excerpt">' + movie.data.excerpt + '</p>';
+    	html += '</div><!-- .evans-slide-wrap -->' + "\n";
+    	html += '</li>' + "\n";
+    }
+    html += `
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+</div>
+`;
+
+	return html;
+
+}
+
+/**
+ * Gets the slideshow for the home page.
+ *
+ * Callback function for the "slideshowCSS" shortcode.
+ *
+ * @since 1.0.0
+ *
+ * @link https://glidejs.com/docs/ The slideshow docs.
+ *
+ * @param  array movies The collection of upcoming movies.
+ * @return string       The slideshow CSS.
+ */
+async function getSlideshowCSS( movies ) {
+	var css = '';
+	if ( 1 == movies.length ) {
+		const movie = movies[0];
+		css += '#movie-background {' + "\n";
+		const url = await getImage( 'src' + movie.data.featured_img, 'For CSS', 'css' );
+		css += `background: url( "${url}" );\n`;
+		css += `background-size: cover;\n`;
+		css += 'padding: 2em;';
+		css += '}' + "\n";
+	} else {
+		for ( const movie of movies ) {
+			css += '.glide__slide#movie-' + movie.data.permalink.replace( /\//g, '-' ) + ' {' + "\n";
+			if ( movie.data.featured_img ) {
+				const url = await getImage( 'src' + movie.data.featured_img, 'For CSS', 'css' );
+				css += `background: url( "${url}" );\n`;
+				css += 'background-size: cover;' + "\n";
+			}
+			css += '}' + "\n";
 		}
-		return "There's only one movie here. Don't worry about a slideshow.";
 	}
-	if ( css ) {
-		return '<style> /** Slideshow styles. */ </style>';
-	}
-	return "This slideshow is gonna be *lit*.";
+	css += `
+		.evans-slide-wrap {
+			background: rgba( 24, 32, 48, 0.7 );
+			backdrop-filter: blur( 2px );
+			padding: 1em;
+			margin: 1em;
+			margin-top: 3em;
+			border-radius: 32px;
+		}
+		`;
+	css = `<style>\n${css}\n</style>`;
+	return css;
 }
 
 /**
@@ -434,8 +514,8 @@ module.exports = function ( eleventyConfig ) {
 		return getSlideshow( movies );
 	});
 
-	eleventyConfig.addShortcode( "slideshowCSS", function( movies ) {
-		return getSlideshow( movies, css = true );
+	eleventyConfig.addShortcode( "slideshowCSS", async function( movies ) {
+		return getSlideshowCSS( movies );
 	} );
 
 

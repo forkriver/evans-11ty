@@ -4,7 +4,7 @@
   "description": "Convert the Evans Theatre website from WordPress to Eleventy.",
   "main": "index.js",
   "scripts": {
-    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "watch:sass": "npx sass src/sass/styles.scss public/css/styles.css --watch",
     "start": "npm run watch:sass & npm run watch:eleventy",
 	"make": "npx @11ty/eleventy"
