@@ -67,8 +67,7 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 		return `<meta name="og:image" content=${baseURL}${data.url}">`;
 		break;
 	case 'css':
-		console.log( data.url );
-		return `${data.url}`;
+		return data.url;
 		break;
 	case 'background':
 		// @todo Insert media queries into this here CSS.
@@ -150,6 +149,22 @@ async function getHero( src, alt, sizes = '100vw' ) {
 }
 
 /**
+ * Gets the excerpt text. If none is set, use the content.
+ *
+ * @since 1.0.0
+ *
+ * @param  object movie The movie.
+ * @return string       The excerpt text.
+ */
+function getExcerpt( movie, length = 200 ) {
+	if ( movie.data.excerpt ) {
+		return movie.data.excerpt;
+	}
+	// @todo Get the movie content.
+	return '';
+}
+
+/**
  * Gets the slideshow for the home page.
  *
  * Callback function for the "slideshow" shortcode.
@@ -169,7 +184,7 @@ function getSlideshow( movies ) {
 		html += '<div class="evans-slide-wrap">';
     	html += `<h2 class="evans-slide movie-title"><a href="${movie.data.permalink}">${movie.data.title}</a></h2>`;
     	html += '<p class="evans-slide movie-date-range">' + evansDateRange( movie.data.showtime ) + '</p>';
-    	html += '<p class="evans-slide excerpt">' + movie.data.excerpt + '</p>';
+    	html += '<p class="evans-slide excerpt">' + getExcerpt( movie ) + '</p>';
     	html += '</div><!-- .evans-slide-wrap -->' + "\n";
     	html += '</div><!-- #movie-background -->' + "\n";
     	return html;
@@ -186,12 +201,11 @@ function getSlideshow( movies ) {
     	html += '<div class="evans-slide-wrap">';
     	html += `<h2 class="evans-slide movie-title"><a href="${movie.data.permalink}">${movie.data.title}</a></h2>`;
     	html += '<p class="evans-slide movie-date-range">' + evansDateRange( movie.data.showtime ) + '</p>';
-    	html += '<p class="evans-slide excerpt">' + movie.data.excerpt + '</p>';
+    	html += '<p class="evans-slide excerpt">' + getExcerpt( movie )+ '</p>';
     	html += '</div><!-- .evans-slide-wrap -->' + "\n";
     	html += '</li>' + "\n";
     }
-    html += `
-    </ul>
+    html += `</ul>
   </div>
   <div class="glide__arrows" data-glide-el="controls">
     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
