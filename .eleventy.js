@@ -1,9 +1,10 @@
 // Requirements.
 const lodash       = require( 'lodash' );
 const { DateTime } = require( 'luxon' );
-const Image        = require("@11ty/eleventy-img");
+const Image        = require( '@11ty/eleventy-img' );
 const fs           = require( 'fs' );
-const embedYouTube = require('eleventy-plugin-youtube-embed');
+const embedYouTube = require( 'eleventy-plugin-youtube-embed');
+const markdownit   = require( 'markdown-it' );
 
 const moviesOnHomePage = 5;
 
@@ -157,8 +158,10 @@ async function getHero( src, alt, sizes = '100vw' ) {
  * @return string       The excerpt text.
  */
 function getExcerpt( movie, length = 200 ) {
+	console.log( movie.inputPath );
 	if ( movie.data.excerpt ) {
-		return movie.data.excerpt;
+		const md = markdownit();
+		return md.render( movie.data.excerpt );
 	}
 	// @todo Get the movie content.
 	return '';
