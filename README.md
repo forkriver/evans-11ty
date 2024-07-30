@@ -5,7 +5,7 @@ Evans Theatre website as a static site, using Eleventy.
 Current version: 1.0.0.
 
 ## Todo
-- [ ] Header Info
+- [x] Header Info (marking this done as I assume I meant the frontmatter)
 - [x] 3 post types: Movie, Page, and News Article
 - [x] Yearly list of Movies - see https://darekkay.com/blog/eleventy-group-posts-by-year/
       - [x] Order by year, then by showtimes
