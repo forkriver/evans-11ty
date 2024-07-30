@@ -11,8 +11,9 @@ Thumbs.db
 note-to-self.md
 testing/
 archived/
-php/
 *.bak
+.php/
+.local/
 
 # Node modules and output
 node_modules
