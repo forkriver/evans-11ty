@@ -1,6 +1,6 @@
 # Evans Theatre Eleventy
 
-Convert the Evans Theatre website from WordPress to Eleventy.
+Evans Theatre website as a static site, using Eleventy.
 
 Current version: 1.0.0.
 
