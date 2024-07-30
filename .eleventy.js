@@ -25,7 +25,7 @@ const moviesOnHomePage  = 5;
  *
  * @const int
  */
-const excerptTrimLength = 100;
+const excerptTrimLength = 150;
 
 
 // Site's base URL.
@@ -179,15 +179,21 @@ async function getHero( src, alt, sizes = '100vw' ) {
 function getExcerpt( movie, length = 200 ) {
 	const markdownit = require( 'markdown-it' );
 	const md         = markdownit();
+	var myContent;
 	if ( movie.data.excerpt && 0 < movie.data.excerpt.length ) {
-		return md.render( movie.data.excerpt );
+		myContent = movie.data.excerpt;
+		if ( myContent.length > excerptTrimLength ) {
+			myContent = myContent.substring( 0, excerptTrimLength ) + '...';
+
+		}
+		return md.render( myContent );
 	}
-	// Gets the content from the Markdown file.
+	// If there's no excerpt, get the content from the Markdown file.
 	const fs = require( 'node:fs' );
 	const content = fs.readFileSync( movie.inputPath, 'utf8', ( err, content ) => {
 		if ( err ) {
 			console.log( err.code + ' ' + err.path );
-			return '[error getting excerpt]';
+			return '';
 		}
 		return content;
 	} );
@@ -290,6 +296,15 @@ async function getSlideshowCSS( movies ) {
 			}
 			css += '}' + "\n";
 		}
+		// CSS for the slideshow buttons.
+		css += `
+		.glide__arrow {
+			top: 100%;
+			background-color: rgba( 32, 32, 32, 0.7 );
+			backdrop-filter: blur( 2px );
+			transform: translateY( -32px );
+		}
+		`;
 	}
 	css += `
 		.evans-slide-wrap {
