@@ -4,9 +4,28 @@ const { DateTime } = require( 'luxon' );
 const Image        = require( '@11ty/eleventy-img' );
 const fs           = require( 'fs' );
 const embedYouTube = require( 'eleventy-plugin-youtube-embed');
-const markdownit   = require( 'markdown-it' );
 
-const moviesOnHomePage = 5;
+/**
+ * @todo Set these constants in .env, maybe?
+ */
+
+/**
+ * Display this many movies, at most, on the home page.
+ *
+ * @since 1.0.0
+ *
+ * @const int
+ */
+const moviesOnHomePage  = 5;
+
+/**
+ * Max length to trim excerpted content.
+ *
+ * @since 1.0.0
+ *
+ * @const int
+ */
+const excerptTrimLength = 100;
 
 
 // Site's base URL.
@@ -158,13 +177,31 @@ async function getHero( src, alt, sizes = '100vw' ) {
  * @return string       The excerpt text.
  */
 function getExcerpt( movie, length = 200 ) {
-	console.log( movie.inputPath );
-	if ( movie.data.excerpt ) {
-		const md = markdownit();
+	const markdownit = require( 'markdown-it' );
+	const md         = markdownit();
+	if ( movie.data.excerpt && 0 < movie.data.excerpt.length ) {
 		return md.render( movie.data.excerpt );
 	}
-	// @todo Get the movie content.
-	return '';
+	// Gets the content from the Markdown file.
+	const fs = require( 'node:fs' );
+	const content = fs.readFileSync( movie.inputPath, 'utf8', ( err, content ) => {
+		if ( err ) {
+			console.log( err.code + ' ' + err.path );
+			return '[error getting excerpt]';
+		}
+		return content;
+	} );
+	if ( 0 < content.length ) {
+		// Removes the frontmatter from the Markdown file.
+		// @link https://stackoverflow.com/a/5884735/1094518 for the regex.
+		let myContent = content.replace( /---[\s\S]*?---/,'' ).trim();
+		if ( myContent.length > excerptTrimLength ) {
+			myContent = myContent.substring( 0, excerptTrimLength ) + '...';
+		}
+		return( md.render( myContent ) );
+	}
+	// Nothing's worked; bail out as gracefully as possible.
+	return md.render( 'Why is *this* ending up here?');
 }
 
 /**
