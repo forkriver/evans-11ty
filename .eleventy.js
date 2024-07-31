@@ -4,6 +4,7 @@ const { DateTime } = require( 'luxon' );
 const Image        = require( '@11ty/eleventy-img' );
 const fs           = require( 'fs' );
 const embedYouTube = require( 'eleventy-plugin-youtube-embed');
+const markdownit   = require( 'markdown-it' );
 
 /**
  * @todo Set these constants in .env, maybe?
@@ -83,12 +84,15 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 	let data = metadata.webp[ metadata.webp.length -1 ];
 
 	switch ( ret ) {
+	// OpenGraph meta image.
 	case 'og':
 		return `<meta name="og:image" content=${baseURL}${data.url}">`;
 		break;
+	// URL for a CSS snippet.
 	case 'css':
 		return data.url;
 		break;
+	// Inline CSs for a background image.
 	case 'background':
 		// @todo Insert media queries into this here CSS.
 		return `
@@ -122,9 +126,11 @@ async function getImage( src, alt = '', ret = 'imgTag' ) {
 		}
 		`;
 		break;
+	// Image tag for a hero image.
 	case 'hero':
 		return `<img class="full-bleed" src="${data.url}" alt="${alt}"  loading="lazy" decoding="async" />`;
 		break;
+	// Regular image tag.
 	default:
 		return `<img class="the-small-page-image" src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}"  loading="lazy" decoding="async" />`;
 	}
@@ -177,7 +183,6 @@ async function getHero( src, alt, sizes = '100vw' ) {
  * @return string       The excerpt text.
  */
 function getExcerpt( movie, length = 200 ) {
-	const markdownit = require( 'markdown-it' );
 	const md         = markdownit();
 	var myContent;
 	if ( movie.data.excerpt && 0 < movie.data.excerpt.length ) {
@@ -189,7 +194,6 @@ function getExcerpt( movie, length = 200 ) {
 		return md.render( myContent );
 	}
 	// If there's no excerpt, get the content from the Markdown file.
-	const fs = require( 'node:fs' );
 	const content = fs.readFileSync( movie.inputPath, 'utf8', ( err, content ) => {
 		if ( err ) {
 			console.log( err.code + ' ' + err.path );
