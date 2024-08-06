@@ -5,6 +5,7 @@ const Image        = require( '@11ty/eleventy-img' );
 const fs           = require( 'fs' );
 const embedYouTube = require( 'eleventy-plugin-youtube-embed');
 const markdownit   = require( 'markdown-it' );
+require('dotenv').config();
 
 /**
  * @todo Set these constants in .env, maybe?
