@@ -17,5 +17,3 @@ permalink: "/news/index.html"
 {% endfor %}
 
 {% endfor %}
-
-<script>console.log( 'hi pat' );</script>

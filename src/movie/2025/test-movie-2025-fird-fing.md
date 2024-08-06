@@ -18,13 +18,7 @@ layout: movie
 links: false
 ---
 
-Like a broken clock that can't tell time, 
-like a thick ass book that's filled with wack rhymes,
-like a scorching blaze that burned the sand,
-like a band that planned and planned and planned
-and flew down like a raven in the dark of night
-and snatched up the worm helpless to fight
-and brought it back to the nest, singing microphone check
+Evans Theatre website as a static site, using Eleventy.
 
 One two one two, this is just a test  
 One two one two, this is just a test  
