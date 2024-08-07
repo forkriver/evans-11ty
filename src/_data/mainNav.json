@@ -1,6 +1,7 @@
 {
 	"Home": "/",
-	"All Movies": "/movies",
-	"News": "/news",
-	"About": "/about"
+	"All Movies": "/movies/",
+	"Upcoming Movies": "/upcoming-movies/",
+	"News": "/news/",
+	"About": "/about/"
 }
