@@ -1,7 +1,5 @@
 // Requirements.
 const lodash       = require( 'lodash' );
-const { DateTime } = require( 'luxon' );
-const Image        = require( '@11ty/eleventy-img' );
 const embedYouTube = require( 'eleventy-plugin-youtube-embed');
 require('dotenv').config();
 
@@ -146,8 +144,8 @@ module.exports = function ( eleventyConfig ) {
     });
 
     // Nice date range formatting.
-    eleventyConfig.addFilter( 'showtimeRange', async function( showtimes ) {
-    	return await evansDateRange( showtimes );
+    eleventyConfig.addFilter( 'showtimeRange', function( showtimes ) {
+    	return evansDateRange( showtimes );
     });
 
     eleventyConfig.addFilter( 'upcomingShowtimeRange', function( showtimes ) {
@@ -161,13 +159,7 @@ module.exports = function ( eleventyConfig ) {
 
     // Set the year-only date format.
     eleventyConfig.addFilter('justTheYear', function( theDate ) {
-
-        var myDate = DateTime.fromISO( theDate.toISOString(), { zone: "America/Winnipeg" } );
-
-        if ( ! myDate || myDate.invalid ) {
-            return theDate;
-        }
-        return myDate.toFormat( 'yyyy' );
+        return evansDateFormat( theDate, 'year' );
     });
 
 	// Shortcodes.
@@ -182,8 +174,7 @@ module.exports = function ( eleventyConfig ) {
 
 	// Shortcodes for the slideshow (content and CSS).
 	eleventyConfig.addShortcode( "slideshow", function( movies ) {
-		const slideshow = getSlideshow( movies );
-		return slideshow;
+		return getSlideshow( movies );
 	});
 
 	eleventyConfig.addShortcode( "slideshowCSS", async function( movies ) {
@@ -206,16 +197,6 @@ module.exports = function ( eleventyConfig ) {
 		'modestBranding': true,
 		'noCookie': true,
 	});
-
-	// Debugging - Remove before flight.
-	// Spit out the current date and time. Helpful in --serve --quiet mode.
-	var now = new Date;
-	var localNow = DateTime.fromISO( now.toISOString(), { zone: "America/Winnipeg" } );
-	console.log(
-		localNow.toLocaleString()
-		+ ' @ '
-		+ localNow.toLocaleString( DateTime.TIME_SIMPLE ) );
-	// End of debugging.
 
 	return {
 		dir: {
