@@ -74,16 +74,18 @@ module.exports = function ( eleventyConfig ) {
 			.value();
 	});
 
+	// @todo - There should be a way to pull moviesUpcomingAll and return the first {n} of it.
 	eleventyConfig.addCollection( "moviesUpcoming", function( collection ) {
 		var upcomingMovies = lodash.chain( collection.getFilteredByGlob( "src/movie/**/*.md" ) )
 		.filter( ( movie ) => laterThanToday( movie.data.showtime ) )
-		.slice( 0, moviesOnHomePage )
 		.value();
 		if ( 0 === upcomingMovies.length ) {
 			return false;
 		}
 		// Sorts the movies by date descending.
 		upcomingMovies.sort( sortMoviesAsc );
+		// Gets the first {moviesOnHomePage} items.
+		upcomingMovies = upcomingMovies.slice( 0, moviesOnHomePage );
 
 		return upcomingMovies;
 	});
