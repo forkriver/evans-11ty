@@ -4,12 +4,12 @@ layout: base
 permalink: "/upcoming-movies/index.html"
 ---
 
-{% if collections.moviesUpcoming -%}
+{% if collections.moviesUpcomingAll -%}
 
-{% upcomingMovies collections.moviesUpcoming %}
+{% upcomingMovies collections.moviesUpcomingAll %}
 
 {%- else -%}
 
-We're taking a li'l break.
+There are no movies upcoming at this moment. Please check again closer to {{ 0 | nextSessionMonth }}. Thanks!
 
 {% endif -%}

@@ -20,6 +20,8 @@ const {
 	getSlideshowCSS,
 } = require( './lib/forkriver/fr-post-components.js' );
 
+const { sortMoviesAsc } = require( './lib/forkriver/fr-file-tools.js' );
+
 /**
  * @todo Set these constants in .env, maybe?
  */
@@ -42,27 +44,8 @@ const moviesOnHomePage  = 5;
  */
 const excerptTrimLength = 150;
 
-
 // Site's base URL.
 const baseURL = 'https://evanstheatre.ca';
-
-/**
- * Gets the next movie coming up.
- *
- * If there's no movie in the pipe, returns {}.
- *
- * @since 1.0.0
- *
- * @param  array movies The list of movies.
- * @return object       The next movie, or empty object.
- */
-function getNextMovie() {
-	// var movies = collection.getFilteredByGlob("src/movie/**/*.md");
-	console.log( movies.length );
-	return {};
-}
-
-
 
 module.exports = function ( eleventyConfig ) {
 
@@ -100,24 +83,20 @@ module.exports = function ( eleventyConfig ) {
 			return false;
 		}
 		// Sorts the movies by date descending.
-		upcomingMovies.sort( function( a, b ) {
-			let aLatest = 0;
-			let bLatest = 0;
-			let aShowtimeSeconds, bShowtimeSeconds;
-			for ( const aShowtime of a.data.showtime ) {
-				aShowtimeSeconds = evansDateFormat( aShowtime, 'epoch' );
-				if ( aShowtimeSeconds > aLatest ) {
-					aLatest = aShowtimeSeconds;
-				}
-			}
-			for ( const bShowtime of b.data.showtime ) {
-				bShowtimeSeconds = evansDateFormat( bShowtime, 'epoch' );
-				if ( bShowtimeSeconds > bLatest ) {
-					bLatest = bShowtimeSeconds;
-				}
-			}
-			return aLatest - bLatest;
-		} );
+		upcomingMovies.sort( sortMoviesAsc );
+
+		return upcomingMovies;
+	});
+
+	eleventyConfig.addCollection( "moviesUpcomingAll", function( collection ) {
+		var upcomingMovies = lodash.chain( collection.getFilteredByGlob( "src/movie/**/*.md" ) )
+		.filter( ( movie ) => laterThanToday( movie.data.showtime ) )
+		.value();
+		if ( 0 === upcomingMovies.length ) {
+			return false;
+		}
+		// Sorts the movies by date descending.
+		upcomingMovies.sort( sortMoviesAsc );
 
 		return upcomingMovies;
 	});
