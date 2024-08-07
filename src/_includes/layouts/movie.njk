@@ -11,7 +11,7 @@
 <body>
 <main>
 {% include "partials/_mainNav.njk" %}
-<h1 class="movie-title full-bleed">{{ title | safe }}</h1>
+<h1 class="movie-title">{{ title | safe }}</h1>
 {% if featured_img %}
 	{%- if featured_alt -%}
 		{% hero 'src' + featured_img, featured_alt %}
