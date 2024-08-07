@@ -41,15 +41,6 @@ main {
 
 
 
-// ul.showtime-list {
-// 	li {
-// 		display: inline;
-// 	}
-// 	li + li::before {
-// 		content: " | ";
-// 	}
-// }
-
 ul.main-nav {
 	margin-left: 0;
 	padding-left: 0;
@@ -57,8 +48,23 @@ ul.main-nav {
 	li  {
 		display: inline;
 		list-style: none;
-		margin-right: 0.75em;
+		margin-right: 0.25em;
+		padding: 0.25em;
 	}
+
+	li:hover {
+		background: $menu-hover-background;
+		border-radius: 6px;
+		a {
+			color: #fff;
+		}
+	}
+
+	li.nav-current-page {
+		background: $menu-current-page-background;
+		border-radius: 6px;
+	}
+
 }
 
 .article-date {
