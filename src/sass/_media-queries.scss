@@ -20,6 +20,14 @@
 			}
 		}
 	}
+	main {
+		width: 95%;
+		max-width: 95%;
+	}
+
+	blockquote.upcoming-movie-excerpt {
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 800px ) {
