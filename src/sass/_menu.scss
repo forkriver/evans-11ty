@@ -123,9 +123,6 @@ h1.logo {
     width: 100%;
     color: white;
     background-color: darken( $background-color, 10% );
-    a:hover {
-    	background: darken( $background-color, 10% );
-    }
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
