@@ -9,8 +9,8 @@
 </head>
 
 <body>
+{% include "partials/_header.njk" %}
 <main>
-{% include "partials/_mainNav.njk" %}
 <h1 class="movie-title full-bleed">{{ title | safe }}</h1>
 {% if featured_img %}
 	{%- if featured_alt -%}

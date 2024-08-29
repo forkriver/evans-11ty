@@ -9,8 +9,8 @@
 </head>
 
 <body>
+{% include "partials/_header.njk" %}
 <main>
-{% include "partials/_mainNav.njk" %}
 <h1>{{ title | safe }}</h1>
 <div class="article-date">Posted: {{ date | articledateformat }}</div>
 {{ content | safe }}
