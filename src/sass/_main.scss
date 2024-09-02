@@ -46,6 +46,13 @@ main {
 .movie-title {
 }
 
+.movie-showtime-summary {
+	font-size: 75%;
+	&:before {
+		content: " » ";
+	}
+}
+
 
 
 ul.main-nav {
