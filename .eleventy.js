@@ -1,6 +1,7 @@
 // Requirements.
 const lodash       = require( 'lodash' );
 const embedYouTube = require( 'eleventy-plugin-youtube-embed');
+const pluginRss    = require("@11ty/eleventy-plugin-rss");
 require('dotenv').config();
 
 // Fork River libraries. Someday maybe I'll make 'em into Node modules.
@@ -149,6 +150,10 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "hero", async function( src, alt ) {
 		return getHero( src, alt );
 	});
+	eleventyConfig.addShortcode( "heroURL", async function( src ) {
+		// @todo Get the URL fetching to work.
+		return getImage( src, 'alt', 'heroURL' );
+	});
 	eleventyConfig.addShortcode( "currentYear", function() {
 		const year = new Date().getFullYear();
 		return year;
@@ -183,6 +188,31 @@ module.exports = function ( eleventyConfig ) {
 		'modestBranding': true,
 		'noCookie': true,
 	});
+
+	// RSS feed.
+	/*
+	// This requires v2 of the RSS feed plugin, which requires Eleventy v3.
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "rss", // or "rss", "json"
+		outputPath: "/movies/upcoming/feed/index.xml",
+		collection: {
+			name: "moviesUpcomingAll", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Evans Theatre",
+			subtitle: "Upcoming Movies at the Evans",
+			base: "https://evanstheatre.ca/",
+			author: {
+				name: "Evans Theatre",
+				email: "", // Optional
+			}
+		}
+	});
+	*/
+
+	eleventyConfig.addPlugin(pluginRss);
 
 	return {
 		dir: {

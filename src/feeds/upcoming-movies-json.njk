@@ -1,0 +1,50 @@
+---json
+{
+  "permalink": "/movies/feed/index.json",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Evans Movies",
+    "subtitle": "Upcoming movies at the Evans Theatre",
+    "language": "en",
+    "url": "https://evanstheatre.ca/",
+    "author": {
+      "name": "Evans MovieBot"
+    }
+  }
+}
+---
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "{{ metadata.title }}",
+  "language": "{{ metadata.language }}",
+  "home_page_url": "{{ metadata.url }}",
+  "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
+  "description": "{{ metadata.subtitle }}",
+  "author": {
+    "name": "{{ metadata.author.name }}",
+    "url": "{{ metadata.author.url }}"
+  },
+  "items": [
+    {%- for movie in collections.moviesUpcomingAll %}
+    {%- set absolutePostUrl = movie.url | absoluteUrl(metadata.url) %}
+    {
+      "id": "{{ absolutePostUrl }}",
+      "url": "{{ absolutePostUrl }}",
+      "title": "{{ movie.data.title }}",
+      "content_html": {% if movie.templateContent %}{{ movie.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+      "date_published": "{{ movie.date | dateToRfc3339 }}",
+      {%- if movie.data.featured_img  %}
+      "banner_image": "{% heroURL movie.data.featured_img %}",
+      {%- endif  %}
+      "_showtime": [
+        {%- if movie.data.showtime  %}
+        {%- for showtime in movie.data.showtime %}
+        "{{ showtime }}"{%- if not loop.last %},{%- endif %}
+        {%- endfor  %}
+        {%- endif %}
+      ]
+    }
+    {% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ]
+}
