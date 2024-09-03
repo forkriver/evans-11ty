@@ -1,6 +1,8 @@
 # Disables directory indexes
 Options -Indexes
 
+DirectoryIndex index.html index.json index.xml
+
 # Custom error docs
 ErrorDocument 404 /errors/404/
 ErrorDocument 403 /errors/403/
