@@ -1,7 +1,8 @@
 // Requirements.
-const lodash       = require( 'lodash' );
-const embedYouTube = require( 'eleventy-plugin-youtube-embed');
-const pluginRss    = require("@11ty/eleventy-plugin-rss");
+const lodash         = require( 'lodash' );
+const embedYouTube   = require( 'eleventy-plugin-youtube-embed');
+const pluginRss      = require("@11ty/eleventy-plugin-rss");
+const { createHash } = require( 'node:crypto' );
 require('dotenv').config();
 
 // Fork River libraries. Someday maybe I'll make 'em into Node modules.
@@ -151,6 +152,13 @@ module.exports = function ( eleventyConfig ) {
     		return new Date().toISOString();
     	}
     	return '';
+    });
+
+    // ~~MD5~~ SHA256 for the unique IDs.
+    eleventyConfig.addFilter( 'mySHA256', function( string ) {
+    	const hash = createHash( 'sha256' );
+    	hash.update( string );
+    	return hash.copy().digest( 'hex' );
     });
 
 	// Shortcodes.

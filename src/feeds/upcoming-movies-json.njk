@@ -8,7 +8,8 @@
     "language": "en",
     "url": "https://evanstheatre.ca/",
     "author": {
-      "name": "Evans MovieBot"
+      "name": "Evans MovieBot",
+      "url": "https://evanstheatre.ca/"
     },
     "date": "now"
   }
@@ -31,6 +32,7 @@
     {%- set absolutePostUrl = movie.url | absoluteUrl(metadata.url) %}
     {
       "id": "{{ absolutePostUrl }}",
+      "_uniqid": "{{ movie.data.title | mySHA256 }}",
       "url": "{{ absolutePostUrl }}",
       "title": "{{ movie.data.title }}",
       "content_html": {% if movie.templateContent %}{{ movie.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
