@@ -145,6 +145,14 @@ module.exports = function ( eleventyConfig ) {
         return evansDateFormat( theDate, 'year' );
     });
 
+    // Use "now" in Nunjucks files to create the current date.
+    eleventyConfig.addFilter( 'rightNow', function( theDate ) {
+    	if ( 'now' === theDate ) {
+    		return new Date().toISOString();
+    	}
+    	return '';
+    });
+
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
 	eleventyConfig.addShortcode( "hero", async function( src, alt ) {

@@ -9,7 +9,8 @@
     "url": "https://evanstheatre.ca/",
     "author": {
       "name": "Evans MovieBot"
-    }
+    },
+    "date": "now"
   }
 }
 ---
@@ -20,6 +21,7 @@
   "home_page_url": "{{ metadata.url }}",
   "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
   "description": "{{ metadata.subtitle }}",
+  "_last_update": "{{ metadata.date | rightNow }}",
   "author": {
     "name": "{{ metadata.author.name }}",
     "url": "{{ metadata.author.url }}"
