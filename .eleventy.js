@@ -47,7 +47,7 @@ const moviesOnHomePage  = 5;
 const excerptTrimLength = 150;
 
 // Site's base URL.
-const baseURL = 'https://evanstheatre.ca';
+const baseURL = process.env.BASE_URL ?? 'https://evanstheatre.ca';
 
 module.exports = function ( eleventyConfig ) {
 
@@ -161,14 +161,19 @@ module.exports = function ( eleventyConfig ) {
     	return hash.copy().digest( 'hex' );
     });
 
+    // Canonicalize a URL.
+    eleventyConfig.addFilter( 'canonicalize', function( url ) {
+    	return baseURL + url;
+    })
+
 	// Shortcodes.
 	eleventyConfig.addShortcode( "image", getImage );
 	eleventyConfig.addShortcode( "hero", async function( src, alt ) {
 		return getHero( src, alt );
 	});
 	eleventyConfig.addShortcode( "heroURL", async function( src ) {
-		// @todo Get the URL fetching to work.
-		return getImage( src, 'alt', 'heroURL' );
+		let imageURL = await getImage( src, 'alt', 'heroURL' );
+		return baseURL + imageURL;
 	});
 	eleventyConfig.addShortcode( "currentYear", function() {
 		const year = new Date().getFullYear();

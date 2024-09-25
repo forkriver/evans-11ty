@@ -22,6 +22,15 @@
   })();
 </script>
 <!-- End Matomo Code -->
+<!-- Facebook / Open Graph -->
+<meta property="og:url"         content="{{ permalink | canonicalize }}" />
+<meta property="og:type"        content="movie" />
+<meta property="og:title"       content="{{ title | safe }}" />
+<meta property="og:description" content="A movie at the Evans Theatre" />
+{%- if featured_img %}
+<meta property="og:image"       content="{% heroURL 'src' + featured_img %}" />
+{% endif -%}
+<!-- End Facebook / Open Graph -->
 </head>
 
 <body>
