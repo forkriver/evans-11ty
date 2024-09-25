@@ -3,9 +3,9 @@
     <label class='menu-button-container' for="menu-toggle">
     	<div class='menu-button'></div>
 	</label>
-	<ul class="main-nav menu">
+	<menu class="main-nav menu">
 	{% for navTitle, navURL in mainNav %}
 		<li><a href="{{ navURL }}">{{ navTitle }}</a></li>
 	{% endfor -%}
-	</ul><!-- .main-nav -->
+	</menu><!-- .main-nav -->
 {%- endif %}
