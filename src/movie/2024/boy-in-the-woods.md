@@ -19,4 +19,6 @@ links: false
 
 The remarkable true-life survival story of a Jewish boy hiding and being hunted in the forests of Nazi-occupied Eastern Europe, based on Maxwell Smart's memoir.
 
+**Note:** Our printed programme has the wrong date for this movie. It is showing on **Oct. 25–27** at 7:30pm.
+
 <!-- https://www.youtube.com/watch?v=kjgmGiq_IzA -->
