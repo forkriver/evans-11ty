@@ -1,0 +1,19 @@
+{
+    "crawlers": [
+        "GPTBot",
+    	"ClaudeBot",
+    	"Claude-Web",
+    	"CCBot",
+    	"Applebot-Extended",
+    	"Facebookbot",
+    	"Meta-ExternalAgent",
+    	"diffbot",
+    	"PerplexityBot",
+    	"Omgili",
+    	"Omgilibot",
+    	"ImagesiftBot",
+    	"Bytespider",
+    	"Amazonbot",
+    	"Youbot"
+    ]
+}
