@@ -4,13 +4,23 @@ permalink: "/movies/index.html"
 layout: base
 ---
 
+{% if collections.moviesUpcomingAll -%}
+## Coming Soon
+
+Here's what we're showing in the next little while.
+
+{% upcomingMovies collections.moviesUpcomingAll %}
+{%- endif %}
+
+## Our Movie History
+
 We've been showing movies since about 1967, when the Brandon Film Festival started up. Our weekend programme started in 1997. Here's a list of all the movies we've shown since 2011.
 
 <div class="all-movies">
 {% for year, movies in collections.moviesByYear %}
 <div id="movies-{{ year }}">
 
-## {{ year }}
+### {{ year }}
 
 <div class="all-movies movie-list">
 {%- for movie in movies %}
