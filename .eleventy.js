@@ -26,6 +26,7 @@ const { sortMoviesAsc } = require( './lib/forkriver/fr-file-tools.js' );
 
 /**
  * @todo Set these constants in .env, maybe?
+ * @todo Some are in src/_data/site.json; others can be moved there.
  */
 
 /**
@@ -154,7 +155,7 @@ module.exports = function ( eleventyConfig ) {
     	return '';
     });
 
-    // ~~MD5~~ SHA256 for the unique IDs.
+    // SHA256 for the unique IDs.
     eleventyConfig.addFilter( 'mySHA256', function( string ) {
     	const hash = createHash( 'sha256' );
     	hash.update( string );
@@ -195,10 +196,7 @@ module.exports = function ( eleventyConfig ) {
 
 
 	// Passthrough copies.
-	// Removed b/c SASS compiles straight to public/css.
-	// eleventyConfig.addPassthroughCopy("src/css");
 	eleventyConfig.addPassthroughCopy("src/images");
-	// eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
 	eleventyConfig.addPassthroughCopy( { 'src/htaccess': '/.htaccess'} );
 	eleventyConfig.addPassthroughCopy( { 'src/scripts': '/scripts'} );
