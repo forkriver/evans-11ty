@@ -8,7 +8,8 @@
     "watch:sass": "npx sass src/sass/styles.scss public/css/styles.css --watch",
     "start": "npm run watch:sass & npm run watch:eleventy",
     "update": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --incremental",
-    "make": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy"
+    "make": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
+    "build": "rm -rf public/; npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^3.1.0",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.0",
     "dotenv": "^16.4.5",
     "eleventy-plugin-youtube-embed": "^1.10.2",
     "lodash": "^4.17.21",

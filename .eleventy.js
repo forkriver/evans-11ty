@@ -1,8 +1,8 @@
 // Requirements.
+const { createHash } = require( 'node:crypto' );
 const lodash         = require( 'lodash' );
 const embedYouTube   = require( 'eleventy-plugin-youtube-embed');
-const pluginRss      = require("@11ty/eleventy-plugin-rss");
-const { createHash } = require( 'node:crypto' );
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 require('dotenv').config();
 
 // Fork River libraries. Someday maybe I'll make 'em into Node modules.
@@ -209,8 +209,6 @@ module.exports = function ( eleventyConfig ) {
 	});
 
 	// RSS feed.
-	/*
-	// This requires v2 of the RSS feed plugin, which requires Eleventy v3.
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss", // or "rss", "json"
 		outputPath: "/movies/upcoming/feed/index.xml",
@@ -229,9 +227,6 @@ module.exports = function ( eleventyConfig ) {
 			}
 		}
 	});
-	*/
-
-	eleventyConfig.addPlugin(pluginRss);
 
 	return {
 		dir: {
