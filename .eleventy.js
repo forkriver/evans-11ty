@@ -211,7 +211,7 @@ module.exports = function ( eleventyConfig ) {
 	// RSS feed.
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss", // or "rss", "json"
-		outputPath: "/movies/upcoming/feed/index.xml",
+		outputPath: "/movies/feed/index.xml",
 		collection: {
 			name: "moviesUpcomingAll", // iterate over `collections.posts`
 			limit: 10,     // 0 means no limit
