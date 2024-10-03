@@ -1,6 +1,6 @@
 ---
 title: Kneecap
-permalink: /movie/kneecap
+permalink: /movie/kneecap/
 showtime:
 - 2024-10-18 7:30:00 pm
 - 2024-10-19 7:30:00 pm

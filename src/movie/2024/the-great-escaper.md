@@ -1,6 +1,6 @@
 ---
 title: The Great Escaper
-permalink: /movie/the-great-escaper
+permalink: /movie/the-great-escaper/
 showtime:
 - 2024-09-27 7:30:00 pm
 - 2024-09-28 7:30:00 pm

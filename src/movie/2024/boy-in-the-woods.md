@@ -1,6 +1,6 @@
 ---
 title: The Boy in the Woods
-permalink: /movie/the-boy-in-the-woods
+permalink: /movie/the-boy-in-the-woods/
 showtime:
 - 2024-10-25 7:30:00 pm
 - 2024-10-26 7:30:00 pm

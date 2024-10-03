@@ -1,6 +1,6 @@
 ---
 title: Perfect Days
-permalink: /movie/perfect-days
+permalink: /movie/perfect-days/
 date: "2024-08-29T14:39:00-05:00"
 showtime:
 - 2024-10-04 7:30:00 pm

@@ -1,6 +1,6 @@
 ---
 title: Robot Dreams
-permalink: /movie/robot-dreams
+permalink: /movie/robot-dreams/
 showtime:
 - 2024-10-11 7:30:00 pm
 - 2024-10-12 7:30:00 pm
