@@ -6,7 +6,7 @@
     "title": "Evans Movies",
     "subtitle": "Upcoming movies at the Evans Theatre",
     "language": "en",
-    "url": "https://evanstheatre.ca/",
+    "baseURL": "https://evanstheatre.ca/",
     "author": {
       "name": "Evans MovieBot",
       "url": "https://evanstheatre.ca/"
@@ -19,23 +19,25 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "{{ metadata.title }}",
   "language": "{{ metadata.language }}",
-  "home_page_url": "{{ metadata.url }}",
-  "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
+  "home_page_url": "{{ metadata.baseURL }}",
+  "feed_url": "{{ permalink | htmlBaseUrl( metadata.baseURL ) }}",
   "description": "{{ metadata.subtitle }}",
   "_last_update": "{{ metadata.date | rightNow }}",
-  "author": {
-    "name": "{{ metadata.author.name }}",
-    "url": "{{ metadata.author.url }}"
-  },
+  "authors": [
+    {
+      "name": "{{ metadata.author.name }}",
+      "url": "{{ metadata.author.url }}"
+    }
+  ],
   "items": [
     {%- for movie in collections.moviesUpcomingAll %}
-    {%- set absolutePostUrl = movie.url | absoluteUrl(metadata.url) %}
+    {%- set absolutePostUrl = movie.url | htmlBaseUrl( metadata.baseURL ) %}
     {
       "id": "{{ absolutePostUrl }}",
       "_uniqid": "{{ movie.data.title | mySHA256 }}",
       "url": "{{ absolutePostUrl }}",
       "title": "{{ movie.data.title }}",
-      "content_html": {% if movie.templateContent %}{{ movie.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+      "content_html": {% if movie.content %}{{ movie.content | renderTransforms( movie.data.page, metadata.baseURL ) | dump | safe }}{% else %}""{% endif %},
       "date_published": "{{ movie.date | dateToRfc3339 }}",
       {%- if movie.data.featured_img  %}
       "banner_image": "{% heroURL movie.data.featured_img %}",
