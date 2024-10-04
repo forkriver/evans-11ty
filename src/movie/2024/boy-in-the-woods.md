@@ -21,4 +21,4 @@ The remarkable true-life survival story of a Jewish boy hiding and being hunted 
 
 **Note:** Our printed programme has the wrong date for this movie. It is showing on **Oct. 25–27** at 7:30pm.
 
-<!-- https://www.youtube.com/watch?v=kjgmGiq_IzA -->
+https://www.youtube.com/watch?v=kjgmGiq_IzA 

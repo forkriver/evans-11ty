@@ -20,4 +20,4 @@ links: false
 
 When fate brings Belfast teacher JJ into the orbit of self-confessed 'low life scum' Naoise and Liam Og, the needle drops on a hip hop act like no other. Rapping in their native Irish, they lead a movement to save their mother tongue.
 
-<!-- https://www.youtube.com/watch?v=2sCxDw8v5cY -->
+https://www.youtube.com/watch?v=2sCxDw8v5cY 

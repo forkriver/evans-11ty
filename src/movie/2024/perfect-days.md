@@ -23,4 +23,4 @@ links: false
 
 Hirayama is content with his life as a toilet cleaner in Tokyo. Outside of his structured routine, he cherishes music on cassette tapes, books, and taking photos of trees. Through unexpected encounters, he reflects on finding beauty in the world.
 
-<!-- https://www.youtube.com/watch?v=Iv8YO5BXCAQ  -->
+https://www.youtube.com/watch?v=Iv8YO5BXCAQ 

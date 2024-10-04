@@ -19,5 +19,5 @@ links: false
 
 In the summer of 2014, a World War II veteran sneaks out of his care home to attend the 70th anniversary commemoration of the D-Day landings in Normandy.
 
-<!-- https://www.youtube.com/watch?v=JEvYEPNxHzo -->
+https://www.youtube.com/watch?v=JEvYEPNxHzo 
 
