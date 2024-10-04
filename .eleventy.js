@@ -174,6 +174,10 @@ module.exports = function ( eleventyConfig ) {
 	});
 	eleventyConfig.addShortcode( "heroURL", async function( src ) {
 		let imageURL = await getImage( src, 'alt', 'heroURL' );
+		if ( 0 === imageURL.length ) {
+			console.log( "Couldn't get the image for " + src );
+			return '';
+		}
 		return baseURL + imageURL;
 	});
 	eleventyConfig.addShortcode( "currentYear", function() {
