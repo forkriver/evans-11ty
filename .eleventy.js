@@ -180,6 +180,14 @@ module.exports = function ( eleventyConfig ) {
 		}
 		return baseURL + imageURL;
 	});
+	eleventyConfig.addShortcode( 'heroHeight', async function( src ) {
+		let height = await getImage( src, 'alt', 'heroHeight' );
+		return height;
+	});
+	eleventyConfig.addShortcode( 'heroWidth', async function( src ) {
+		let width = await getImage( src, 'alt', 'heroWidth' );
+		return width;
+	});
 	eleventyConfig.addShortcode( "currentYear", function() {
 		const year = new Date().getFullYear();
 		return year;
