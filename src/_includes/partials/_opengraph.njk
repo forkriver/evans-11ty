@@ -1,0 +1,11 @@
+<!-- Open Graph -->
+<meta property="og:url"         content="{{ permalink | canonicalize }}" />
+<meta property="og:type"        content="{{ layout }}" />
+<meta property="og:title"       content="{{ title | safe }}" />
+{%- if excerpt %}
+<meta property="og:description" content="{{ excerpt | safe  }}" />
+{%- endif %}
+{%- if featured_img %}
+<meta property="og:image"       content="{% heroURL 'src' + featured_img %}" />
+{%- endif %}
+<!-- End Open Graph -->
