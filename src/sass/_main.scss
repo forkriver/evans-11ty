@@ -1,4 +1,5 @@
 // _main.scss
+@use 'sass:color';
 
 html {
 	background: $background-color;
@@ -107,4 +108,13 @@ footer {
 .hide-me {
 	color: $background-color; // Yes, that's correct.
 	font-size: 1px;
+}
+
+// Asides. Used for notes in the text.
+aside {
+	background: color.scale( $background-color, $lightness: 10% );
+	padding: 1em;
+	border: 1px solid color.scale( $background-color, $lightness: 50% );
+	border-radius: 8px;
+	font-size: 90%;
 }
