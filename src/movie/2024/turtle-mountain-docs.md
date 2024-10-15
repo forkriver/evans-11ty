@@ -4,7 +4,7 @@ permalink: /movie/turtle-mountain-souris-plains/
 date: Last Modified
 showtime:
 - 2024-11-03 2:00:00 pm
-excerpt: "Three short films highlighting the past and present of the Turtle Mountain Souris Plains region."
+excerpt: "*Special event:* Three short films highlighting the past and present of the Turtle Mountain Souris Plains region."
 tags:
 - movie
 - movie-2024
