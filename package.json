@@ -10,7 +10,7 @@
     "update":         "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --incremental",
     "make":           "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
     "rebuild":        "rm -rf public/; npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
-    "publish":        "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --quiet ; rsync -az  public/* pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/"
+    "publish":        "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --quiet ; rsync -avz  public/* pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/"
   },
   "repository": {
     "type": "git",
