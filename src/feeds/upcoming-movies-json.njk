@@ -37,7 +37,7 @@
       "_uniqid": "{{ movie.data.title | mySHA256 }}",
       "url": "{{ absolutePostUrl }}",
       "title": "{{ movie.data.title }}",
-      "content_html": {% if movie.content %}"{{ movie.content | renderTransforms( movie.data.page, metadata.baseURL ) | dump | safe }}"{% else %}""{% endif %},
+      "content_html": {% if movie.content %}{{ movie.content | renderTransforms( movie.data.page, metadata.baseURL ) | dump | safe }}{% else %}""{% endif %},
       "date_published": "{{ movie.date | dateToRfc3339 }}",
       {%- if movie.data.featured_img  %}
       "banner_image": "{% heroURL movie.data.featured_img %}",
