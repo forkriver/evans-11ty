@@ -36,7 +36,7 @@ const { sortMoviesAsc } = require( './lib/forkriver/fr-file-tools.js' );
  *
  * @const int
  */
-const moviesOnHomePage  = 5;
+const moviesOnHomePage  = 10;
 
 /**
  * Max length to trim excerpted content.
