@@ -16,9 +16,13 @@ layout: movie
 
 ## John McCrae's War
 
+{% hero 'src/images/feature/john-mccrae.jpg', 'An image of John McCrae' %}
+
 This feature documentary profiles poet John McCrae, from his childhood in Ontario to his years in medicine at McGill University and the WWI battlefields of Belgium, where he cared for wounded soldiers. Generations of schoolchildren have recited McCrae’s iconic poem “In Flanders Fields,” but McCrae and Alexis Helmer—the young man whose death inspired the poem—have faded from memory. This film seeks to revive their stories through a vivid portrait of a great man in Canadian history.
 
 ## Camp Hughes: Prelude to Victory
+
+{% hero 'src/images/feature/camp-hughes.jpg', 'A sepia photo of a field full of World War I-era tents' %}
 
 Camp Hughes, located near Carberry, MB from 1909 to 1934, was a prominent Militia and First World War military training site for prairie soldiers. During the war, approximately 38,000 soldiers were trained there for overseas service with the Canadian Expeditionary Force (C.E.F.). In 1916, Camp Hughes was considered the second largest city in Manitoba after Winnipeg.
 
