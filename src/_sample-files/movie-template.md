@@ -3,22 +3,26 @@
 title: "{movie title}"
 layout: movie
 excerpt: "{excerpt, if desired}"
-date: YYYY-MM-DD HH:MM:SS {published date}
-modified: YYYY-MM-DD HH:MM:SS {modified date}
-permalink: "movie/{year}/{slugified title}/index.html"
-tags: ["evans_movie"]
+date: Last Modified {or YYYY-MM-DD HH:MM:SS}
+modified: Last Modified
+permalink: "/movie/{slugified-title}/"
+tags: 
+- movie
+- movie-{year}
 featured_img: /images/feature/{movie image}.jpg
-remote_featured_image: http://evanstheatre.ca/wp-content/uploads/2022/12/benediction.jpg
+featured_alt: "{alt text for the image, if desired; defaults to 'Still from {movie}'}"
 showtime: 
- - YYYY-MM-DD 19:30:00 -0{5|6}:00
- - YYYY-MM-DD 19:30:00 -0{5|6}:00
- - YYYY-MM-DD 19:30:00 -0{5|6}:00 // ...
+ - YYYY-MM-DD 7:30:00 pm
+ - YYYY-MM-DD 7:30:00 pm
+ - YYYY-MM-DD 7:30:00 pm
+ {...}
 
 # Optional items follow
 rating:
   rating: "{rating}"
   notes:  "{rating notes}"
 
+# @todo - make sure this is processed
 special_event:
   special_event: true
   organization: "{Organization Name}"
@@ -30,4 +34,4 @@ special_event:
 
 {Movie synopsis here}
 
-{YouTube embed code, if any}
+{YouTube URL, if any}
