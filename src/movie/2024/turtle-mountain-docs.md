@@ -2,6 +2,8 @@
 title: Turtle Mountain - Souris Plains Films
 permalink: /movie/turtle-mountain-souris-plains/
 date: Last Modified
+featured_img: "/images/feature/whitewater-lake.jpg"
+featured_alt: "A photo of Whitewater Lake"
 showtime:
 - 2024-11-03 2:00:00 pm
 excerpt: "*Special event:* Three short films highlighting the past and present of the Turtle Mountain Souris Plains region."
