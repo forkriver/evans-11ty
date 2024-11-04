@@ -1,5 +1,5 @@
 {
-  "name": "Evans Theatre (Eleventy)",
+  "name": "evans-theatre-11ty",
   "version": "1.0.0",
   "description": "Evans Theatre website as a static site, using Eleventy.",
   "main": "index.js",
