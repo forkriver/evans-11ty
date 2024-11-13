@@ -10,9 +10,10 @@ tags:
 featured_img: /images/feature/heretic.jpg
 featured_alt: "Still from Heretic: Two young women stand with their backs to the camera, facing a house half-obscured by a flurry of snow."
 showtime: 
- - 2024-12-06 7:30:00 pm
- - 2024-12-07 7:30:00 pm
- - 2024-12-08 7:30:00 pm
+ - 2025-01-10 7:30:00 pm
+ - 2025-01-11 7:30:00 pm
+ - 2025-01-12 7:30:00 pm
+note: "<em>Heretic</em> has been re-scheduled to the weekend of January 10-12, 2025, due to a scheduling conflict."
 ---
 
 Two young missionaries are forced to prove their faith when they knock on the wrong door and are greeted by the diabolical Mr. Reed, becoming ensnared in his deadly game of cat-and-mouse.
