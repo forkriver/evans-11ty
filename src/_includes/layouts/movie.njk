@@ -22,6 +22,11 @@
 		{% hero 'src' + featured_img, 'Still from ' + title %}
 	{%- endif -%}
 {% endif %}
+{% if note %}
+	<aside>
+		<strong>Note:</strong> {{  note | safe }}
+	</aside>
+{% endif %}
 <h2>Showtimes</h2>
 <ul class="showtime-list">
 	{% for s in showtime -%}

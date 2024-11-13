@@ -27,6 +27,7 @@ special_event:
   special_event: true
   organization: "{Organization Name}"
   passes: "void|accepted"
+note: "Text of the note. {Markdown won't be processed; HTML should be OK.}"
 
 ---
 
