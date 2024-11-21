@@ -26,6 +26,19 @@
 		<strong>Note:</strong> {{  note | safe }}
 	</aside>
 {% endif %}
+{% if special_event %}
+	<aside>
+		<strong>Note:</strong>
+		This is a special event
+		{%- if special_event.organization -%}
+		, presented by <strong>{{ special_event.organization | safe }}</strong>
+		{%- endif -%}.
+		{%- if 'void' == special_event.passes -%}
+		<br /><em>Evans passes will not be accepted.</em>
+		{%- endif -%}
+
+	</aside>
+{% endif %}
 <h2>Showtimes</h2>
 <ul class="showtime-list">
 	{% for s in showtime -%}
