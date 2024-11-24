@@ -12,7 +12,7 @@ featured_alt: "Still from Heretic: Two young women stand with their backs to the
 showtime: 
  - 2025-01-10 7:30:00 pm
  - 2025-01-11 7:30:00 pm
- - 2025-01-12 7:30:00 pm
+ - 2025-01-12 2:00:00 pm
 note: "<em>Heretic</em> has been re-scheduled to the weekend of January 10-12, 2025, due to a scheduling conflict."
 ---
 
