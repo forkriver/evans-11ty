@@ -10,6 +10,10 @@ Brandon's indiest indie cinema, on the campus of [Brandon University](https://ww
 
 {% if collections.moviesUpcoming -%}
 
+<aside>
+	<strong>Note:</strong> Starting in January 2025, our Sunday shows will be at <strong>2:00pm</strong>, so you can come check out a show in the afternoon and be home before it gets too dark.
+</aside>
+
 ## Upcoming Movies
 
 {% slideshow collections.moviesUpcoming %}
