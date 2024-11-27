@@ -6,3 +6,22 @@ DirectoryIndex index.html index.json index.xml
 # Custom error docs
 ErrorDocument 404 /errors/404/
 ErrorDocument 403 /errors/403/
+
+<IfModule mod_headers.c>
+	# Security headers
+	<IfDefine !DEVELOPMENT>
+		# Headers for production server.
+		Header add Strict-Transport-Security max-age=31536000
+		Header add Referrer-Policy: strict-origin
+	</IfDefine>
+	<IfDefine DEVELOPMENT>
+		# Headers for local dev server.
+		Header add Referrer-Policy: origin
+	</IfDefine>
+
+	# Headers for all!
+	Header add X-Frame-Options: SAMEORIGIN
+	Header add X-Content-Type-Options: nosniff
+	Header add Content-Security-Policy: "base-uri 'self'; default-src 'self'; style-src 'self' 'unsafe-inline' https://unpkg.com/; script-src 'self' https://letterbird.co/ https://unpkg.com/; img-src 'self'; report-uri http://pj.local/csp/;"
+
+</IfModule>
