@@ -14,6 +14,7 @@ showtime:
  - 2025-01-31 7:30:00 pm
  - 2025-02-01 7:30:00 pm
  - 2025-02-02 2:00:00 pm
+note: "Sunday's show is at 2:00pm. This will be the new regular Sunday showtime."
 ---
 
 In World War II London, nine-year-old George is evacuated to the countryside by his mother, Rita, to escape the bombings. Defiant and determined to return to his family, George embarks on an epic, perilous journey back home as Rita searches for him.

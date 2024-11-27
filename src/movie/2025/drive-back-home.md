@@ -14,6 +14,7 @@ showtime:
  - 2025-02-07 7:30:00 pm
  - 2025-02-08 7:30:00 pm
  - 2025-02-09 2:00:00 pm
+note: "Sunday's show is at 2:00pm. This will be the new regular Sunday showtime."
 ---
 
 A conservative plumber from a small East Coast village travels to Toronto to get his brother out of jail after he is arrested for having sex with another man in a public park. At the insistence of their strong-willed mother, the two brothers must drive the 1000 mile trip back home to New Brunswick, together—discovering each other and themselves along the way.

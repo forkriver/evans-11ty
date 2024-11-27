@@ -14,6 +14,7 @@ showtime:
  - 2025-01-17 7:30:00 pm
  - 2025-01-18 7:30:00 pm
  - 2025-01-19 2:00:00 pm
+note: "Sunday's show is at 2:00pm. This will be the new regular Sunday showtime."
 ---
 
 Anora, a young sex worker from Brooklyn, gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as the parents set out for New York to get the marriage annulled.
