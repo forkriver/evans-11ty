@@ -218,10 +218,11 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addPlugin(embedYouTube, {
 		'modestBranding': true,
 		'noCookie': true,
-		'lite': true,
-		'lite.css.inline': false,
-		'lite.thumbnailFormat': 'webp',
-		'lite.responsive': true,
+		// 'lite': true,
+		// 'lite.css.inline': false,
+		// 'lite.thumbnailFormat': 'webp',
+		// 'lite.responsive': true,
+		// Note to self: the lite stuff didn't work on mobile.
 	});
 
 	// RSS feed.
