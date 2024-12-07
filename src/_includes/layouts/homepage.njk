@@ -13,7 +13,7 @@
 <link rel='stylesheet' type='text/css' href='https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.core.css'>
 <link rel='stylesheet' type='text/css' href='https://unpkg.com/@glidejs/glide@3.6.2/dist/css/glide.theme.css'>
 {%- endif -%}
-{% slideshowCSS collections.moviesUpcoming %}
+<link rel='stylesheet' type='text/css' href='/css/slideshow.css'>
 {%- endif %}
 <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
 </head>
@@ -34,15 +34,7 @@
 {% if collections.moviesUpcoming %}
 	{% if 1 < collections.moviesUpcoming.length %}
 <script src="https://unpkg.com/@glidejs/glide" type="text/javascript"></script>
-<script type="text/javascript">
-new Glide('.glide', {
-  type: 'carousel',
-  startAt: 0,
-  peek: 0,
-  focusAt: 'center',
-  autoplay: false,
-}).mount();
-</script>
+<script src="/scripts/slideshow.js"></script>
 
 	{% endif %}
 {% endif %}
