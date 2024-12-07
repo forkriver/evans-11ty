@@ -218,6 +218,10 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addPlugin(embedYouTube, {
 		'modestBranding': true,
 		'noCookie': true,
+		'lite': true,
+		'lite.css.inline': false,
+		'lite.thumbnailFormat': 'webp',
+		'lite.responsive': true,
 	});
 
 	// RSS feed.
