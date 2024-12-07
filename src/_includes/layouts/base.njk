@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>{{ title | safe }}{%- if 'Evans Theatre' !== title  %} | Evans Theatre{% endif -%}</title>
 <meta charset="utf-8">
@@ -8,11 +8,16 @@
 <meta name="generator" content="{{ eleventy.generator }}">
 <link rel="stylesheet" href="/css/styles.css">
 <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+{% block extraCSS %}{% endblock %}
+{% block extraJS %}{% endblock %}
 </head>
 
 <body>
-	{% include "partials/_header.njk" %}
+{% include "partials/_header.njk" %}
+{% block beforeMain %}{% endblock %}
+{% block main %}
 	<main>
+	{% block mainTop %}{% endblock %}
 	<h1>{{ title }}</h1>
 	{% if featured_img %}
 		{%- if featured_alt -%}
@@ -22,7 +27,10 @@
 		{%- endif -%}
 	{% endif %}
 	{{ content | safe }}
+	{% block mainBottom %}{% endblock %}
 	</main>
+{% endblock %}
+{% block afterMain %}{% endblock %}
 {% include "partials/_footer.njk" %}
 </body>
 </html>

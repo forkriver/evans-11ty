@@ -1,4 +1,5 @@
 <footer>
+{% block footerTop %}{% endblock %}
 <ul>
 <li>All seats $6</li>
 <li>All concession items $2</li>
@@ -7,4 +8,6 @@
 </ul>
 <!-- Matomo Analytics -->
 <script src="/scripts/matomo.js"></script>
+{% block footerScripts %}{% endblock %}
+{% block footerBottom %}{% endblock %}
 </footer>
