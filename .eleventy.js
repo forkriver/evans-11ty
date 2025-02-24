@@ -162,6 +162,15 @@ module.exports = function ( eleventyConfig ) {
     	return hash.copy().digest( 'hex' );
     });
 
+    // Get a hash for the upcoming movies.
+    eleventyConfig.addNunjucksGlobal( 'dateHash', function() {
+    	const hash = createHash( 'md5' );
+    	const now  = new Date().toISOString();
+    	hash.update( now );
+    	return hash.copy().digest( 'hex' );
+
+    });
+
     // Canonicalize a URL.
     eleventyConfig.addFilter( 'canonicalize', function( url ) {
     	return baseURL + url;
