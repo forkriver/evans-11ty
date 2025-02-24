@@ -24,7 +24,7 @@ ErrorDocument 403 /errors/403/
 	Header add X-Content-Type-Options: nosniff
 	Header add Content-Security-Policy: "base-uri 'self'; \
 		default-src 'self' stats.patj.ca; \
-		style-src 'self' 'unsafe-inline' https://unpkg.com/ https://cdn.jsdelivr.net/; \
+		style-src 'self'  https://unpkg.com/ https://cdn.jsdelivr.net/; \
 		script-src 'self' stats.patj.ca https://letterbird.co/ https://unpkg.com/ https://cdn.jsdelivr.net/; \
 		img-src 'self' https://*.ytimg.com/; \
 		frame-src 'self' https://www.youtube-nocookie.com/ https://youtube.com/ https://youtu.be/;"
