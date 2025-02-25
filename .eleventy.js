@@ -218,9 +218,9 @@ module.exports = function ( eleventyConfig ) {
 
 	// Passthrough copies.
 	eleventyConfig.addPassthroughCopy("src/images");
-	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
-	eleventyConfig.addPassthroughCopy( { 'src/htaccess': '/.htaccess'} );
-	eleventyConfig.addPassthroughCopy( { 'src/scripts': '/scripts'} );
+	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': 'robots.txt' });
+	eleventyConfig.addPassthroughCopy( { 'src/htaccess': '.htaccess'} );
+	eleventyConfig.addPassthroughCopy( { 'src/scripts': 'scripts'} );
 
 
 	// Autoembed stuff.
