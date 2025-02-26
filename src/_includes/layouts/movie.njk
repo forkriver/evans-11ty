@@ -45,6 +45,9 @@
 	<li>{{ s | dateformat }}</li>
 	{%- endfor %}
 </ul>
+{% if hearing_assist -%}
+<aside><strong>Note:</strong> This movie has Hearing Assistance enabled.</aside> 
+{%- endif %}
 {{ content | safe }}
 <hr>
 <a href="/movies/">All Movies</a>

@@ -15,6 +15,7 @@ showtime:
  - 2025-03-01 7:30:00 pm
  - 2025-03-02 2:00:00 pm
 note: "Sunday's show is at 2:00pm. This will be the new regular Sunday showtime."
+hearing_assist: true
 ---
 
 
