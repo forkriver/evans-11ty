@@ -1,11 +1,13 @@
 // _main.scss
 @use 'sass:color';
+@use 'colors';
+@use 'fonts';
 
 html {
-	background: $background-color;
+	background: colors.$background-color;
 	color: #fff;
-	font-family: $base-font;
-	font-size: $base-font-size;
+	font-family: fonts.$base-font;
+	font-size: fonts.$base-font-size;
 }
 
 body {
@@ -71,7 +73,7 @@ menu.main-nav, ul.main-nav {
 	}
 
 	li:hover {
-		background: $menu-hover-background;
+		background: colors.$menu-hover-background;
 		border-radius: 6px;
 		a {
 			color: #fff;
@@ -79,7 +81,7 @@ menu.main-nav, ul.main-nav {
 	}
 
 	li.nav-current-page {
-		background: $menu-current-page-background;
+		background: colors.$menu-current-page-background;
 		border-radius: 6px;
 	}
 
@@ -109,15 +111,15 @@ footer {
 }
 
 .hide-me {
-	color: $background-color; // Yes, that's correct.
+	color: colors.$background-color; // Yes, that's correct.
 	font-size: 1px;
 }
 
 // Asides. Used for notes in the text.
 aside {
-	background: color.scale( $background-color, $lightness: 10% );
+	background: color.scale( colors.$background-color, $lightness: 10% );
 	padding: 1em;
-	border: 1px solid color.scale( $background-color, $lightness: 50% );
+	border: 1px solid color.scale( colors.$background-color, $lightness: 50% );
 	border-radius: 8px;
 	font-size: 90%;
 }

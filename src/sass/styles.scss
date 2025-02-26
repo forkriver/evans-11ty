@@ -1,7 +1,6 @@
-@import 'fonts';
-@import 'colors';
-
-@import 'main';
-@import 'menu';
-@import 'youtube-embed';
-@import 'media-queries';
+@use 'fonts';
+@use 'colors';
+@use 'main';
+@use 'menu';
+@use 'youtube-embed';
+@use 'media-queries';
