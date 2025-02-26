@@ -1,0 +1,28 @@
+{
+	"socialMedia": {
+		"facebook": {
+			"title": "Facebook",
+			"url"  : "https://www.facebook.com/evanstheatre/",
+			"class": "fb-icon",
+			"hover": "Follow us on Facebook",
+		},
+		"instagram": {
+			"title": "Instagram",
+			"url"  : "https://www.instagram.com/evans.theatre/",
+			"class": "ig-icon",
+			"hover": "Follow us on Instagram",
+		},
+		"bluesky": {
+			"title": "Bluesky",
+			"url"  : "https://bsky.app/profile/evanstheatre.ca/",
+			"class": "bsky-icon",
+			"hover": "Find us on Bluesky",
+		},
+		"bringAFriend": {
+			"title": "Bring a Friend",
+			"url"  : "",
+			"class": "bringafriend-icon",
+			"hover": "Bring a friend!",
+		}
+	}
+}
