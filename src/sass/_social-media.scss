@@ -2,9 +2,12 @@
 @use "colors";
 
 // Icon SVGs found on iconify.design
-// @todo Define background colors in _colors.scss
 
-.fb-icon {
+.social-icon {
+	margin-right: 0.5em;
+}
+
+.facebook-icon {
   display: inline-block;
   width: 2em;
   height: 2em;
@@ -18,7 +21,7 @@
   mask-size: 100% 100%;
 }
 
-.ig-icon {
+.instagram-icon {
   display: inline-block;
   width: 1.75em;
   height: 2em;
@@ -32,7 +35,7 @@
   mask-size: 100% 100%;
 }
 
-.bsky-icon {
+.bluesky-icon {
   display: inline-block;
   width: 2em;
   height: 2em;
@@ -46,7 +49,7 @@
   mask-size: 100% 100%;
 }
 
-.bringafriend-icon {
+.bringAFriend-icon {
   display: inline-block;
   width: 2.25em;
   height: 2em;
