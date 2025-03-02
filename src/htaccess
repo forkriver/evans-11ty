@@ -26,7 +26,7 @@ ErrorDocument 403 /errors/403/
 		default-src 'self'; \
 		style-src 'self'  https://unpkg.com/ https://cdn.jsdelivr.net/; \
 		script-src 'self' https://stats.patj.ca https://letterbird.co/ https://unpkg.com/ https://cdn.jsdelivr.net/; \
-		img-src 'self' https://*.ytimg.com/; \
+		img-src 'self' https://*.ytimg.com/ data: w3.org/svg/2000; \
 		frame-src 'self' https://www.youtube-nocookie.com/ https://youtube.com/ https://youtu.be/;"
 
 </IfModule>
