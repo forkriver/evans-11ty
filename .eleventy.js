@@ -60,6 +60,7 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addLayoutAlias( 'homepage', 'layouts/homepage.njk' );
 	eleventyConfig.addLayoutAlias( 'movie',    'layouts/movie.njk' );
 	eleventyConfig.addLayoutAlias( 'article',  'layouts/article.njk' );
+	eleventyConfig.addLayoutAlias( 'about',    'layouts/about.njk' );
 
 	// Collections.
 	eleventyConfig.addCollection("movies", function ( collection ) {
@@ -205,7 +206,6 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "slideshowCSS", async function( movies ) {
 		return getSlideshowCSS( movies );
 	} );
-
 
 	// Passthrough copies.
 	eleventyConfig.addPassthroughCopy("src/images");
