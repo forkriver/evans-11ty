@@ -3,14 +3,20 @@
 
 // Icon SVGs found on iconify.design
 
-.social-icon {
+.social-media-list-large span {
 	margin-right: 0.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.social-media-list span {
+  margin-right: 1em;
+  width: 1em;
+  height: 1em;
 }
 
 .facebook-icon {
   display: inline-block;
-  width: 2em;
-  height: 2em;
   --svg: url( '/images/svg/facebook-icon.svg' );
   background-color: colors.$fb-color;
   -webkit-mask-image: var(--svg);
@@ -23,8 +29,6 @@
 
 .instagram-icon {
   display: inline-block;
-  width: 1.75em;
-  height: 2em;
   --svg: url( '/images/svg/instagram-icon.svg' );
   background-color: colors.$ig-color;
   -webkit-mask-image: var(--svg);
@@ -37,8 +41,6 @@
 
 .bluesky-icon {
   display: inline-block;
-  width: 2em;
-  height: 2em;
   --svg: url( '/images/svg/bluesky-icon.svg' );
   background-color: colors.$bsky-color;
   -webkit-mask-image: var(--svg);
@@ -51,8 +53,6 @@
 
 .bringAFriend-icon {
   display: inline-block;
-  width: 2.25em;
-  height: 2em;
   --svg: url( '/images/svg/bring-a-friend-icon.svg' );
   background-color: #def;
   -webkit-mask-image: var(--svg);
