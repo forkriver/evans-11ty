@@ -2,7 +2,9 @@
 const { createHash } = require( 'node:crypto' );
 const lodash         = require( 'lodash' );
 const embedYouTube   = require( 'eleventy-plugin-youtube-embed');
-const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
+const { feedPlugin } = require( '@11ty/eleventy-plugin-rss' );
+const Fetch          = require( '@11ty/eleventy-fetch' );
+
 require('dotenv').config();
 
 // Fork River libraries. Someday maybe I'll make 'em into Node modules.
@@ -206,6 +208,32 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "slideshowCSS", async function( movies ) {
 		return getSlideshowCSS( movies );
 	} );
+
+	eleventyConfig.addShortcode( 'mrRoboto', async function() {
+		let url  = 'https://api.darkvisitors.com/robots-txts';
+		let text = await Fetch( url, {
+			duration: '7d',
+			type:     'text',
+			fetchOptions: {
+				method:   'POST',
+				headers: {
+					'Authorization': 'Bearer ' + process.env.DARKVISITORS_BEARER_TOKEN,
+					'Content-Type':  'application/json'
+				},
+				body: JSON.stringify( {
+					agent_types: [
+						"AI Assistant",
+						"AI Data Scraper",
+						"AI Search Crawler",
+						"Undocumented AI Agent"
+					],
+					disallow: "/"
+				}),
+			},
+		});
+		return text;
+
+	});
 
 	// Passthrough copies.
 	eleventyConfig.addPassthroughCopy("src/images");

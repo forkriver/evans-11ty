@@ -4,10 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 Sitemap: {{ site.url }}/sitemap.xml
 
-{% if aiCrawler.crawlers -%}
-# AI crawlers, go away
-{%- for crawler in aiCrawler.crawlers %}
-User-Agent: {{ crawler }}
-{%- endfor %}
-Disallow: /
-{%- endif %}
+# Automated AI scraper rules
+# @see https://darkvisitors.com/
+
+{% mrRoboto %}
