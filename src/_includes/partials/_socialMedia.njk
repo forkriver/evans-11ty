@@ -1,0 +1,8 @@
+{# _socialMedia.njk #}
+{% if socialMedia.socialMedia %}
+{% for name, item in socialMedia.socialMedia -%}
+{%- if item.url -%}<a href="{{ item.url }}">{%- endif -%}
+<span class="{{ name }}-icon" title="{{ item.hover }}"></span>
+{%- if item.url -%}</a>{%- endif -%}
+{% endfor %}
+{% endif %}

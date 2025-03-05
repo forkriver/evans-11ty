@@ -1,0 +1,15 @@
+{# about.njk #}
+{% extends "layouts/base.njk" %}
+
+{% block mainBottom %}
+{% if socialMedia.socialMedia -%}
+<div class="centered">
+<h2>Let's Get Social</h2>
+<div class="social-media-list-large">
+{% include 'partials/_socialMedia.njk' %}
+</div><!-- .social-media-list-large -->
+</div><!-- centered -->
+{%- endif %}
+{% endblock %}
+
+{% block footer %}{% include 'partials/_footerAbout.njk' %}{% endblock %}

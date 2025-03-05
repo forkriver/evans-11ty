@@ -1,5 +1,10 @@
 <footer>
 {% block footerTop %}{% endblock %}
+{% block footerSocialMedia %}
+<div class="social-media-list">
+{% include 'partials/_socialMedia.njk' %}
+</div><!-- .social-media-list -->
+{% endblock %}
 <ul>
 <li>All seats $6</li>
 <li>All concession items $2</li>
