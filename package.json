@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
-    "watch:sass":     "npx sass src/sass/styles.scss public/css/styles.css --watch",
-    "start":          "npm run watch:sass & npm run watch:eleventy",
-    "update":         "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --incremental",
-    "update:css":     "npx sass src/sass/styles.scss public/css/styles.css",
-    "make":           "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
-    "rebuild":        "rm -rf public/; npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
-    "publish":        "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --quiet ; rsync -avz  public/* pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/; rsync -avz public/.htaccess pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/.htaccess"
+    "watch:sass": "npx sass src/sass/styles.scss public/css/styles.css --watch",
+    "start": "npm run watch:sass & npm run watch:eleventy",
+    "update": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --incremental",
+    "update:css": "npx sass src/sass/styles.scss public/css/styles.css",
+    "make": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
+    "rebuild": "rm -rf public/; npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy",
+    "publish": "npx sass src/sass/styles.scss public/css/styles.css & npx @11ty/eleventy --quiet ; rsync -avz  public/* pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/; rsync -avz public/.htaccess pjohanneson@188.166.24.44:/srv/www/vhosts/evans-11ty/.htaccess"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/forkriver/evans-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-fetch": "^5.0.2",
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-rss": "^2.0.0",
     "dotenv": "^16.4.5",
