@@ -28,9 +28,9 @@ ErrorDocument 403 /errors/403/
 	Header add Content-Security-Policy: "base-uri 'self'; \
 		default-src 'self'; \
 		style-src 'self'  https://unpkg.com/ https://cdn.jsdelivr.net/; \
-		script-src 'self' https://stats.patj.ca https://letterbird.co/ https://unpkg.com/ https://cdn.jsdelivr.net/; \
+		script-src 'self' https://stats.patj.ca https://letterbird.co/ https://unpkg.com/ https://cdn.jsdelivr.net/ https://darkvisitors.com/; \
 		img-src 'self' https://stats.patj.ca https://*.ytimg.com/ 'nonce-{{ nonce.shortNonce }}'; \
-		frame-src 'self' https://www.youtube-nocookie.com/ https://youtube.com/ https://youtu.be/;
+		frame-src 'self' https://www.youtube-nocookie.com/ https://youtube.com/ https://youtu.be/; \
 		connect-src 'self' https://stats.patj.ca;"
 
 </IfModule>
