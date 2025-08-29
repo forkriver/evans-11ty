@@ -1,0 +1,21 @@
+---
+title: "Flow"
+layout: movie
+excerpt: "A cat, displaced by a flood, must adapt to a transformed world."
+date: Last Modified
+modified: Last Modified
+permalink: "/movie/flow/"
+tags: 
+- movie
+- movie-2025
+featured_img: /images/feature/flow.jpg
+featured_alt: "Still from Flow: A cat floats in a starry sky, which is coloured like seawater"
+showtime: 
+ - 2025-10-03 7:30:00 pm
+ - 2025-10-04 7:30:00 pm
+ - 2025-10-05 2:00:00 pm
+---
+
+A solitary cat, displaced by a great flood, finds refuge on a boat with various species who find they must navigate the challenges of adapting to a transformed world together.
+
+https://youtu.be/shsVQvHUTxw
