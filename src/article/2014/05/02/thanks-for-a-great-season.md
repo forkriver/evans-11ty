@@ -1,6 +1,6 @@
 ---
 title: Thanks for a great season!
-permalink: /2014/05/thanks-for-a-great-season/
+permalink: /news/2014/05/thanks-for-a-great-season/
 date: "2014-05-02T17:51:14+00:00"
 excerpt: "Thank you to our audience for making our year a success! To give our volunteers
   a much needed break, we return with new movies in \_Sept. 2014. Check back in September

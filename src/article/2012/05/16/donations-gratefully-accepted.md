@@ -1,6 +1,6 @@
 ---
 title: Save Our Screen
-permalink: /2012/05/donations-gratefully-accepted/
+permalink: /news/2012/05/donations-gratefully-accepted/
 date: "2012-05-16T03:45:43+00:00"
 excerpt: |-
   Fundraising efforts have begun for the switch to digital projection.

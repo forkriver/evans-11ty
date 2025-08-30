@@ -1,6 +1,6 @@
 ---
 title: Vote and Win!
-permalink: /2013/02/vote-and-win/
+permalink: /news/2013/02/vote-and-win/
 date: "2013-02-16T17:55:40+00:00"
 excerpt: Vote for your favourite film, and you could win $500.00!
 featured_img: false

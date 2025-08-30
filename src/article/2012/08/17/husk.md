@@ -1,6 +1,6 @@
 ---
 title: Husk
-permalink: /2012/08/husk/
+permalink: /news/2012/08/husk/
 date: "2012-08-17T18:56:02+00:00"
 excerpt: Corey Redekop will read from his new novel Husk on September 21st, in conjunction
   with our show A Little Bit Zombie.

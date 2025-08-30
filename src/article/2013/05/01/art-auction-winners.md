@@ -1,6 +1,6 @@
 ---
 title: Art Auction Winners
-permalink: /2013/05/art-auction-winners/
+permalink: /news/2013/05/art-auction-winners/
 date: "2013-05-01T17:54:00+00:00"
 excerpt: 'Thank you all for your participation in our fundrasing auction. Your support
   toward our updgrade is very much appreciated. Your participation helped us raise

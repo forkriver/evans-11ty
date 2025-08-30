@@ -1,6 +1,6 @@
 ---
 title: New projector!
-permalink: /2014/09/new-projector/
+permalink: /news/2014/09/new-projector/
 date: "2014-09-09T14:27:15+00:00"
 excerpt: Hey, look what showed up in the booth! A huge thank you to all our donors,
   sponsors, and our ever-faithful audience!

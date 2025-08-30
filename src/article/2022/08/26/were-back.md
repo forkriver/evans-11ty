@@ -1,6 +1,6 @@
 ---
 title: We're back!
-permalink: /2022/08/were-back/
+permalink: /news/2022/08/were-back/
 date: "2022-08-26T20:03:19+00:00"
 excerpt: 'Movies will resume ~~Sept. 23rd~~ Oct. 21st! See you at the movies!'
 featured_img: /images/feature/futurama-back-baby.jpg

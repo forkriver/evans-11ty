@@ -1,6 +1,6 @@
 ---
 title: Sellout Crowd at Warpaths Premiere
-permalink: /2012/11/sellout-crowd-at-warpaths-premiere/
+permalink: /news/2012/11/sellout-crowd-at-warpaths-premiere/
 date: "2012-11-10T18:00:58+00:00"
 excerpt: "There wasn&#8217;t an open seat in the theatre on November 2nd when the
   Evans presented the premiere of Warpaths.\_ Thanks to our customers, we raised $1600.00

@@ -1,6 +1,6 @@
 ---
 title: 'Warpaths: Every Town Had Soldiers premieres at the Evans'
-permalink: /2012/10/warpaths-premiere/
+permalink: /news/2012/10/warpaths-premiere/
 date: "2012-10-24T20:43:22+00:00"
 excerpt: "Street Media Inc., in association with The RCA Museum, Canada\u2019s National
   Artillery Museum, is proud to announce that the documentary, Warpaths: Every Town

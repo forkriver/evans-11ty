@@ -10,6 +10,15 @@ DirectoryIndex index.html index.json index.xml
 ErrorDocument 404 /errors/404/
 ErrorDocument 403 /errors/403/
 
+<IfModule mod_rewrite.c>
+# Rewrites
+RewriteEngine On
+
+# Prepend `news` onto news article URLs
+RewriteRule ^(20\d+/\d+)/(.*) /news/$1/$2 [R=301,NC,L]
+</IfModule>
+
+
 <IfModule mod_headers.c>
 	# Security headers
 	<IfDefine !DEVELOPMENT>

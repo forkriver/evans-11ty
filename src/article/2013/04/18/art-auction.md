@@ -1,6 +1,6 @@
 ---
 title: Art Auction
-permalink: /2013/04/art-auction/
+permalink: /news/2013/04/art-auction/
 date: "2013-04-18T21:54:23+00:00"
 excerpt: A Save Our Screen event!  Bid on signed, numbered, limited-edition William
   Hobbs prints!

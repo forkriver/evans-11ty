@@ -1,6 +1,6 @@
 ---
 title: The Post-Lifers to play at the Evans
-permalink: /2012/03/post-lifers-at-evans/
+permalink: /news/2012/03/post-lifers-at-evans/
 date: "2012-03-22T19:09:29+00:00"
 excerpt: The Brandon Film Festival will be screening a short live action comedy/mockumentary
   film with Brandon connections. The Post-Lifers depicts a zombie infestation from

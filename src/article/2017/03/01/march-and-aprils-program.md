@@ -1,6 +1,6 @@
 ---
 title: March and April's program
-permalink: /2017/03/march-and-aprils-program/
+permalink: /news/2017/03/march-and-aprils-program/
 date: "2017-03-01T18:22:42+00:00"
 excerpt: Here's what we have coming up in March and April.
 featured_img: false

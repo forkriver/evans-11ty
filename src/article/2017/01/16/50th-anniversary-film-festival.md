@@ -1,6 +1,6 @@
 ---
 title: 50th Anniversary Film Festival
-permalink: /2017/01/50th-anniversary-film-festival/
+permalink: /news/2017/01/50th-anniversary-film-festival/
 date: "2017-01-16T15:50:46+00:00"
 excerpt: 2017 marks the 50th anniversary of the Brandon Film Festival, which is the
   organization that presents the weekly film programme at the Evans. Come celebrate

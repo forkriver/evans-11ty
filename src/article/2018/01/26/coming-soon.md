@@ -1,6 +1,6 @@
 ---
 title: Coming Soon
-permalink: /2018/01/coming-soon/
+permalink: /news/2018/01/coming-soon/
 date: "2018-01-26T17:58:18+00:00"
 excerpt: "If you've been watching this site like a hawk, waiting for news of
   our February to April shows, you may have noticed that a couple of films have

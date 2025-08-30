@@ -1,6 +1,6 @@
 ---
 title: Special Event — If I Should Fall
-permalink: /2011/12/special-event-if-i-should-fall/
+permalink: /news/2011/12/special-event-if-i-should-fall/
 date: "2011-12-31T21:26:33+00:00"
 excerpt: "On Sunday, February 5th, 2012, the Evans Theatre will screen If I Should
   Fall, a modern documentary of what loss in war means through the eyes of the YouTube

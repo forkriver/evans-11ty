@@ -1,6 +1,6 @@
 ---
 title: Presentations at the Evans
-permalink: /2016/11/presentations-at-the-evans/
+permalink: /news/2016/11/presentations-at-the-evans/
 date: "2016-11-14T02:05:00+00:00"
 excerpt: 'After a great turnout at the Evans Theatre in Brandon, director Graham Street
   and colleagues Shaun Cameron and Nate Bower were presented with mementos of their

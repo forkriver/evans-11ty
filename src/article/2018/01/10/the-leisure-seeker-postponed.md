@@ -1,6 +1,6 @@
 ---
 title: The Leisure Seeker postponed
-permalink: /2018/01/the-leisure-seeker-postponed/
+permalink: /news/2018/01/the-leisure-seeker-postponed/
 date: "2018-01-10T22:11:13+00:00"
 excerpt: Due to circumstances beyond our control, we&#8217;ve had to remove The Leisure
   Seeker from our February program. We hope to be able to get it into the schedule

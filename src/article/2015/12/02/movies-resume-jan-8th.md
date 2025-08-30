@@ -1,6 +1,6 @@
 ---
 title: Movies resume Jan. 8th
-permalink: /2015/12/movies-resume-jan-8th/
+permalink: /news/2015/12/movies-resume-jan-8th/
 date: "2015-12-02T16:47:52+00:00"
 excerpt: We&#8217;ll be taking a break over December, and will return in January with
   more great movies and documentaries. Keep an eye on this site for details!

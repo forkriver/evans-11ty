@@ -1,6 +1,6 @@
 ---
 title: Catch some Golden Globe nominees at the Evans!
-permalink: /2018/12/catch-some-golden-globe-nominees-at-the-evans/
+permalink: /news/2018/12/catch-some-golden-globe-nominees-at-the-evans/
 date: "2018-12-06T19:46:37+00:00"
 excerpt: 'The Golden Globe nominations have been announced, and guess what: You can
   check out some of them right here in Brandon, at the Evans! (Or, lucky you, you

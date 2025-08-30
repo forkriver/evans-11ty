@@ -1,6 +1,6 @@
 ---
 title: Coming in January 2013 to the Evans
-permalink: /2012/12/coming-in-january-13-to-the-evans/
+permalink: /news/2012/12/coming-in-january-13-to-the-evans/
 date: "2012-12-22T18:48:35+00:00"
 excerpt: "Starting in January 2013, the Evans will be showing classic films on Fridays
   and Saturdays at 9:30 PM."

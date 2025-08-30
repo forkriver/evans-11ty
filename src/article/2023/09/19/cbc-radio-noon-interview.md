@@ -1,6 +1,6 @@
 ---
 title: CBC Radio Noon interview
-permalink: /2023/09/cbc-radio-noon-interview/
+permalink: /news/2023/09/cbc-radio-noon-interview/
 date: "2023-09-19T22:28:13+00:00"
 excerpt: 'We&#8217;re Manitoba famous! Volunteer Patrick Johanneson got to be the
   Voice of the Evans on CBC&#8217;s Radio Noon on Sept. 19, 2023. Here&#8217;s the

@@ -1,6 +1,6 @@
 ---
 title: Evans Spring Season Cancelled
-permalink: /2020/03/covid-19-planning/
+permalink: /news/2020/03/covid-19-planning/
 date: "2020-03-13T19:30:28+00:00"
 excerpt: In order to help stop the spread of COVID-19, the volunteers of the Evans
   Theatre film programme have taken the difficult decision to cancel the Spring movie

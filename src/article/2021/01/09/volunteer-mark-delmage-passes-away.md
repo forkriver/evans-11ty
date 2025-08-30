@@ -1,6 +1,6 @@
 ---
 title: Volunteer Mark Delmage passes away
-permalink: /2021/01/volunteer-mark-delmage-passes-away/
+permalink: /news/2021/01/volunteer-mark-delmage-passes-away/
 date: "2021-01-09T18:11:20+00:00"
 excerpt: We are very saddened to say that Mark Delmage, our friend, fellow volunteer,
   teacher, pilot, mentor and familiar face of the Evans Theatre, died on Friday, January

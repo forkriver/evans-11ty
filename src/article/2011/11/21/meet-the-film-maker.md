@@ -1,6 +1,6 @@
 ---
 title: Meet the Film-maker
-permalink: /2011/11/meet-the-film-maker/
+permalink: /news/2011/11/meet-the-film-maker/
 date: "2011-11-21T01:34:36+00:00"
 excerpt: Local film-makers are featured the weekend of December 2-4. Bevan Klassen
   will be at the theatre Friday Dec 2 to talk about his new feature film OF GAMES

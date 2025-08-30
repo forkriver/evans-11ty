@@ -1,6 +1,6 @@
 ---
 title: Two Brandon Films
-permalink: /2013/06/two-brandon-films/
+permalink: /news/2013/06/two-brandon-films/
 date: "2013-06-17T00:54:42+00:00"
 excerpt: "Update:\_ Join us at 6:30 for a wine &amp; cheese event before the shows.
   The documentaries will begin at 7:30, and there will be a Q&amp;A session with the
