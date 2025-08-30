@@ -2,6 +2,7 @@
 const { createHash } = require( 'node:crypto' );
 const lodash         = require( 'lodash' );
 const embedYouTube   = require( 'eleventy-plugin-youtube-embed');
+const embedOSM       = require("eleventy-plugin-embed-openstreetmap");
 const { feedPlugin } = require( '@11ty/eleventy-plugin-rss' );
 const Fetch          = require( '@11ty/eleventy-fetch' );
 
@@ -252,6 +253,9 @@ module.exports = function ( eleventyConfig ) {
 		// 'lite.responsive': true,
 		// Note to self: the lite stuff didn't work on mobile.
 	});
+	eleventyConfig.addPlugin( embedOSM, {
+		'wrapperStyle': ''
+	} );
 
 	// RSS feed.
 	eleventyConfig.addPlugin(feedPlugin, {

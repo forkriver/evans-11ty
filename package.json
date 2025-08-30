@@ -36,6 +36,7 @@
     "sass": "^1.63.6"
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1"
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
+    "eleventy-plugin-embed-openstreetmap": "^1.1.0"
   }
 }
