@@ -6,7 +6,6 @@ excerpt: We are very saddened to say that Mark Delmage, our friend, fellow volun
   teacher, pilot, mentor and familiar face of the Evans Theatre, died on Friday, January
   8. Mark was part of the Brandon Film Festival family for nearly 50 years and led
   from the front, taught by the side, and pushed us from behind. [&hellip;]
-featured_img: /images/feature/bff13-661b-ROTH.jpg
 tags:
 - post
 - article

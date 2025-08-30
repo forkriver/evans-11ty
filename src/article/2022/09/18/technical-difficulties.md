@@ -4,7 +4,6 @@ permalink: /news/2022/09/technical-difficulties/
 date: "2022-09-18T21:34:33+00:00"
 excerpt: We're ready; you're ready; but apparently our projector has hit the snooze
   button, looking for a couple more weeks of rest.
-featured_img: /images/feature/peter-lewicki-7VliWOXYLro-unsplash-scaled.jpg
 tags:
 - post
 - article

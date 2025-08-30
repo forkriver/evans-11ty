@@ -5,7 +5,6 @@ date: "2018-01-02T21:25:11+00:00"
 excerpt: "Coming January 6th at 2 PM: local filmmaker Craig Cesmystruk presents his
   latest MTS documentary, Powerhouse on the Prairie:\_Brandon University Bobcats Men\u2019s
   Basketball, 1986-1989. &nbsp;"
-featured_img: /images/feature/craig-in-gym-1-scaled.jpg
 tags:
 - post
 - article
