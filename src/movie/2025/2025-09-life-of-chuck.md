@@ -5,6 +5,8 @@ excerpt: "Chuck Krantz experiences the wonder of love, the heartbreak of loss, a
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/life-of-chuck/"
+rating: "PG"
+rating_advisory: "Coarse & sexual language"
 tags: 
 - movie
 - movie-2025

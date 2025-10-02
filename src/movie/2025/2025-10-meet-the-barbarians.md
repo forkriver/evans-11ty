@@ -5,6 +5,8 @@ excerpt: "A small French village, expecting Ukrainian refugees, instead receive 
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/meet-the-barbarians/"
+rating: "PG"
+rating_advisory: "Coarse language; Sexually suggestive scene; Violence"
 tags: 
 - movie
 - movie-2025

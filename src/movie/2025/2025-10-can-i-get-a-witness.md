@@ -5,6 +5,8 @@ excerpt: "Everything's great, but you only get 50 years to enjoy it."
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/can-i-get-a-witness/"
+rating: "PG"
+rating_advisory: "Coarse language"
 tags: 
 - movie
 - movie-2025

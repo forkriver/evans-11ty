@@ -5,6 +5,7 @@ excerpt: "A soldier deploying to Afghanistan trains his son's soccer team."
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/phoenixes/"
+rating: "NR"
 tags: 
 - movie
 - movie-2025

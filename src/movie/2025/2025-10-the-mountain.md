@@ -5,6 +5,7 @@ excerpt: "A fearless girl, raised outside her Māori culture, is determined to c
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/the-mountain/"
+rating: "NR"
 tags: 
 - movie
 - movie-2025
