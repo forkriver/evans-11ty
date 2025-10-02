@@ -5,6 +5,8 @@ excerpt: "Sandra Perron resigns from the military after a controversial photo su
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/out-standing/"
+rating: "14A"
+rating_advisory: "Sexual violence; Coarse language"
 tags: 
 - movie
 - movie-2025

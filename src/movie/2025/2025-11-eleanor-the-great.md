@@ -5,6 +5,8 @@ excerpt: "A 94-year-old woman tries to rebuild her life after the death of her b
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/eleanor-the-great/"
+rating: "PG"
+rating_advisory: "Coarse language"
 tags: 
 - movie
 - movie-2025

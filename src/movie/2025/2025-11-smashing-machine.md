@@ -5,6 +5,8 @@ excerpt: "The story of legendary mixed martial arts and UFC fighter Mark Kerr"
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/smashing-machine/"
+rating: "14A"
+rating_advisory: "Coarse language"
 tags: 
 - movie
 - movie-2025
