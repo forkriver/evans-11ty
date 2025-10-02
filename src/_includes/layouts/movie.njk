@@ -45,6 +45,14 @@
 	<li>{{ s | dateformat }}</li>
 	{%- endfor %}
 </ul>
+{%  if rating -%}
+<div class="movie-rating">
+	Rated {{ rating }}
+	{%- if rating_advisory -%}
+	: {{ rating_advisory }}
+	{% endif -%}
+</div><!-- .movie-rating -->
+{%- endif  %}
 {% if hearing_assist -%}
 <aside><strong>Note:</strong> This movie has Hearing Assistance enabled.</aside> 
 {%- endif %}
