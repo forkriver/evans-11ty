@@ -2,6 +2,7 @@
 title: News
 layout: base
 permalink: "/news/index.html"
+excerpt: "News about the Evans"
 ---
 
 {% for yr, articles in collections.articles %}

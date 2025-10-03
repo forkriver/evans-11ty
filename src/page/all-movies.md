@@ -1,6 +1,7 @@
 ---
 title: All Movies
 permalink: "/movies/index.html"
+excerpt: "All the movies we've shown since 2011"
 layout: base
 ---
 

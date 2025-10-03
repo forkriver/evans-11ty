@@ -42,4 +42,20 @@ RewriteRule ^(20\d+/\d+)/(.*) /news/$1/$2 [R=301,NC,L]
 		frame-src 'self' https://www.youtube-nocookie.com/ https://youtube.com/ https://youtu.be/ https://www.openstreetmap.org/; \
 		connect-src 'self' https://stats.patj.ca;"
 
+	# Cache Control
+    # One year for image and video files
+    <FilesMatch ".(gif|ico|jpg|jpeg|mp4|mpeg|png|svg|webp)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+
+    # One month for JavaScript and PDF files
+    <FilesMatch ".(js|pdf)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+
+    # One week for CSS files
+    <FilesMatch ".(css)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
 </IfModule>

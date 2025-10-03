@@ -1,6 +1,7 @@
 ---
 layout: homepage
 title: Evans Theatre
+excerpt: "Brandon's Indiest Indie Cinema"
 permalink: "/index.html"
 ---
 

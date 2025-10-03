@@ -2,6 +2,7 @@
 title: Upcoming Movies
 layout: base
 permalink: "/upcoming-movies/index.html"
+excerpt: "Coming Attractions: movies we'll be showing soon"
 ---
 
 {% if collections.moviesUpcomingAll -%}
