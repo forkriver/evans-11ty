@@ -23,7 +23,7 @@ RewriteRule ^(20\d+/\d+)/(.*) /news/$1/$2 [R=301,NC,L]
 	# Security headers
 	<IfDefine !DEVELOPMENT>
 		# Headers for production server.
-		Header set "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload"
+		Header set Strict-Transport-Security: "max-age=63072000; includeSubDomains; preload"
 		Header set Referrer-Policy: strict-origin
 	</IfDefine>
 	<IfDefine DEVELOPMENT>
