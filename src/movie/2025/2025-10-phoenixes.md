@@ -18,3 +18,7 @@ showtime:
 ---
 
 At the beginning of his deployment to Afghanistan, a charismatic and endearing soldier decides to train the Phoenixes, his 13-year-old son's soccer team.
+
+*Note*: This trailer is in French; the movie will have English subtitles.
+
+https://www.youtube.com/watch?v=gO6SB4SgIvA
