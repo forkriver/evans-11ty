@@ -10,7 +10,7 @@
 {%- endif %}
 <meta name="generator" content="{{ eleventy.generator }}">
 {% block extraMeta %}{% endblock %}
-<link rel="stylesheet" href="/css/styles.css?v={{ nonce.shortNonce }}">
+<link rel="stylesheet" href="/css/styles.css?v={{ nonce.fullNonce }}">
 <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
 <link rel="canonical" href="{{ permalink | canonicalize }}">
 {% include "partials/_opengraph.njk" %}
