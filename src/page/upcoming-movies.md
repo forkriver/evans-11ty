@@ -7,6 +7,10 @@ excerpt: "Coming Attractions: movies we'll be showing soon"
 
 {% if collections.moviesUpcomingAll -%}
 
+## Showtimes
+
+Movies will show at **7:30pm** on Friday and Saturday, and at **2:00pm** on Sunday, unless otherwise indicated.
+
 {% upcomingMovies collections.moviesUpcomingAll %}
 
 {%- else -%}

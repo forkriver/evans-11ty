@@ -10,6 +10,10 @@ layout: base
 
 Here's what we're showing in the next little while.
 
+### Showtimes
+
+Movies will show at **7:30pm** on Friday and Saturday, and at **2:00pm** on Sunday, unless otherwise indicated.
+
 {% upcomingMovies collections.moviesUpcomingAll %}
 {%- endif %}
 
