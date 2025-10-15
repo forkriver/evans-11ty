@@ -16,6 +16,11 @@ RewriteEngine On
 
 # Prepend `news` onto news article URLs
 RewriteRule ^(20\d+/\d+)/(.*) /news/$1/$2 [R=301,NC,L]
+
+# /movie -> /movies redirect
+RewriteRule ^movie$  /movies/ [R=301,NC,L]
+RewriteRule ^movie/$ /movies/ [R=301,NC,L]
+
 </IfModule>
 
 
