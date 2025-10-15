@@ -15,6 +15,7 @@ showtime:
  - 2025-10-17 7:30:00 pm
  - 2025-10-18 7:30:00 pm
  - 2025-10-19 2:00:00 pm
+note: "Free admission for all Canadian Armed Forces members and families; please present your Military ID or a CF One Card."
 ---
 
 At the beginning of his deployment to Afghanistan, a charismatic and endearing soldier decides to train the Phoenixes, his 13-year-old son's soccer team.
