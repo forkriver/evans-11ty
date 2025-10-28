@@ -33,6 +33,15 @@ main {
 	max-width: 65ch;
 	margin: auto;
 	padding: 1em 2em;
+
+	li {
+		line-height: 1.333em;
+		margin-bottom: 0.5em;
+	}
+
+	.showtime-list li {
+		margin-bottom: 0;
+	}
 }
 
 .full-bleed {
