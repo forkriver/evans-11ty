@@ -4,8 +4,16 @@
     	<div class='menu-button'></div>
 	</label>
 	<menu class="main-nav menu">
-	{% for navTitle, navURL in mainNav %}
-		<li><a href="{{ navURL }}">{{ navTitle }}</a></li>
+	{% for navTitle, navObj in mainNav %}
+		<li><a href="{{ navObj.url }}"
+		{%- if navObj.title %} title="{{ navObj.title }}"{%-endif -%}
+		>
+		{%- if navObj.iconClass -%}
+			<span class="{{ navObj.iconClass }}"></span>
+		{%- else -%}
+			{{ navTitle }}
+		{%- endif -%}
+		</a></li>
 	{% endfor -%}
 	</menu><!-- .main-nav -->
 {%- endif %}

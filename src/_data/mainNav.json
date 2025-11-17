@@ -1,7 +1,24 @@
 {
-	"Home": "/",
-	"All Movies": "/movies/",
-	"Upcoming Movies": "/upcoming-movies/",
-	"News": "/news/",
-	"About": "/about/"
+	"Home": {
+		"url": "/"
+	},
+	"All Movies": {
+		"url": "/movies/"
+	},
+	"Upcoming Movies":  {
+		"url": "/upcoming-movies/"
+	},
+	"News": {
+		"url": "/news/",
+		"title": "The Evans in the News"
+	},
+	"About": {
+		"url": "/about/",
+		"title": "About the Evans Theatre"
+	},
+	"Gift": {
+		"url": "/gift/",
+		"title": "Give the Gift of Movies",
+		"iconClass": "give-a-gift"
+	}
 }

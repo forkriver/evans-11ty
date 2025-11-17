@@ -1,0 +1,15 @@
+// _icons.scss
+
+.give-a-gift {
+  display: inline-block;
+  --svg: url( '/images/svg/gift-icon.svg' );
+  background-color: #def;
+  height: 1em;
+  width: 1em;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
