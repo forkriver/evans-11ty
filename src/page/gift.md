@@ -4,7 +4,7 @@ permalink: /gift/
 featured_img: /images/film-unsplash.jpg
 ---
 
-If you're trying to find the perfect gift for That Special Someone, or just That Person Who's Hard to Shop For, consider getting them an Evans Theatre 5-Movie Pass!
+If you're trying to find the perfect gift for That Special Someone, or even That Person Who's Hard to Shop For, consider getting them an Evans Theatre 5-Movie Pass!
 
 Pros:
 - 5 movies!
