@@ -32,7 +32,7 @@
 			{% hero 'src' + featured_img, 'Featured image for: ' + title %}
 		{%- endif -%}
 	{% endif %}
-	{% giftNote %}
+	{%- if permalink != '/gift/' -%}{% giftNote %}{%- endif -%}
 	{{ content | safe }}
 	{% block mainBottom %}{% endblock %}
 	</main>
