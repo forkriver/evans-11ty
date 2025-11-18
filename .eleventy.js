@@ -23,6 +23,7 @@ const {
 	getUpcomingMovies,
 	getSlideshow,
 	getSlideshowCSS,
+	getGiftNote,
 } = require( './lib/forkriver/fr-post-components.js' );
 
 const { sortMoviesAsc } = require( './lib/forkriver/fr-file-tools.js' );
@@ -208,7 +209,15 @@ module.exports = function ( eleventyConfig ) {
 
 	eleventyConfig.addShortcode( "slideshowCSS", async function( movies ) {
 		return getSlideshowCSS( movies );
-	} );
+	});
+
+	eleventyConfig.addShortcode( "giftNote", function() {
+		const note = getGiftNote();
+		if ( 0 === note.length ) {
+			return '';
+		}
+		return note;
+	});
 
 	eleventyConfig.addShortcode( 'mrRoboto', async function() {
 		let url  = 'https://api.darkvisitors.com/robots-txts';

@@ -20,6 +20,7 @@ Our passes are great for birthdays, holiday gift season, anniversaries, or Just 
 
 To buy a 5-Movie Pass:
 - Come to the Box Office before [any regularly-scheduled movie](/upcoming-movies/)
+- Contact Ken at The Family Tree — 455-8th Street; text or call [204-818-3636](tel:2048183636)
 - Drop us a line at [info@evanstheatre.ca](mailto:info@evanstheatre.ca?subject=Evans%205-Movie%20Pass)
 
 See you at the movies!
