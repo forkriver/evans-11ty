@@ -1,7 +1,7 @@
 ---
 title: Mother Courage and her Children
 layout: movie
-excerpt: A dark comedy with music
+excerpt: A dark comedy with music.
 permalink: /movie/mother-courage/
 showtime:
   - 2025-12-03 7:00:00 pm
@@ -18,7 +18,9 @@ tags:
   - movie-2025
   - drama
   - stage-play
-note: This play is presented by BU's Drama department. Evans passes will not be accepted.
+special_event:
+  passes: void
+  organization: Brandon University Theatre
 ---
 
 Brandon University Theatre presents a unique, contemporary take on Bertolt Brecht's powerful anti-war play, *Mother Courage And Her Children* at the Evans Theatre. Student actress **Alycia Oleson** plays Mother Courage, a single mother who fights to feed her family and keep them alive in wartime. The show incorprorates music, satire and a multi-media backdrop to create a provocative portrait of war and its devastating outcomes.
