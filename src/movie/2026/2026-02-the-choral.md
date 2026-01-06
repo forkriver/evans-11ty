@@ -11,9 +11,9 @@ tags:
 featured_img: /images/feature/the-choral.webp
 featured_alt: "Still from The Choral: A bearded man stands in front of a group of people"
 showtime: 
- - 2026-02-06 7:30:00 pm
- - 2026-02-07 7:30:00 pm
- - 2026-02-08 2:00:00 pm
+ - 2026-02-13 7:30:00 pm
+ - 2026-02-14 7:30:00 pm
+ - 2026-02-15 2:00:00 pm
 ---
 
 Yorkshire, 1916. A choral society's male members enlist in World War I, leaving the demanding Dr. Guthrie to recruit teenagers. Together, they experience the joy of singing while the young men grapple with their impending conscription.
