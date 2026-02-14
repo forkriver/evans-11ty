@@ -5,6 +5,8 @@ excerpt: "In 1916 Yorkshire, young members of a choir grapple with impending con
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/the-choral/"
+rating: PG
+rating_advisory: "Coarse language; Sexually suggestive scene"
 tags: 
 - movie
 - movie-2026
