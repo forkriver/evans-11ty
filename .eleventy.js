@@ -22,6 +22,7 @@ const {
 	getHero,
 	getUpcomingMovies,
 	getSlideshow,
+	displayMovie,
 	getSlideshowCSS,
 	getGiftNote,
 } = require( './lib/forkriver/fr-post-components.js' );
@@ -201,6 +202,10 @@ module.exports = function ( eleventyConfig ) {
 	eleventyConfig.addShortcode( "upcomingMovies", function( movies ) {
 		return getUpcomingMovies( movies );
 	});
+
+	eleventyConfig.addShortcode( "displayMovie", function( movie ) {
+		return displayMovie( movie );
+	})
 
 	// Shortcodes for the slideshow (content and CSS).
 	eleventyConfig.addShortcode( "slideshow", function( movies ) {

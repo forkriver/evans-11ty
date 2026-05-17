@@ -29,13 +29,7 @@ We've been showing movies since about 1967, when the Brandon Film Festival start
 
 <div class="all-movies movie-list">
 {%- for movie in movies %}
-<details>
-	<summary>
-		<a href="{{movie.url}}" title="{{ movie.data.showtime[0] | dateformat }}">{{ movie.data.title }}</a> {% if movie.data.rating %}<span class="movie-rating">({{ movie.data.rating }})</span> {% endif %}<span class="movie-showtime-summary">{{ movie.data.showtime | showtimeRange }}</span>
-	</summary>
-	<p>{{ movie.data.excerpt }}</p>
-	<p>{{ movie.data.showtime | showtimeRange }}</p>
-</details>
+{%- displayMovie movie -%}
 {% endfor -%}
 </div><!-- .all-movies movie-list -->
 </div><!-- #movies-{{ year }} -->
