@@ -25,6 +25,7 @@ const {
 	displayMovie,
 	getSlideshowCSS,
 	getGiftNote,
+	getRatingString,
 } = require( './lib/forkriver/fr-post-components.js' );
 
 const { sortMoviesAsc } = require( './lib/forkriver/fr-file-tools.js' );
@@ -222,6 +223,10 @@ module.exports = function ( eleventyConfig ) {
 			return '';
 		}
 		return note;
+	});
+
+	eleventyConfig.addShortcode( "evansRating", function( rating ) {
+		return getRatingString( rating, 'div' );
 	});
 
 	eleventyConfig.addShortcode( 'mrRoboto', async function() {
