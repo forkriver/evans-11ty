@@ -225,8 +225,8 @@ module.exports = function ( eleventyConfig ) {
 		return note;
 	});
 
-	eleventyConfig.addShortcode( "evansRating", function( rating ) {
-		return getRatingString( rating, 'div' );
+	eleventyConfig.addShortcode( "evansRating", function( rating, tag, detail, advisory ) {
+		return getRatingString( rating, tag, detail, advisory );
 	});
 
 	eleventyConfig.addShortcode( 'mrRoboto', async function() {
