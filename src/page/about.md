@@ -14,4 +14,4 @@ We're on the campus of Brandon University, in the John E. Robbins Library buildi
 
 https://www.openstreetmap.org/#map=19/49.845324/-99.964034
 
-Our what3words seemed apt: [///selects.films.loaded](https://what3words.com/selects.films.loaded)
+Our what3words seemed apt: [///selects.films.loaded](https://what3words.com/selects.films.loaded "What 3 Words")
