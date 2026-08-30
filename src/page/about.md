@@ -13,3 +13,5 @@ This is the Evans Theatre, Brandon's indiest indie cinema. We show movies most w
 We're on the campus of Brandon University, in the John E. Robbins Library building. Here's a map:
 
 https://www.openstreetmap.org/#map=19/49.845324/-99.964034
+
+Our what3words seemed apt: [///selects.films.loaded](https://what3words.com/selects.films.loaded)
