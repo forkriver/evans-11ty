@@ -3,6 +3,7 @@ layout: homepage
 title: Evans Theatre
 excerpt: "Brandon's Indiest Indie Cinema"
 permalink: "/index.html"
+changeFreq: "weekly"
 ---
 
 Brandon's indiest indie cinema, on the campus of [Brandon University](https://www.brandonu.ca/).
