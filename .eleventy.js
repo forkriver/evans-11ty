@@ -230,22 +230,36 @@ module.exports = function ( eleventyConfig ) {
 	});
 
 	eleventyConfig.addShortcode( 'mrRoboto', async function() {
-		let url  = 'https://api.darkvisitors.com/robots-txts';
+		// @link https://knownagents.com/docs/robots-txt/rest-api
+		let url  = 'https://api.knownagents.com/robots-txts';
 		let text = await Fetch( url, {
 			duration: '7d',
 			type:     'text',
 			fetchOptions: {
 				method:   'POST',
 				headers: {
-					'Authorization': 'Bearer ' + process.env.DARKVISITORS_BEARER_TOKEN,
+					'Authorization': 'Bearer ' + process.env.KNOWNAGENTS_BEARER_TOKEN,
 					'Content-Type':  'application/json'
 				},
 				body: JSON.stringify( {
 					agent_types: [
-						"AI Assistant",
-						"AI Data Scraper",
-						"AI Search Crawler",
-						"Undocumented AI Agent"
+					    "AI Agent",
+					    "AI Assistant",
+					    "AI Coding Agent",
+					    "AI Data Provider",
+					    "AI Data Scraper",
+					    "AI Search Crawler",
+					    "Archiver",
+					    "Developer Helper",
+					    "Fetcher",
+					    "Automated Agent",
+					    "Intelligence Gatherer",
+					    "Scraper",
+					    "SEO Crawler",
+					    "Search Engine Crawler",
+					    "Security Scanner",
+					    "Undocumented AI Agent",
+					    "Uncategorized"
 					],
 					disallow: "/"
 				}),
