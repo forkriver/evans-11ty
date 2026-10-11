@@ -5,6 +5,8 @@ excerpt: "Discover the vulnerable person behind the Marathon of Hope."
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/run-terry-run/"
+rating: G
+rating_advisory: "Coarse language"
 tags: 
 - movie
 - movie-2026

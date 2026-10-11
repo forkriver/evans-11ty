@@ -5,6 +5,8 @@ excerpt: "A middle-aged couple walk 630 miles along the southwest English coast.
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/the-salt-path/"
+rating: G
+rating_advisory: "Coarse language"
 tags: 
 - movie
 - movie-2026

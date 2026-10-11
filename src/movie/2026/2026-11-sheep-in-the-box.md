@@ -5,6 +5,7 @@ excerpt: "A grieving couple take in a humanoid robot who resembles their dead so
 date: Last Modified
 modified: Last Modified
 permalink: "/movie/sheep-in-the-box/"
+rating: G
 tags: 
 - movie
 - movie-2026
