@@ -256,7 +256,7 @@ module.exports = function ( eleventyConfig ) {
 					    "Intelligence Gatherer",
 					    "Scraper",
 					    "SEO Crawler",
-					    "Search Engine Crawler",
+					    // "Search Engine Crawler",
 					    "Security Scanner",
 					    "Undocumented AI Agent",
 					    "Uncategorized"
