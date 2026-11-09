@@ -1,5 +1,5 @@
 ---
-title: "Yellow Wings of War"
+title: "Remembrance Day: Yellow Wings of War"
 layout: movie
 excerpt: "Remembrance Day at the Evans"
 date: Last Modified
