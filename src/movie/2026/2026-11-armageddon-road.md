@@ -13,7 +13,7 @@ tags:
 featured_img: /images/feature/armageddon-road.jpg
 featured_alt: "Still from Armageddon Road:"
 showtime: 
- - 2026-11-24 6:30:00 pm
+ - 2026-11-25 6:30:00 pm
 note: "Special event; Evans passes void."
 ---
 
