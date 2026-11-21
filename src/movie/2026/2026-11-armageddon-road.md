@@ -21,6 +21,6 @@ A hopeless romantic with big dreams, Steve is an ex-con hired to chauffeur a mob
 
 Director Karen Lam—originally from Brandon—brings her latest film to The Evans. Join us for an evening of entertainment!
 
-[More about the film and filmmaker](https://news.brandonu.ca/2026/11/12/brandon-university-alumna-karen-lam-brings-armageddon-road-home-to-evans-theatre/ "Brandon University News Article")
+[More about the film and filmmaker](https://news.brandonu.ca/2026/11/12/brandon-university-alumna-karen-lam-brings-armageddon-road-home-to-evans-theatre/ "Brandon University News Article"){target=_blank}
 
 https://www.youtube.com/watch?v=bsPl5DGsZRc

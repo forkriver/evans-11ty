@@ -1,10 +1,11 @@
 // Requirements.
-const { createHash } = require( 'node:crypto' );
-const lodash         = require( 'lodash' );
-const embedYouTube   = require( 'eleventy-plugin-youtube-embed');
-const embedOSM       = require("eleventy-plugin-embed-openstreetmap");
-const { feedPlugin } = require( '@11ty/eleventy-plugin-rss' );
-const Fetch          = require( '@11ty/eleventy-fetch' );
+const { createHash }  = require( 'node:crypto' );
+const lodash          = require( 'lodash' );
+const embedYouTube    = require( 'eleventy-plugin-youtube-embed');
+const embedOSM        = require("eleventy-plugin-embed-openstreetmap");
+const { feedPlugin }  = require( '@11ty/eleventy-plugin-rss' );
+const Fetch           = require( '@11ty/eleventy-fetch' );
+const markdownItAttrs = require('markdown-it-attrs');
 
 require('dotenv').config();
 
@@ -309,6 +310,9 @@ module.exports = function ( eleventyConfig ) {
 			}
 		}
 	});
+
+	// Markdown Attributes.
+	eleventyConfig.amendLibrary( 'md', (mdLib) => mdLib.use( markdownItAttrs ) );
 
 	return {
 		dir: {

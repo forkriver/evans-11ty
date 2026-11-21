@@ -33,6 +33,7 @@
     "eleventy-plugin-youtube-embed": "^1.10.2",
     "lodash": "^4.17.21",
     "luxon": "^3.3.0",
+    "markdown-it-attrs": "^5.0.1",
     "sass": "^1.63.6"
   },
   "dependencies": {
