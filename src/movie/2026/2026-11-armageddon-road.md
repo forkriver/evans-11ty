@@ -14,7 +14,7 @@ featured_img: /images/feature/armageddon-road.jpg
 featured_alt: "Still from Armageddon Road:"
 showtime: 
  - 2026-11-25 6:30:00 pm
-note: "Special event; Evans passes void."
+note: "Special event; Evans passes void. Admission $10 at the door; students get in free!"
 ---
 
 A hopeless romantic with big dreams, Steve is an ex-con hired to chauffeur a mob boss' girlfriend for a night on the town.  He's blissfully unaware that his passenger has died and is now possessed by one of the Four Horsemen of the Apocalypse.
